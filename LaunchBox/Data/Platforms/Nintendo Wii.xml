@@ -1,0 +1,1725 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Wii Party [2010]\Wii Party.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.1729528+03:00</DateAdded>
+    <DateModified>2023-10-11T01:39:52.3304679+03:00</DateModified>
+    <Developer>NDcube</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>7e2a5f2e-f451-4b03-9239-c043127c03e4</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Wii Party features 13 different game modes divided amongst three categories: Party Games, House Party Games, and Pair Games. Most of the game modes integrate use of Wii Party's 80 mini-games. The game also offers additional modes that make exclusive use of the mini-games.
+
+Party Games are games in which four players compete against one another. Two of the modes in this category, "Board Game Island" and "Globe Trot", are similar to a traditional board game: a player rolls a die and proceeds the indicated number of steps (Mii characters are used as players' game pieces). At the beginning of each round, a mini-game is played that provides the winning players an advantage on the game board, such as an extra die or money. In "Board Game Island", the first player to reach the goal wins; and in "Globe Trot", which is most similar to gameplay in Mario Party, players travel around the Earth to specific destinations, such as India, Egypt, or the United States, to buy souvenir photographs of the relevant landmarks, shopping items, or cuisine – the player with the most photographs and money by the end of the game wins.
+
+House Party Games are activities that focus on the players' physical interactions with the Wii Remote, requiring two players or more.
+
+Pair Games are designed for play with only two players, either cooperatively or competitively.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2010-07-08T10:00:00+03:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.875</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>36</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>8928</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Wii_Party</WikipediaURL>
+    <Title>Wii Party</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2010]</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Party</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>4</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=VXBrQiSyKnc</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\The Legend of Zelda_ Twilight Princess [2006]\gmb-tloztpu.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.1783502+03:00</DateAdded>
+    <DateModified>2023-10-11T01:41:03.4403224+03:00</DateModified>
+    <Developer>Nintendo</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>0db1aed4-2c25-49c7-a0ee-823d459557a0</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>In the next chapter in the Legend of Zelda series, Link can transform into a wolf to scour the darkened land of Hyrule. With the help of Midna, a mysterious being, you must guide Link through hordes of foul creatures and challenging bosses using new moves and a new horseback combat system. Many puzzles stand between Link and the fulfillment of his quest, so you must sharpen your wits as you hunt for weapons and items.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>T - Teen</Rating>
+    <ReleaseDate>2006-11-19T10:00:00+02:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.5966983</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>106</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>109</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess</WikipediaURL>
+    <Title>The Legend of Zelda: Twilight Princess</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2006]</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=ceCktUEG4jA</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Donkey Kong Country Returns [2010]\Donkey Kong Country Returns.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.4373772+03:00</DateAdded>
+    <DateModified>2023-10-11T01:54:57.3750229+03:00</DateModified>
+    <Developer>Retro Studios</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>f6c781ae-0c9f-4998-8141-9b1717989c43</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Under the influence of a group of evil Tikis, the animals of Donkey Kong Island have raided Donkey Kong's banana hoard and stolen his stash of bananas - and being an ape of large appetites he understandably wants them back. Good thing that you are along for the ride. With Donkey Kong Country Returns, Retro Studios brings Donkey Kong back to a banana and platforming hungry public in a new side-scrolling adventure with familiar characters and new levels that reignite the passion players had for the Super NES original and all things Donkey Kong.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2010-11-21T10:00:00+02:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.476526</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>213</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>3297</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Donkey_Kong_Country_Returns</WikipediaURL>
+    <Title>Donkey Kong Country Returns</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2010]</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure; Platform</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=TMhEs78Zix8</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Metroid Prime Trilogy [2009]\Metroid Prime Trilogy USA.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.5821768+03:00</DateAdded>
+    <DateModified>2023-10-11T01:57:29.1562484+03:00</DateModified>
+    <Developer>Retro Studios</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>11b46cea-03bc-4083-9e68-b5800af5c65f</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The compilation features three games from the Metroid series: Metroid Prime, Metroid Prime 2: Echoes, and Metroid Prime 3: Corruption. 
+
+Prime and Echoes, which were originally released for the Nintendo GameCube, were updated with many of the features that were first implemented in Corruption, such as a new control scheme based on the Wii Remote and an achievement system.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>T - Teen</Rating>
+    <ReleaseDate>2009-08-24T10:00:00+03:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.5034966</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>143</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>4966</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Metroid_Prime:_Trilogy</WikipediaURL>
+    <Title>Metroid Prime Trilogy</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2009]</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=u8klx34R8m8</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Resident Evil_ The Umbrella Chronicles [2007]\Resident Evil - The Umbrella Chronicles (USA).nkit.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.1785162+03:00</DateAdded>
+    <DateModified>2023-10-11T01:59:38.3007739+03:00</DateModified>
+    <Developer>Capcom</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>82675e95-eb42-4c0c-aca6-b800bb8c9431</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Resident Evil: The Umbrella Chronicles is a brand new game in the Resident Evil franchise, with familiar locales from the entire series. This action/shooter hybrid reveals the back story behind the fall of the Umbrella Corporation by exploring locations from Resident Evil 0, 1, 2 and 3 as well as new never-before-seen locations, such as Umbrella's stronghold. Resident Evil: The Umbrella Chronicles combines first-person, light-gun style combat with interactive pathways, multiple weapons and new enemies to create an entirely new Resident Evil experience that could only be delivered on the Wii.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Capcom</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2007-11-13T10:00:00+02:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.143617</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>47</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>5044</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Resident_Evil:_The_Umbrella_Chronicles</WikipediaURL>
+    <Title>Resident Evil: The Umbrella Chronicles</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2007]</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Horror; Shooter</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=gOZ1iYGvR9M</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Super Mario Galaxy 2 [2010]\SUPER MARIO GALAXY 2.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.3442312+03:00</DateAdded>
+    <DateModified>2023-10-11T02:02:48.0031139+03:00</DateModified>
+    <Developer>Nintendo EAD</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>3f6e1636-995d-4c40-a7a4-0b6a545ea028</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The story follows Mario as he pursues the Koopa King, Bowser, into outer space, where he has imprisoned Princess Peach and taken control of the universe using Power Stars and Grand Stars. Mario must travel across various galaxies to recover the Power Stars in order to travel to the center of the universe and rescue Princess Peach.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2010-05-23T10:00:00+03:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.742228</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>193</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>163727</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Super_Mario_Galaxy_2</WikipediaURL>
+    <Title>Super Mario Galaxy 2</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2010]</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure; Platform</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=0GNsVjGh_HE</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\The Legend of Zelda_ Skyward Sword [2011]\su-zssu.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.4618166+03:00</DateAdded>
+    <DateModified>2023-10-11T02:04:58.6125258+03:00</DateModified>
+    <Developer>Nintendo EAD</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>1c7c3795-a918-4eaa-a0a4-f13b1fb4dac0</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>One of the most storied franchises in history soars to new heights. The Legend of Zelda: Skyward Sword shakes up the tried-and-true adventure game formula and marks a turning point for the franchise. The introduction of full motion controls to the series enabled by Wii MotionPlus technology enhances player movements while offering the most intuitive play control of any game in the series to date.
+
+The Legend of Zelda: Skyward Sword boasts the most realistic sword combat of any game to date, turning every encounter into a challenge of both brains and brawn. Wii MotionPlus technology accurately translates the angle of every sword slice, effectively putting Link's blade in the player's hand. Analyzing enemy attack and defense tendencies and counteracting with precise swings of the sword provide a satisfying experience that blends puzzle-solving with a new and distinctly unique combat system. 
+
+Explore a massive, multilayered world that seamlessly blends soaring exploration in a sea of clouds with intense ground-based adventuring that blurs the line between the main world and traditional Zelda dungeons. Link soars through the skies on the back of a noble bird and dives beneath the clouds to the continent below in an epic quest that lays the foundation for the events in the critically acclaimed The Legend of Zelda: Ocarina of Time.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E10+ - Everyone 10+</Rating>
+    <ReleaseDate>2011-11-20T10:00:00+02:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.30615</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>187</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>8080</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword</WikipediaURL>
+    <Title>The Legend of Zelda: Skyward Sword</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2011]</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=8Zm1tLH1Oks</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Dead Space_ Extraction [2009]\Dead Space - Extraction (USA) (En,Fr).nkit.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.6113283+03:00</DateAdded>
+    <DateModified>2023-10-11T02:15:13.362155+03:00</DateModified>
+    <Developer>Visceral Games</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>db7be766-25c3-417f-ba6c-83ad42b52c72</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>A horrific infection is devastating the Aegis VII mining colony located deep in the furthest regions of space. A group of survivors struggle to reach the safety of the USG Ishimura vessel. As their allies mysteriously fall victim to dementia, it becomes clear that protecting a young girl granting them a bizarre immunity may be their only hope for survival...
+• All-new Dead Space experience built from the ground up for Wii™
+• Team up with a friend to fend off the terrifying Necromorphs
+• The Wii Remote is your most valuable defense- strategically dismember enemies and solve various engineering puzzles to carve a bloody path to survival</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Electronic Arts</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2009-09-29T09:00:00+02:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.077778</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>46</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>4407</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Dead_Space:_Extraction</WikipediaURL>
+    <Title>Dead Space: Extraction</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2009]</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=GDeEGEIhJ-A</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\WarioWare_ Smooth Moves [2008]\wwsm-wiist.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.2947963+03:00</DateAdded>
+    <DateModified>2023-10-11T02:16:52.3606846+03:00</DateModified>
+    <Developer>Intelligent Systems</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>8232dc39-ee09-4ab8-9ee2-bd742bf2c334</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Wario and his pals learn fun, wacky moves after discovering a strange book and a mystical device called the Form Baton. Familiar characters from the WarioWare universe will return to this installment and some new ones will appear. Players must clear fast-paced sets of microgames, changing the way they hold the Wii Remote each time.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E10+ - Everyone 10+</Rating>
+    <ReleaseDate>2008-01-15T10:00:00+02:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.4636364</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>55</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>7740</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/WarioWare:_Smooth_Moves</WikipediaURL>
+    <Title>WarioWare: Smooth Moves</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2008]</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Puzzle</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>4</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Target_ Terror [2008]\Target - Terror (USA).nkit.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.1755808+03:00</DateAdded>
+    <DateModified>2023-10-11T02:18:28.9026405+03:00</DateModified>
+    <Developer>Leviathan Games</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>00293fbc-29ca-41ab-8001-cc808d12e08e</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Terror puts you in the place of an elite anti-terrorist agent who is charged with protecting the U.S. from all terrorist activities. With a full scale assault spanning the entire U.S., this is your chance to show terrorists who is in charge. Eliminate the seemingly endless waves of enemies with an assortment of high-tech weapons you have in your arsenal.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Konami</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2008-04-22T10:00:00+03:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.875</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>4</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>23737</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Target:_Terror</WikipediaURL>
+    <Title>Target: Terror</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2008]</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Shooter</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\The House of the Dead_ Overkill [2009]\House of the Dead, The - Overkill (USA) (En,Fr,Es).nkit.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.6992723+03:00</DateAdded>
+    <DateModified>2023-10-11T02:20:15.7443757+03:00</DateModified>
+    <Developer>Headstrong Games</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>b9ab5ed0-4c98-4764-92d8-3e7949f8c231</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The House of the Dead: Overkill charges you with mowing down waves of infected, blood-thirsty zombies in a last-ditch effort to survive Bayou City and uncover the horrific truth behind the origins of The House of the Dead. A pulp-style take on the classic SEGA light-gun shoot 'em up franchise. Back when the famous Agent G was still fresh out of the academy, he teamed up with hard-boiled bad-ass Agent Washington to investigate stories of mysterious disappearances in small-town Louisiana. Little did they know what blood-soaked mutant horror would await them in the streets and swamps of Bayou City. Pulp Funk Horror - Zombie cool, one of the most popular shooter classics injected with a whole new retro b-movie look. An utterly in-your-face zombie-dismembering blast. Non-stop light-gun style action on Wii, blow apart zombies for high-score thrills. Co-op action on Wii. Bring a friend and play the game as intended in your own buddy action movie as two of the meanest mofos in video gaming. Relentless, gore-drenched, over-the-top action - Only the coolest, most cold-hearted agent’s going to keep his head against the zombie flood. Use "Slow-Mofo Time" to make the perfect head-popping shot and "Evil Eye" to spot moments of opportunity that’ll send the whole environment up in flames. Wiimote reactions. Get knee-deep in the dead with motion-sensitive Wii-controls. Shuck a shotgun and when the zombies get too close, pistol whip jaws off or cave some heads in with the stock of your pump-action - all in stomach-churning close-up.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Sega</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2009-02-10T10:00:00+02:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.186271</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>59</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>4969</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/The_House_of_the_Dead:_Overkill</WikipediaURL>
+    <Title>The House of the Dead: Overkill</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2009]</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Horror; Shooter</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=1tF6oUhDpnA</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Okami\Okami.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.4056159+03:00</DateAdded>
+    <DateModified>2023-10-11T02:26:30.9748876+03:00</DateModified>
+    <Developer>Clover Studio</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>4d842de4-44e6-406b-b8ee-806084b97913</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Wii port of the first original title from Capcom's now defunct Clover Studio -- headed up by Viewtiful Joe producer Atsushi Inaba.The multiple award-winning action adventure Ōkami is now available on the Wii! Use the Wii Remote as a paintbrush to solve puzzles, create pathways, chop down trees or turn night into day. Ōkami comes alive through beautiful scenic 3D levels that have the appearance and texture of paper scrolls brushed with watercolor-like calligraphy art. Playing as Amaterasu, the sun goddess who takes on the form of a wolf, your goal is to bring life back to the world.
+Redesigned to take advantage of this unique platform, the Wii version sports widescreen graphics and motion controls. Players uses the Wii Remote as the 'celestial brush' in an effort to seal ancient evils once again.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Capcom</Publisher>
+    <Rating>T - Teen</Rating>
+    <ReleaseDate>2008-04-15T10:00:00+03:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.469697</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>33</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>4429</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/%C5%8Ckami</WikipediaURL>
+    <Title>Okami</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version />
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=Gbl_W8F6Jj4</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Metroid Prime 3_ Corruption [2007]\Metroid Prime (USA) (v1.02).iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.1808195+03:00</DateAdded>
+    <DateModified>2023-10-11T02:30:59.4087808+03:00</DateModified>
+    <Developer>Retro Studios</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>79c492d6-f339-4768-a154-4145170a7369</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Corruption is a large, open-ended game that takes place across several planets, each with regions connected by elevators, rail systems, and bridges. Each region has rooms separated by doors that can be opened when shot with the correct weapon. The gameplay revolves around solving puzzles to uncover secrets, jumping on platforms, and shooting enemies with the help of a "lock-on" mechanism that allows Samus to move in a circle while staying aimed on an enemy.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>T - Teen</Rating>
+    <ReleaseDate>2007-08-27T10:00:00+03:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.2586207</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>58</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>233</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Metroid_Prime_3:_Corruption</WikipediaURL>
+    <Title>Metroid Prime 3: Corruption</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2007]</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=lQLIwauAVNU</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Wario Land_ Shake It! [2008]\Wario Land - Shake It! (USA) (En,Fr,Es).nkit.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.5508175+03:00</DateAdded>
+    <DateModified>2023-10-11T02:36:52.8622911+03:00</DateModified>
+    <Developer>Good-Feel</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>3a447d38-bdfb-4740-a77e-5795e37e5d5c</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Wario returns to his roots! The Wario Land series is where Wario first appeared, and it's back in all its side-scrolling, platform-jumping glory! Shake it! With the Wii Remote turned sideways, veterans and newcomers alike can run, jump, and smash their way through hectic sidescrolling stages. By shaking the Wii Remote, you can shake down your enemies, free coins from treasure bags, and even cause earthquakes! Explore, Fight, Plunder! Each stage is a masterfully crafted side-scrolling obstacle course of puzzles, enemies, and assorted hazards. Every stage holds numerous secrets and treasures to discover (and steal). And each stage has multiple "missions" to keep you coming back again and again to unlock everything, collect more coins, or just improve your best time! Wario is back, baby! Wario returns to form, with all the jumping, power-dashing, and butt-stomping we've come to expect! This is Wario at his finest!</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2008-09-22T10:00:00+03:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.091067</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>75</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>5643</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Wario_Land:_Shake_It!</WikipediaURL>
+    <Title>Wario Land: Shake It!</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2008]</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=hJBsKMdyRTA</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Games\Nintendo Wii\Super Mario Galaxy [2007]\smg-wiist.iso</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2023-06-02T00:09:33.4946132+03:00</DateAdded>
+    <DateModified>2023-10-11T02:43:50.0315126+03:00</DateModified>
+    <Developer>Nintendo EAD</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>dd04c70e-6b92-4b7b-a94f-4eaa36e3579e</Emulator>
+    <Favorite>false</Favorite>
+    <ID>edd4f24d-f722-4c16-9b4e-df4c1c0a28fe</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The ultimate Nintendo hero is taking the ultimate step ... out into space. Join Mario as he ushers in a new era of video games, defying gravity across all the planets in the galaxy. When some creature escapes into space with Princess Peach, Mario gives chase, exploring bizarre planets all across the galaxy. Mario, Peach and enemies new and old are here. Players run, jump and battle enemies as they explore all the planets in the galaxy. Since this game makes full use of all the features of the Wii Remote, players have to do all kinds of things to succeed: pressing buttons, swinging the Wii Remote and the Nunchuk, and even pointing at and dragging things with the pointer. Since he's in space, Mario can perform mind-bending jumps unlike anything he's done before. He'll also have a wealth of new moves that are all based around tilting, pointing and shaking the Wii Remote. Shake, tilt and point! Mario takes advantage of all the unique aspects of the Wii Remote and Nunchuk controller, unleashing new moves as players shake the controller and even point at and drag items with the pointer.</Notes>
+    <Platform>Nintendo Wii</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2007-11-01T09:00:00+02:00</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.668524</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>359</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>40</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Super_Mario_Galaxy</WikipediaURL>
+    <Title>Super Mario Galaxy</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>[2007]</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure; Platform</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=8Mng-r3D20Y</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <HasCloudSynced>false</HasCloudSynced>
+  </Game>
+  <AlternateName>
+    <GameID>0db1aed4-2c25-49c7-a0ee-823d459557a0</GameID>
+    <Name>Zelda no Densetsu: Twilight Princess</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>0db1aed4-2c25-49c7-a0ee-823d459557a0</GameID>
+    <Name>塞尔达传说: 黄昏公主</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>f6c781ae-0c9f-4998-8141-9b1717989c43</GameID>
+    <Name>Donkey Kong Returns</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>11b46cea-03bc-4083-9e68-b5800af5c65f</GameID>
+    <Name>Metroid Prime: Trilogy</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>82675e95-eb42-4c0c-aca6-b800bb8c9431</GameID>
+    <Name>バイオハザード アンブレラ・クロニクルズ</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>82675e95-eb42-4c0c-aca6-b800bb8c9431</GameID>
+    <Name>Baiohazado Amburera Kuronikuruzu</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>82675e95-eb42-4c0c-aca6-b800bb8c9431</GameID>
+    <Name>Biohazard: The Umbrella Chronicles</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>3f6e1636-995d-4c40-a7a4-0b6a545ea028</GameID>
+    <Name>スーパーマリオギャラクシ</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>1c7c3795-a918-4eaa-a0a4-f13b1fb4dac0</GameID>
+    <Name>Zelda no Densetsu: Skyward Sword</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>8232dc39-ee09-4ab8-9ee2-bd742bf2c334</GameID>
+    <Name>Odoru Made in Wario</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>8232dc39-ee09-4ab8-9ee2-bd742bf2c334</GameID>
+    <Name>Chumchwora Made in Wario</Name>
+    <Region>Korea</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>b9ab5ed0-4c98-4764-92d8-3e7949f8c231</GameID>
+    <Name>ザハウス· · ·オブザ·デッドオーバーキル</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>4d842de4-44e6-406b-b8ee-806084b97913</GameID>
+    <Name>Ookami</Name>
+    <Region>North America</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>4d842de4-44e6-406b-b8ee-806084b97913</GameID>
+    <Name>大神</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>4d842de4-44e6-406b-b8ee-806084b97913</GameID>
+    <Name>Ōkami</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>3a447d38-bdfb-4740-a77e-5795e37e5d5c</GameID>
+    <Name>Wario Land: The Shake Dimension</Name>
+    <Region>Europe</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>3a447d38-bdfb-4740-a77e-5795e37e5d5c</GameID>
+    <Name>Wario Land Shaking</Name>
+    <Region>Korea</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>3a447d38-bdfb-4740-a77e-5795e37e5d5c</GameID>
+    <Name>Wario Land Shake</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>edd4f24d-f722-4c16-9b4e-df4c1c0a28fe</GameID>
+    <Name>슈퍼 마리오 Wii 갤럭시 어드벤처</Name>
+    <Region>Korea</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>edd4f24d-f722-4c16-9b4e-df4c1c0a28fe</GameID>
+    <Name>スーパーマリオギャラクシー</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>7e2a5f2e-f451-4b03-9239-c043127c03e4</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>7e2a5f2e-f451-4b03-9239-c043127c03e4</GameId>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>0db1aed4-2c25-49c7-a0ee-823d459557a0</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>0db1aed4-2c25-49c7-a0ee-823d459557a0</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>f6c781ae-0c9f-4998-8141-9b1717989c43</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>f6c781ae-0c9f-4998-8141-9b1717989c43</GameId>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>82675e95-eb42-4c0c-aca6-b800bb8c9431</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>82675e95-eb42-4c0c-aca6-b800bb8c9431</GameId>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>3f6e1636-995d-4c40-a7a4-0b6a545ea028</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>3f6e1636-995d-4c40-a7a4-0b6a545ea028</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>1c7c3795-a918-4eaa-a0a4-f13b1fb4dac0</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>1c7c3795-a918-4eaa-a0a4-f13b1fb4dac0</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>6bdcb3a5-668f-4bcc-bb5d-d47a0c871d6b</ControllerId>
+    <GameId>1c7c3795-a918-4eaa-a0a4-f13b1fb4dac0</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>db7be766-25c3-417f-ba6c-83ad42b52c72</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>db7be766-25c3-417f-ba6c-83ad42b52c72</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>8232dc39-ee09-4ab8-9ee2-bd742bf2c334</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>8232dc39-ee09-4ab8-9ee2-bd742bf2c334</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>00293fbc-29ca-41ab-8001-cc808d12e08e</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>00293fbc-29ca-41ab-8001-cc808d12e08e</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>b9ab5ed0-4c98-4764-92d8-3e7949f8c231</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>b9ab5ed0-4c98-4764-92d8-3e7949f8c231</GameId>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>79c492d6-f339-4768-a154-4145170a7369</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>79c492d6-f339-4768-a154-4145170a7369</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>3a447d38-bdfb-4740-a77e-5795e37e5d5c</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>3a447d38-bdfb-4740-a77e-5795e37e5d5c</GameId>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>c8a144da-fd45-4b75-9646-896ccd42436e</ControllerId>
+    <GameId>edd4f24d-f722-4c16-9b4e-df4c1c0a28fe</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+  <GameControllerSupport>
+    <ControllerId>78761f3a-bb95-44b8-9950-88112fadabd3</ControllerId>
+    <GameId>edd4f24d-f722-4c16-9b4e-df4c1c0a28fe</GameId>
+    <SupportLevel>3</SupportLevel>
+  </GameControllerSupport>
+</LaunchBox>
