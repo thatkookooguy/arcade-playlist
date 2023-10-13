@@ -67,7 +67,13 @@ async function getPlaylistData(playlistName: string) {
     };
 
     const playlistClearLogoFolder = join(imagesRoot, 'Playlists', playlist.nestedName, 'Clear Logo');
-    const playlistClearLogoImage = readdirSync(playlistClearLogoFolder).find((filename) =>
+    let folderContent: string[] = [];
+    try {
+      folderContent = readdirSync(playlistClearLogoFolder);
+    } catch (e) {
+      console.log(`Could not find clear logo for ${ playlist.name }`);
+    }
+    const playlistClearLogoImage = folderContent.find((filename) =>
       filename.endsWith('.png') ||
       filename.endsWith('.jpg') ||
       filename.endsWith('.jpeg') ||
