@@ -1,8 +1,10 @@
 import { XMLParser } from 'fast-xml-parser';
-import { readFileSync, readdirSync } from 'fs-extra';
+import { copy, copyFileSync, ensureDirSync, readFileSync, readdirSync, removeSync, writeJSONSync } from 'fs-extra';
 import { resolve, join, parse } from 'path';
 import inquirer from 'inquirer';
 import { distance, closest } from 'fastest-levenshtein';
+import { isString } from 'lodash';
+const FindFiles = require('file-regex');
 
 interface LBPlatformGame {
   ID: string;
@@ -20,14 +22,14 @@ interface KbGame {
   platform: string;
 }
 
+const loadedPlatformsData: any = {};
+const imagesToCopy: any[] = [];
+const launchBoxRoot = join('E:/', 'LaunchBox');
+const platformDataRoot = join(launchBoxRoot, 'Data/Platforms');
+const playlistDataRoot = join(launchBoxRoot, 'Data/Playlists');
+const imagesRoot = join(launchBoxRoot, 'Images');
+
 (async () => {
-    const loadedPlatformsData: any = {};
-    const imagesToCopy = [];
-    const launchBoxRoot = resolve('./', 'LaunchBox');
-    const platformDataRoot = join(launchBoxRoot, 'Data/Platforms');
-    const playlistDataRoot = join(launchBoxRoot, 'Data/Playlists');
-    const imagesRoot = join(launchBoxRoot, 'Images');
-    
     /**
      * read playlists from playlistDataRoot (each playlist is an XML file)
      * then, ask the user using inquirer which playlist they want to use
@@ -45,16 +47,18 @@ interface KbGame {
         },
       ]);
 
-    // console.log(answers);
-    // process.exit(0);
-    
-    const XMLdata = readFileSync(join(playlistDataRoot, `${ answers.playlist }.xml`), 'utf8');
+    await getPlaylistData(answers.playlist);
+})();
+
+async function getPlaylistData(playlistName: string) {
+  const XMLdata = readFileSync(join(playlistDataRoot, `${ playlistName }.xml`), 'utf8');
     const parser = new XMLParser();
     let jObj = parser.parse(XMLdata);
     
     const playlist = {
         name: jObj.LaunchBox.Playlist.Name,
         nestedName: jObj.LaunchBox.Playlist.NestedName,
+        description: jObj.LaunchBox.Playlist.Notes,
         games: jObj.LaunchBox.PlaylistGame.map((game: LBPlaylistGame) => ({
             platform: game.GamePlatform,
             title: game.GameTitle,
@@ -75,6 +79,7 @@ interface KbGame {
     );
     if (playlistClearLogoImage) {
       imagesToCopy.push(join(playlistClearLogoFolder, playlistClearLogoImage));
+      (playlist as any).cover = playlistClearLogoImage;
     }
 
     /**
@@ -82,7 +87,7 @@ interface KbGame {
      * each platform has it's own xml file with the same name as the platform
      * in each game object
      */
-    playlist.games = playlist.games.map((game: KbGame) => {
+    playlist.games = await Promise.all(playlist.games.map(async (game: KbGame) => {
       let platformData = loadedPlatformsData[game.platform];
       if (!platformData) {
         const platformFile = join(platformDataRoot, `${ game.platform }.xml`);
@@ -91,16 +96,36 @@ interface KbGame {
         loadedPlatformsData[game.platform] = platformData;
       }
       const matchingPlatformGame = platformData.LaunchBox.Game.find((platformGame: LBPlatformGame) => platformGame.ID === game.id);
-      const platformFrontBoxes = readdirSync(join(imagesRoot, `${ game.platform }/Box - Front/`));
-      const platform3dBoxes = readdirSync(join(imagesRoot, `${ game.platform }/Box - 3D/`));
 
-      const matchingPlatformFrontBox = closest(game.title, platformFrontBoxes);
-      const matchingPlatform3dBox = closest(game.title, platform3dBoxes);
+      const matchedFrontBoxes = await FindFiles(
+        join(imagesRoot, `${ game.platform }/Box - Front/`),
+        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        5
+      );
+      const matchedFrontReconstructedBoxes = await FindFiles(
+        join(imagesRoot, `${ game.platform }/Box - Front - Reconstructed/`),
+        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        5
+      );
+      const matched3DBoxes = await FindFiles(
+        join(imagesRoot, `${ game.platform }/Box - 3D/`),
+        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        5
+      );
+    
+      const matchedFrontBoxFile = closest(game.title, matchedFrontBoxes.map((file: any) => file.file));
+      const matchedFrontReconstructedBoxFile = closest(game.title, matchedFrontReconstructedBoxes.map((file: any) => file.file));
+      const matched3dBoxFile = closest(game.title, matched3DBoxes.map((file: any) => file.file));
 
-      imagesToCopy.push(join(imagesRoot, `${ game.platform }/Box - Front/`, matchingPlatformFrontBox));
-      imagesToCopy.push(join(imagesRoot, `${ game.platform }/Box - 3D/`, matchingPlatform3dBox));
+      const matchedFrontBox = matchedFrontBoxes.find((file: any) => file.file === matchedFrontBoxFile);
+      const matchedFrontReconstructedBox = matchedFrontReconstructedBoxes.find((file: any) => file.file === matchedFrontReconstructedBoxFile);
+      const matched3dBox = matched3DBoxes.find((file: any) => file.file === matched3dBoxFile);
 
-      // console.log(matchingPlatformGame);
+      if (!matchedFrontBox && !matchedFrontReconstructedBox && !matched3dBox) {
+        console.log(`Could not find box for ${ game.title }`);
+      }
+
+      imagesToCopy.push(matchedFrontBox || matchedFrontReconstructedBox || matched3dBox);
 
       return {
         ...game,
@@ -114,11 +139,24 @@ interface KbGame {
           publisher: matchingPlatformGame.Publisher,
           releaseDate: matchingPlatformGame.ReleaseDate,
           videoUrl: matchingPlatformGame.VideoUrl,
-          wikipediaUrl: matchingPlatformGame.WikipediaUrl
+          wikipediaUrl: matchingPlatformGame.WikipediaUrl,
+          cover: (matchedFrontBox || matched3dBox)?.file,
         }
       }
+    }));
+
+    removeSync(join(__dirname, '..', 'result'));
+    ensureDirSync(join(__dirname, '..', 'result'));
+    ensureDirSync(join(__dirname, '..', 'result', 'assets'));
+    writeJSONSync(join(__dirname, '..', 'result', 'assets', 'playlist-data.json'), playlist, { spaces: 2 });
+    imagesToCopy.forEach((image: any) => {
+      if (!image) return;
+
+      if (isString(image)) {
+        copyFileSync(image, join(__dirname, '..', 'result', 'assets', parse(image).base));
+        return;
+      }
+
+      copyFileSync(join(image.dir, image.file), join(__dirname, '..', 'result', 'assets', image.file));
     });
-    
-    // console.log(playlist);
-    console.log(imagesToCopy);
-})();
+}
