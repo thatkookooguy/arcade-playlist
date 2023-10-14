@@ -5,6 +5,7 @@ import inquirer from 'inquirer';
 import { distance, closest } from 'fastest-levenshtein';
 import { isString } from 'lodash';
 const FindFiles = require('file-regex');
+import cliProgress from 'cli-progress';
 
 interface LBPlatformGame {
   ID: string;
@@ -28,6 +29,7 @@ const launchBoxRoot = join('E:/', 'LaunchBox');
 const platformDataRoot = join(launchBoxRoot, 'Data/Platforms');
 const playlistDataRoot = join(launchBoxRoot, 'Data/Playlists');
 const imagesRoot = join(launchBoxRoot, 'Images');
+const videosRoot = join(launchBoxRoot, 'Videos');
 
 (async () => {
     /**
@@ -51,20 +53,43 @@ const imagesRoot = join(launchBoxRoot, 'Images');
 })();
 
 async function getPlaylistData(playlistName: string) {
+  const PlaylistSteps = [
+    '📚 Reading Playlist Data from LB',
+    '🔍🎮 Scanning games in playlist',
+    '🖼️  Get Playlist Images from LB',
+  ];
+  const playlistProgressBar = new cliProgress.SingleBar({
+    clearOnComplete: false,
+    format: '{bar} | {percentage}% | {value}/{total} Chunks | {stepName}'
+  }, cliProgress.Presets.shades_classic);
+  playlistProgressBar.start(150, 0, {
+    stepName: PlaylistSteps[0]
+  });
   const XMLdata = readFileSync(join(playlistDataRoot, `${ playlistName }.xml`), 'utf8');
     const parser = new XMLParser();
     let jObj = parser.parse(XMLdata);
+    const numberOfGamesInPlaylist = jObj.LaunchBox.PlaylistGame.length;
     
     const playlist = {
         name: jObj.LaunchBox.Playlist.Name,
         nestedName: jObj.LaunchBox.Playlist.NestedName,
         description: jObj.LaunchBox.Playlist.Notes,
-        games: jObj.LaunchBox.PlaylistGame.map((game: LBPlaylistGame) => ({
+        games: jObj.LaunchBox.PlaylistGame.map((game: LBPlaylistGame, index: number) => {
+          playlistProgressBar.update((index / numberOfGamesInPlaylist) * 100, {
+            stepName: PlaylistSteps[1]
+          });
+          return {
             platform: game.GamePlatform,
             title: game.GameTitle,
-            id: game.GameId,
-        }))
+            id: game.GameId
+          };
+        }),
+        platforms: {} as Record<string, any>
     };
+
+    playlistProgressBar.update(100, {
+      stepName: PlaylistSteps[2]
+    });
 
     const playlistClearLogoFolder = join(imagesRoot, 'Playlists', playlist.nestedName, 'Clear Logo');
     let folderContent: string[] = [];
@@ -87,6 +112,19 @@ async function getPlaylistData(playlistName: string) {
       imagesToCopy.push(join(playlistClearLogoFolder, playlistClearLogoImage));
       (playlist as any).cover = playlistClearLogoImage;
     }
+
+    playlistProgressBar.update(150, {
+      stepName: PlaylistSteps[2]
+    });
+    playlistProgressBar.stop();
+    const PlatformGameInfoProgressBar = new cliProgress.SingleBar({
+      clearOnComplete: false,
+      format: '{bar} | {percentage}% | {value}/{total} Chunks | {stepName}'
+    }, cliProgress.Presets.shades_classic);
+    let platformGameInfoProgress = 0;
+    PlatformGameInfoProgressBar.start(numberOfGamesInPlaylist * 10, platformGameInfoProgress, {
+      stepName: 'ℹ️🎮 Get Game Details from LB'
+    });
 
     /**
      * get game details from platform xml
@@ -118,20 +156,54 @@ async function getPlaylistData(playlistName: string) {
         new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
         5
       );
+
+      const matchedVideos = await FindFiles(
+        join(videosRoot, `${ game.platform }/`),
+        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        5
+      );
+
+      const matchedPlatforms = await FindFiles(
+        join(imagesRoot, `Platforms`, game.platform, 'Clear Logo/'),
+        new RegExp(`^${ game.platform.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        5
+      );
     
       const matchedFrontBoxFile = closest(game.title, matchedFrontBoxes.map((file: any) => file.file));
       const matchedFrontReconstructedBoxFile = closest(game.title, matchedFrontReconstructedBoxes.map((file: any) => file.file));
       const matched3dBoxFile = closest(game.title, matched3DBoxes.map((file: any) => file.file));
+      const matchedVideoFile = closest(game.title, matchedVideos.map((file: any) => file.file));
 
       const matchedFrontBox = matchedFrontBoxes.find((file: any) => file.file === matchedFrontBoxFile);
       const matchedFrontReconstructedBox = matchedFrontReconstructedBoxes.find((file: any) => file.file === matchedFrontReconstructedBoxFile);
       const matched3dBox = matched3DBoxes.find((file: any) => file.file === matched3dBoxFile);
+      const matchedVideo = matchedVideos.find((file: any) => file.file === matchedVideoFile);
 
       if (!matchedFrontBox && !matchedFrontReconstructedBox && !matched3dBox) {
-        console.log(`Could not find box for ${ game.title }`);
+        // console.log(`Could not find box for ${ game.title }`);
+      }
+
+      if (!matchedVideo) {
+        // console.log(`Could not find video for ${ game.title }`);
+      }
+
+      if (matchedPlatforms.length > 0) {
+        const matchedPlatformImageFile = closest(game.platform, matchedPlatforms.map((file: any) => file.file));
+        const matchedPlatformImage = matchedPlatforms.find((file: any) => file.file === matchedPlatformImageFile);
+        playlist.platforms[game.platform] = {
+          name: game.platform,
+          image: matchedPlatformImage?.file
+        };
+        imagesToCopy.push(matchedPlatformImage);
       }
 
       imagesToCopy.push(matchedFrontBox || matchedFrontReconstructedBox || matched3dBox);
+      imagesToCopy.push(matchedVideo);
+
+      platformGameInfoProgress += 10;
+      PlatformGameInfoProgressBar.update(platformGameInfoProgress, {
+        stepName: `ℹ️🎮 Get Game Details: ${ game.title }`
+      });
 
       return {
         ...game,
@@ -146,16 +218,27 @@ async function getPlaylistData(playlistName: string) {
           releaseDate: matchingPlatformGame.ReleaseDate,
           videoUrl: matchingPlatformGame.VideoUrl,
           wikipediaUrl: matchingPlatformGame.WikipediaUrl,
-          cover: (matchedFrontBox || matched3dBox)?.file,
+          cover: (matchedFrontBox || matchedFrontReconstructedBox || matched3dBox)?.file,
+          video: matchedVideo?.file,
         }
       }
     }));
+
+    PlatformGameInfoProgressBar.stop();
+    const createResultFolderProgressBar = new cliProgress.SingleBar({
+      clearOnComplete: false,
+      format: '{bar} | {percentage}% | {value}/{total} Chunks | {stepName}'
+    }, cliProgress.Presets.shades_classic);
+    createResultFolderProgressBar.start(imagesToCopy.length, 0, {
+      stepName: '📁✅ Creating Result Folder'
+    });
 
     removeSync(join(__dirname, '..', 'result'));
     ensureDirSync(join(__dirname, '..', 'result'));
     ensureDirSync(join(__dirname, '..', 'result', 'assets'));
     writeJSONSync(join(__dirname, '..', 'result', 'assets', 'playlist-data.json'), playlist, { spaces: 2 });
-    imagesToCopy.forEach((image: any) => {
+    imagesToCopy.forEach((image: any, index: number) => {
+      createResultFolderProgressBar.update(index);
       if (!image) return;
 
       if (isString(image)) {
@@ -165,4 +248,10 @@ async function getPlaylistData(playlistName: string) {
 
       copyFileSync(join(image.dir, image.file), join(__dirname, '..', 'result', 'assets', image.file));
     });
+
+    // update to 100%
+    createResultFolderProgressBar.update(imagesToCopy.length, {
+      stepName: '📁✅ Created Result Folder'
+    });
+    createResultFolderProgressBar.stop();
 }
