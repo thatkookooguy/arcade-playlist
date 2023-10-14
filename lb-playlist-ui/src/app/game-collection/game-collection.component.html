@@ -1,0 +1,19 @@
+<div class="header">
+  <div class="kb-playlist-info">
+    <img [src]="'assets/' + playlistData.cover" alt="{{ playlistData.name }}" class="kb-playlist-image" />
+    <h2>
+      {{ playlistData.name }}
+    </h2>
+  </div>
+</div>
+<div class="kb-playlist-collection">
+  <div class="kb-card" *ngFor="let game of playlistData.games">
+    <a [routerLink]="[{ outlets: { 'game-details': [game.id] } }]">
+      <div class="kb-cover-container">
+        <img *ngIf="game.cover" src="assets/{{encodeURIComponent(game.cover)}}" alt="{{game.title}}">
+      </div>
+      <p>{{game.title}}</p>
+      <p class="kb-subtitle">{{game.developer}}</p>
+    </a>
+  </div>
+</div>

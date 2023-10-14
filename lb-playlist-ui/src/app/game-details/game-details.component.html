@@ -1,0 +1,26 @@
+<div class="kb-game-details">
+    <div class="header">
+        <h2><strong>Game Details:</strong> {{ gameDetails.title }}</h2>
+        <button (click)="closeDetails()" class="kb-close-button">X</button>
+    </div>
+    <div class="content">
+        <div class="info">
+            <div><strong>Developer:</strong> {{ gameDetails.developer }}</div>
+            <div><strong>Release Date:</strong> {{ gameDetails.releaseDate }}</div>
+            <div><strong>Publisher:</strong> {{ gameDetails.publisher }}</div>
+            <div><strong>Platform:</strong> {{ gameDetails.platform }}</div>
+            <div><strong>Rating:</strong> {{ gameDetails.communityStarRating | number }} ({{
+                gameDetails.communityStarRatingTotalVotes }})</div>
+            <p>{{ gameDetails.description }}</p>
+            <div class="platform-logo">
+                <img [src]="'assets/' + platform.image" alt="{{ platform.name }}" />
+            </div>
+        </div>
+        <div class="video-container">
+            <video autoplay loop *ngIf="gameDetails.video" onloadstart="this.volume=0.1">
+                <source src="assets/{{encodeURIComponent(gameDetails.video)}}" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+</div>
