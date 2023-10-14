@@ -2,6 +2,7 @@
   "name": "lb-playlist-ui",
   "version": "0.0.0",
   "scripts": {
+    "github-pages:build": "ng build --base-href /arcade-playlist/",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
