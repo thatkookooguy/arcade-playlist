@@ -365,7 +365,7 @@
       "publisher": "Apogee Software Ltd.",
       "releaseDate": "1990-12-14T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Commander Keen 2_ The Earth Explodes-01.png",
+      "cover": "Commander Keen 2_ The Earth Explodes-01.jpg",
       "video": "Commander Keen 2_ The Earth Explodes-01.mp4"
     },
     {
@@ -759,7 +759,7 @@
       "releaseDate": "1995-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=4H5M5FAGq0c",
       "cover": "Invasion of the Mutant Space Bats of Doom-01.png",
-      "video": "Invasion of the Mutant Space Bats of Doom-01.mp4"
+      "video": "Invasion of the Mutant Space Bats of Doom-02.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1277,7 +1277,7 @@
       "releaseDate": "1996-04-30T10:00:00+03:00",
       "videoUrl": "",
       "cover": "Rayman-01.png",
-      "video": "Rayman.d012ecf0-9293-4510-a711-162a14a43f31-01.mp4"
+      "video": "Rayman.7facb4c6-3cee-4156-a04d-ed48ad4d6f69-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1495,7 +1495,7 @@
       "publisher": "Creative Dimensions",
       "releaseDate": "1993-08-11T10:00:00+03:00",
       "videoUrl": "https://www.youtube.com/watch?v=f7uxZ0QRXd0",
-      "cover": "SkyRoads.74c59c7a-02ab-446e-9efa-a3d23afaaab9-01.png",
+      "cover": "SkyRoads.6303254f-f23f-496e-924e-40faa10f7fb4-01.png",
       "video": "SkyRoads_ Xmas Special-01.mp4"
     },
     {
@@ -2213,7 +2213,7 @@
       "releaseDate": "1996-01-29T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=jNOU3BSB_bc",
       "cover": "Duke Nukem 3D.0e6d30f4-4092-4053-87f0-e6645db07943-01.png",
-      "video": "Duke Nukem 3D.0e6d30f4-4092-4053-87f0-e6645db07943-01.mp4"
+      "video": "Duke Nukem 3D.7f813358-0b0b-454d-9239-914f6c6cf200-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -2228,7 +2228,8 @@
       "publisher": "Sierra On-Line, Inc.",
       "releaseDate": "1993-02-10T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Gobliins 2_ The Prince Buffoon-01.png"
+      "cover": "Gobliins 2_ The Prince Buffoon-01.png",
+      "video": "Gobliins 2_ The Prince Buffoon-01.mp4"
     }
   ],
   "platforms": {
