@@ -7,6 +7,7 @@ import { GameCollectionComponent } from './game-collection/game-collection.compo
 import { ModalContainerComponent } from './modal-container/modal-container.component';
 import { GameDetailsComponent } from './game-details/game-details.component';
 import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { getBaseHref } from './base-href';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { getBaseHref } from './base-href';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [

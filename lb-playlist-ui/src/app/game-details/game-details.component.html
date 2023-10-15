@@ -1,3 +1,4 @@
+<ng-container *ngIf="gameDetails">
 <div class="kb-game-details">
     <div class="header">
         <h2><strong>Game Details:</strong> {{ gameDetails.title }}</h2>
@@ -17,10 +18,11 @@
             </div>
         </div>
         <div class="video-container">
-            <video autoplay loop *ngIf="gameDetails.video" onloadstart="this.volume=0.1">
+            <video loop *ngIf="gameDetails.video" onloadstart="this.volume=0.1" oncanplay="this.play()" onloadedmetadata="this.muted = true" #gameVideo>
                 <source src="{{ baseHref }}assets/{{ encodeURIComponent(gameDetails.video) }}" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
         </div>
     </div>
 </div>
+</ng-container>
