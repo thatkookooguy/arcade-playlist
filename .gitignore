@@ -131,4 +131,5 @@ dist
 
 .DS_Store
 result/
-src/assets/
+**/src/assets/
+.angular/
