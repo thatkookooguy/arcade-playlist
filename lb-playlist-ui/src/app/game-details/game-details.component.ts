@@ -43,7 +43,7 @@ export class GameDetailsComponent implements OnInit, AfterContentInit  {
             this.gameVideo.nativeElement.volume = 0.1;
             clearInterval(this.videoIntervalId);
           }
-        }, 500);
+        }, 1000);
       });
   }
 
