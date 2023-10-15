@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { GameCollectionComponent } from './game-collection/game-collection.component';
 import { ModalContainerComponent } from './modal-container/modal-container.component';
 import { GameDetailsComponent } from './game-details/game-details.component';
+import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
+import { getBaseHref } from './base-href';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,13 @@ import { GameDetailsComponent } from './game-details/game-details.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: APP_BASE_HREF,
+      useFactory: getBaseHref,
+      deps: [PlatformLocation]
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

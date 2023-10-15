@@ -13,12 +13,12 @@
                 gameDetails.communityStarRatingTotalVotes }})</div>
             <p>{{ gameDetails.description }}</p>
             <div class="platform-logo">
-                <img [src]="'~/assets/' + platform.image" alt="{{ platform.name }}" />
+                <img [src]="baseHref + 'assets/' + platform.image" alt="{{ platform.name }}" />
             </div>
         </div>
         <div class="video-container">
             <video autoplay loop *ngIf="gameDetails.video" onloadstart="this.volume=0.1">
-                <source src="~/assets/{{encodeURIComponent(gameDetails.video)}}" type="video/mp4">
+                <source src="{{ baseHref }}assets/{{ encodeURIComponent(gameDetails.video) }}" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
         </div>

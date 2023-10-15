@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { uniqBy } from 'lodash';
 import playlistData from '../../../result/assets/playlist-data.json';
+import { APP_BASE_HREF } from '@angular/common';
 
 @Component({
   selector: 'kb-game-collection',
@@ -13,5 +14,9 @@ export class GameCollectionComponent {
     ...playlistData,
     games: uniqBy(playlistData.games, 'title')
   };
+
+  constructor(
+    @Inject(APP_BASE_HREF) public baseHref: string
+  ) { }
   public readonly encodeURIComponent = encodeURIComponent;
 }
