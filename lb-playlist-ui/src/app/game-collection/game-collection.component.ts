@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { uniqBy } from 'lodash';
+import { uniqBy } from 'lodash-es';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 
