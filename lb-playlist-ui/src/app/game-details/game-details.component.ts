@@ -14,6 +14,7 @@ export class GameDetailsComponent implements OnInit, AfterContentInit  {
   public gameDetails: any;
   public platform: any;
   public muted: boolean = true;
+  private videoIntervalId?: any;
 
   @HostBinding('class.reveal') reveal: boolean = false;
   @ViewChild('gameVideo')
@@ -36,10 +37,13 @@ export class GameDetailsComponent implements OnInit, AfterContentInit  {
         this.gameId = params['id'];
         this.gameDetails = playlistData.games.find((game: any) => game.id === this.gameId);
         this.platform = (playlistData.platforms as any)[this.gameDetails.platform];
-        setTimeout(() => {
-        this.gameVideo.nativeElement.muted = !this.router.navigated;
-        this.gameVideo.nativeElement.volume = 0.1;
-        }, 400);
+        this.videoIntervalId = setInterval(() => {
+          if (this.gameVideo?.nativeElement) {
+            this.gameVideo.nativeElement.muted = !this.router.navigated;
+            this.gameVideo.nativeElement.volume = 0.1;
+            clearInterval(this.videoIntervalId);
+          }
+        }, 500);
       });
   }
 
