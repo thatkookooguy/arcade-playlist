@@ -53,3 +53,25 @@ html::-webkit-scrollbar {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #a8bbbf;
 }
+
+/* reveal animation using opacity */
+@keyframes kb-reveal {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* hide animation using opacity */
+@keyframes kb-hide {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

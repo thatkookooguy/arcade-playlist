@@ -16,7 +16,7 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
   public muted: boolean = true;
   private videoIntervalId?: any;
 
-  @HostBinding('class.reveal') reveal: boolean = false;
+  @HostBinding('class.hide') hide: boolean = false;
   @ViewChild('gameVideo')
     gameVideo!: ElementRef;
 
@@ -48,15 +48,23 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
   }
 
   ngAfterContentInit(): void {
-    this.reveal = true;
+    this.hide = false;
   }
 
   closeDetails() {
-    this.reveal = false;
+    this.hide = true;
 
     // listen to transition end event once and navigate back to game collection
-    this.elRef.nativeElement.addEventListener('transitionend', () => {
+    this.elRef.nativeElement.addEventListener('animationend', () => {
       this.router.navigate([ { outlets: { 'game-details': null } } ]);
     }, { once: true });
+  }
+
+  toggleMute(video: HTMLVideoElement) {
+    if (video.muted) {
+      video.muted = false; // Unmute the video
+    } else {
+      video.muted = true; // Mute the video
+    }
   }
 }
