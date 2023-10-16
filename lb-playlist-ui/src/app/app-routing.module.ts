@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { GameDetailsComponent } from './game-details/game-details.component';
 
 const routes: Routes = [
-  { path: 'game-collection', loadChildren: () => import('./game-collection/game-collection.component').then(m => m.GameCollectionComponent) },
+  { path: 'game-collection', loadChildren: () => import('./game-collection/game-collection.component').then((m) => m.GameCollectionComponent) },
   {
     path: ':id',
     component: GameDetailsComponent,
@@ -12,7 +13,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [ RouterModule.forRoot(routes) ],
+  exports: [ RouterModule ]
 })
 export class AppRoutingModule { }
