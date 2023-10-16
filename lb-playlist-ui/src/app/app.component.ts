@@ -2,7 +2,7 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'kb-root',
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.scss' ]
 })

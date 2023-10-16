@@ -143,7 +143,7 @@ module.exports = {
             'error',
             {
               type: 'attribute',
-              prefix: 'gs',
+              prefix: 'kb',
               style: 'camelCase'
             }
           ],
@@ -151,7 +151,7 @@ module.exports = {
             'error',
             {
               type: 'element',
-              prefix: 'gs',
+              prefix: 'kb',
               style: 'kebab-case'
             }
           ],

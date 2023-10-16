@@ -9,17 +9,17 @@ import { isString } from 'lodash';
 
 const FindFiles = require('file-regex');
 
-interface LBPlatformGame {
+interface ILBPlatformGame {
   ID: string;
 }
 
-interface LBPlaylistGame {
+interface ILBPlaylistGame {
     GamePlatform: string;
     GameTitle: string;
     GameId: string;
 }
 
-interface KbGame {
+interface IKbGame {
   id: string;
   title: string;
   platform: string;
@@ -76,7 +76,7 @@ async function getPlaylistData(playlistName: string) {
     name: jObj.LaunchBox.Playlist.Name,
     nestedName: jObj.LaunchBox.Playlist.NestedName,
     description: jObj.LaunchBox.Playlist.Notes,
-    games: jObj.LaunchBox.PlaylistGame.map((game: LBPlaylistGame, index: number) => {
+    games: jObj.LaunchBox.PlaylistGame.map((game: ILBPlaylistGame, index: number) => {
       playlistProgressBar.update((index / numberOfGamesInPlaylist) * 100, {
         stepName: PlaylistSteps[1]
       });
@@ -133,7 +133,7 @@ async function getPlaylistData(playlistName: string) {
      * each platform has it's own xml file with the same name as the platform
      * in each game object
      */
-  playlist.games = await Promise.all(playlist.games.map(async (game: KbGame) => {
+  playlist.games = await Promise.all(playlist.games.map(async (game: IKbGame) => {
     let platformData = loadedPlatformsData[game.platform];
     if (!platformData) {
       const platformFile = join(platformDataRoot, `${ game.platform }.xml`);
@@ -141,7 +141,7 @@ async function getPlaylistData(playlistName: string) {
       platformData = parser.parse(XMLdata);
       loadedPlatformsData[game.platform] = platformData;
     }
-    const matchingPlatformGame = platformData.LaunchBox.Game.find((platformGame: LBPlatformGame) => platformGame.ID === game.id);
+    const matchingPlatformGame = platformData.LaunchBox.Game.find((platformGame: ILBPlatformGame) => platformGame.ID === game.id);
 
     const matchedFrontBoxes = await FindFiles(
       join(imagesRoot, `${ game.platform }/Box - Front/`),
