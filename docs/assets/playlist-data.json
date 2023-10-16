@@ -83,6 +83,22 @@
       "video": "Alone%20in%20the%20Dark%202-01.mp4"
     },
     {
+      "platform": "MS-DOS",
+      "title": "The Amazing Spider-Man",
+      "id": "7ab3de2a-522c-491e-8343-1f64875712e3",
+      "communityStarRating": 3.590909,
+      "communityStarRatingTotalVotes": 11,
+      "developer": "Paragon Software Corporation",
+      "maxPlayers": 0,
+      "description": "In The Amazing Spider-Man, Spider Man has to rescue his girlfriend Mary Jane who was kidnapped by the super villain Mysterio. The whole game takes place on a film set studio.\n\nThis game is primarily a platforming game in which Spider-Man fights against various enemies. Those can be stunned with Spider-Man's iconic web substance, but touching them or other hazards in the game world will decrease his heath. Another important part of the gameplay are puzzles, mostly with the goal to deactivate some of Mysterio's gimmicks, e.g. changed gravity, to clear the path. Spider-Man can can climb walls and shoot grappling hooks.",
+      "playMode": "Multiplayer",
+      "publisher": "Paragon Software Corporation",
+      "releaseDate": "1990-01-01T00:00:00+02:00",
+      "videoUrl": "",
+      "cover": "The%20Amazing%20Spider-Man-01.png",
+      "video": "The%20Amazing%20Spider-Man.7ab3de2a-522c-491e-8343-1f64875712e3-01.mp4"
+    },
+    {
       "platform": "Windows",
       "title": "Another World: 15th Anniversary Edition",
       "id": "9c5980fc-4c63-439b-a23b-3c91b07440cf",
@@ -275,6 +291,22 @@
       "video": "Cannon%20Fodder%202-01.mp4"
     },
     {
+      "platform": "Windows",
+      "title": "Carmageddon 2: Carpocalypse Now",
+      "id": "46148002-7ef3-4d37-822e-c74668583d16",
+      "communityStarRating": 3.7380953,
+      "communityStarRatingTotalVotes": 23,
+      "developer": "Stainless Games",
+      "maxPlayers": 6,
+      "description": "The world's first high-speed internal organ liberation simulator is back in full 3D! The slaughter is bloodier, the body parts fly further, and the destruction is heavier. Crash and burn through the 3D rendered crowds with the pedal to the metal.",
+      "playMode": "Multiplayer",
+      "publisher": "THQ Nordic",
+      "releaseDate": "1998-11-30T10:00:00+02:00",
+      "videoUrl": "http://cdn.akamai.steamstatic.com/steam/apps/2032556/movie_max.webm?t=1447362059",
+      "cover": "Carmageddon%202_%20Carpocalypse%20Now-01.jpg",
+      "video": "Carmageddon%202_%20Carpocalypse%20Now-01.webm"
+    },
+    {
       "platform": "ScummVM",
       "title": "Castle of Dr. Brain",
       "id": "9897a226-1268-4f76-bc13-ffd545e020d9",
@@ -366,7 +398,7 @@
       "publisher": "Apogee Software Ltd.",
       "releaseDate": "1990-12-14T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Commander%20Keen%202_%20The%20Earth%20Explodes-01.jpg",
+      "cover": "Commander%20Keen%202_%20The%20Earth%20Explodes-01.png",
       "video": "Commander%20Keen%202_%20The%20Earth%20Explodes-01.mp4"
     },
     {
@@ -384,6 +416,22 @@
       "videoUrl": "",
       "cover": "Commander%20Keen%203_%20Keen%20Must%20Die!-01.jpg",
       "video": "Commander%20Keen%203_%20Keen%20Must%20Die!-01.mp4"
+    },
+    {
+      "platform": "MS-DOS",
+      "title": "Cool Spot",
+      "id": "cfac9a35-22e5-4c67-a3e4-5d2b5d47f36d",
+      "communityStarRating": 3.6875,
+      "communityStarRatingTotalVotes": 8,
+      "developer": "Virgin Games",
+      "maxPlayers": 0,
+      "description": "Cool Spot is a colorful 2D platform game featuring the 7-Up mascot as the main protagonist. The game objective is fairly simple and straightforward. The player character has to collect enough number of cool points throughout each level in order to find and rescue his captured uncool Spot buddies and complete the game.",
+      "playMode": "Multiplayer",
+      "publisher": "Virgin Interactive Entertainment (Europe) Ltd.",
+      "releaseDate": "1994-01-01T00:00:00+02:00",
+      "videoUrl": "",
+      "cover": "Cool%20Spot-01.png",
+      "video": "Cool%20Spot-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -429,8 +477,8 @@
       "publisher": "Softdisk Publishing",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Dangerous%20Dave%20in%20the%20Haunted%20Mansion-01.png",
-      "video": "Dangerous%20Dave%20in%20the%20Haunted%20Mansion-01.mp4"
+      "cover": "Dangerous%20Dave%20in%20the%20Haunted%20Mansion-02.jpg",
+      "video": "Dangerous%20Dave%20in%20the%20Haunted%20Mansion-02.mp4"
     },
     {
       "platform": "ScummVM",
@@ -481,6 +529,22 @@
       "video": "DOOM-01.mp4"
     },
     {
+      "platform": "Windows",
+      "title": "DOOM",
+      "id": "a07b86bb-7ee4-488b-b3eb-46fbeb0d20b5",
+      "communityStarRating": 4.5954356,
+      "communityStarRatingTotalVotes": 241,
+      "developer": "id Software",
+      "maxPlayers": 16,
+      "description": "\"They are rage, brutal, without mercy...\nBut you. You will be worse...\nRip and tear, until it is done...\"\n\nYou’ve come here for a reason. The Union Aerospace Corporation’s massive research facility on Mars is overwhelmed by fierce and powerful demons, and only one person stands between their world and ours. As the legendary DOOM Slayer, you’ve been re-awakened to do one thing: KILL... THEM... ALL...",
+      "playMode": "Cooperative; Multiplayer",
+      "publisher": "Bethesda Softworks",
+      "releaseDate": "2016-05-13T10:00:00+03:00",
+      "videoUrl": "https://www.youtube.com/watch?v=RO90omga8D4",
+      "cover": "DOOM-01.png",
+      "video": "DOOM-01.mp4"
+    },
+    {
       "platform": "Nintendo Game Boy",
       "title": "Dr. Mario",
       "id": "851c0130-ae7c-4998-bb50-b422704bfdd0",
@@ -524,7 +588,7 @@
       "publisher": "GT Interactive",
       "releaseDate": "1996-01-29T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=jNOU3BSB_bc",
-      "cover": "Duke%20Nukem%203D.0e6d30f4-4092-4053-87f0-e6645db07943-01.png",
+      "cover": "Duke%20Nukem%203D.80599f0e-843b-41e2-9c7e-a50385abab1d-01.png",
       "video": "Duke%20Nukem%203D.0e6d30f4-4092-4053-87f0-e6645db07943-01.mp4"
     },
     {
@@ -682,7 +746,7 @@
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
       "cover": "Fury%20of%20the%20Furries-01.png",
-      "video": "Fury%20of%20the%20Furries-02.mp4"
+      "video": "Fury%20of%20the%20Furries-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -746,7 +810,7 @@
       "releaseDate": "1994-03-18T10:00:00+02:00",
       "videoUrl": "",
       "cover": "Goblins%20Quest%203-01.jpg",
-      "video": "Goblins%20Quest%203.5243d576-4859-4f67-b04a-8e23e49beb7a-01.mp4"
+      "video": "Goblins%20Quest%203.87c61e7f-9269-4a24-a9a2-9e2ce9c0e3d5-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -902,7 +966,7 @@
       "releaseDate": "1986-01-01T00:00:00+02:00",
       "videoUrl": "",
       "cover": "Karateka-01.png",
-      "video": "Karateka-01.mp4"
+      "video": "Karateka-02.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -970,22 +1034,6 @@
     {
       "platform": "MS-DOS",
       "title": "The Lost Vikings",
-      "id": "aaa7e501-00d3-4617-882f-2762690dfde3",
-      "communityStarRating": 4.133333,
-      "communityStarRatingTotalVotes": 15,
-      "developer": "Silicon & Synapse, Inc.",
-      "maxPlayers": 1,
-      "description": "Three Vikings, Eric the Swift, Olaf the Stout and Baleog the Fierce, were kidnapped by the alien Tomator, the evil Croutonian ruler, who is collecting unique life forms to display in his gallery. The three Vikings will have to combine their unique skills to defeat Tomator, as well as a vast array of aliens, robots, giant snails, big lizards and more.\n\nThe Lost Vikings is a side-scrolling platform puzzle game with a twist. Instead of one character who can jump, run, shoot, collect items, flip switches and so on, there are three different characters, each with his own skills. Eric the Swift can jump, run and bash through walls with his tough helmet. Olaf the Stout has a shield which can block attacks, function as an air glider or as a step to stand on. Baleog the Fierce can shoot things with his arrows (including switches) or kill things with his sword. The player has to use the three Vikings as a team if he wants to get past the increasingly difficult levels and puzzles.\n\nThe player controls one Viking at a time, but can switch between them at any point. The Vikings have limited space in their inventory which they can use to keep various items. Each Viking has three health points, and if he loses them all from confrontations with dangers, he dies (some threats kill instantly), and the level must be restarted.",
-      "playMode": "Single Player",
-      "publisher": "Interplay Productions, Inc.",
-      "releaseDate": "1993-01-01T00:00:00+02:00",
-      "videoUrl": "http://www.youtube.com/watch?v=T2J1PpIy0l0",
-      "cover": "The%20Lost%20Vikings-01.png",
-      "video": "The%20Lost%20Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-01.mp4"
-    },
-    {
-      "platform": "MS-DOS",
-      "title": "The Lost Vikings",
       "id": "6e1111bd-3d97-4f66-9760-e521badf68ef",
       "communityStarRating": 4.133333,
       "communityStarRatingTotalVotes": 15,
@@ -996,8 +1044,8 @@
       "publisher": "Interplay Productions, Inc.",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=T2J1PpIy0l0",
-      "cover": "The%20Lost%20Vikings-01.png",
-      "video": "The%20Lost%20Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-01.mp4"
+      "cover": "The%20Lost%20Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-01.png",
+      "video": "The%20Lost%20Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-02.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1027,7 +1075,8 @@
       "publisher": "Nintendo",
       "releaseDate": "1983-03-14T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Mario%20Bros.-01.jpg"
+      "cover": "Mario%20Bros.-01.jpg",
+      "video": "Mario%20Bros.-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1154,7 +1203,7 @@
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=csSYcpjswFo",
       "cover": "Out%20of%20this%20World-01.png",
-      "video": "Out%20of%20this%20World.35c2f963-48e9-4d79-8c88-72432d59ce6e-01.mp4"
+      "video": "Out%20of%20this%20World.84b1f534-429a-4abd-bc3e-f9649b2495df-01.mp4"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -1234,7 +1283,7 @@
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
       "cover": "Princess%20Maker%202-01.jpg",
-      "video": "Princess%20Maker%202-01.mp4"
+      "video": "Princess%20Maker%202-02.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1357,7 +1406,7 @@
       "publisher": "Ubisoft Entertainment",
       "releaseDate": "1996-04-30T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Rayman-01.png",
+      "cover": "Rayman.d012ecf0-9293-4510-a711-162a14a43f31-01.jpg",
       "video": "Rayman.7facb4c6-3cee-4156-a04d-ed48ad4d6f69-01.mp4"
     },
     {
@@ -1685,7 +1734,8 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1993-02-05T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Space%20Quest%20V_%20The%20Next%20Mutation-01.jpg"
+      "cover": "Space%20Quest%20V_%20The%20Next%20Mutation-01.jpg",
+      "video": "Space%20Quest%20V_%20The%20Next%20Mutation-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1797,7 +1847,23 @@
       "releaseDate": "1987-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=kX9v9K2jb2U",
       "cover": "Thexder-01.png",
-      "video": "Thexder-01.mp4"
+      "video": "Thexder-02.mp4"
+    },
+    {
+      "platform": "Arcade",
+      "title": "Time Crisis",
+      "id": "4dee5ec0-af41-42e8-b3d8-acb4e1f6fd58",
+      "communityStarRating": 4.385135,
+      "communityStarRatingTotalVotes": 74,
+      "developer": "Namco",
+      "maxPlayers": 1,
+      "description": "The game is a first person rail shooter that is played with a light gun and a foot pedal. The foot pedal is used to move out from behind cover to begin shooting. While the pedal is released the player is moved behind cover so that he can reload without being hit. The light gun that this arcade game used had a blowback function where the top of the gun would slide back to simulate a real gun. The game is moved along by a constantly decreasing timer that is only increased by completing a stage.",
+      "playMode": "Single Player",
+      "publisher": "Namco",
+      "releaseDate": "1995-01-01T00:00:00+02:00",
+      "videoUrl": "http://www.youtube.com/watch?v=ovC418vaJ60",
+      "cover": "Time%20Crisis-01.png",
+      "video": "Time%20Crisis-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1812,7 +1878,8 @@
       "publisher": "Virgin Interactive",
       "releaseDate": "1996-11-04T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Toonstruck-01.jpg"
+      "cover": "Toonstruck-01.jpg",
+      "video": "Toonstruck-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1843,7 +1910,7 @@
       "releaseDate": "1990-01-01T00:00:00+02:00",
       "videoUrl": "",
       "cover": "Trog!-01.jpg",
-      "video": "Trog!-01.mp4"
+      "video": "Trog!-02.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1892,6 +1959,22 @@
       "videoUrl": "https://youtu.be/w6wbJ7uNBws",
       "cover": "The%20Ur-Quan%20Masters-01.jpg",
       "video": "The%20Ur-Quan%20Masters-01.mp4"
+    },
+    {
+      "platform": "Sega Saturn",
+      "title": "Virtua Cop",
+      "id": "824f7c60-4458-4bce-9153-2006f6095189",
+      "communityStarRating": 4.081395,
+      "communityStarRatingTotalVotes": 43,
+      "developer": "Sega AM2",
+      "maxPlayers": 2,
+      "description": "You're a cop. Putting your life on the line is your job. Staying alive is your challenge. Split second decision making, timing and lightning fast reflexes are what it takes in this adrenaline pumping game of cat and mouse. Dirt bags pop out of virtually every hiding place with their guns aimed, cocked and ready to shoot - you!",
+      "playMode": "Multiplayer",
+      "publisher": "Sega",
+      "releaseDate": "1995-11-24T10:00:00+02:00",
+      "videoUrl": "https://www.youtube.com/watch?v=uYFaj6HGcWY",
+      "cover": "Virtua%20Cop-01.png",
+      "video": "Virtua%20Cop-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1987,6 +2070,22 @@
       "videoUrl": "",
       "cover": "WarioWare_%20Smooth%20Moves-01.png",
       "video": "WarioWare_%20Smooth%20Moves-01.mp4"
+    },
+    {
+      "platform": "Nintendo Wii",
+      "title": "Wii Sports",
+      "id": "62898c03-23ad-43ba-a295-20a49fab76b0",
+      "communityStarRating": 4.3070865,
+      "communityStarRatingTotalVotes": 126,
+      "developer": "Nintendo EAD",
+      "maxPlayers": 4,
+      "description": "This is what video games should be: fun for everyone. Wii Sports offers five distinct sports experiences, each using the Wii Remote controller to provide a natural, intuitive and realistic feel. To play a Wii Sports game, all you need to do is pick up a controller and get ready for the pitch, serve or that right hook. If you've played any of these sports before, you're ready for fun! \n\nPlay Tennis, Baseball, Golf, Bowling and Boxing in the comfort of one's living room. No ball boys scurrying about, no oil from the alleys to get players dirty and no rain to keep anyone from a day at the court, park or course. Use the Wii Remote controller to mimic the actions of swinging a racket, bat or club, roll a ball down an alley or bring the left jab. \n\nPlayers can use their own Mii caricatures in the game and play them against their friends' Miis for a more personalized experience. As players improve, their Miis' skill levels will increase, so that they can see exactly how much better they've become. \n\nPeople of all skill levels can pick up and play any of the games in the unprecedented Wii Sports package, making this truly a title for everyone!",
+      "playMode": "Multiplayer",
+      "publisher": "Nintendo",
+      "releaseDate": "2006-11-19T10:00:00+02:00",
+      "videoUrl": "https://www.youtube.com/watch?v=-9mnuKggIjo",
+      "cover": "Wii%20Sports-01.jpg",
+      "video": "Wii%20Sports-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -2182,118 +2281,6 @@
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
       "cover": "%D7%A4%D7%90%D7%98%20%D7%A4%D7%90%D7%98%20%D7%A2%D7%9C%20%D7%94%D7%99%D7%A8%D7%97-01.jpg"
-    },
-    {
-      "platform": "MS-DOS",
-      "title": "The Amazing Spider-Man",
-      "id": "7ab3de2a-522c-491e-8343-1f64875712e3",
-      "communityStarRating": 3.590909,
-      "communityStarRatingTotalVotes": 11,
-      "developer": "Paragon Software Corporation",
-      "maxPlayers": 0,
-      "description": "In The Amazing Spider-Man, Spider Man has to rescue his girlfriend Mary Jane who was kidnapped by the super villain Mysterio. The whole game takes place on a film set studio.\n\nThis game is primarily a platforming game in which Spider-Man fights against various enemies. Those can be stunned with Spider-Man's iconic web substance, but touching them or other hazards in the game world will decrease his heath. Another important part of the gameplay are puzzles, mostly with the goal to deactivate some of Mysterio's gimmicks, e.g. changed gravity, to clear the path. Spider-Man can can climb walls and shoot grappling hooks.",
-      "playMode": "Multiplayer",
-      "publisher": "Paragon Software Corporation",
-      "releaseDate": "1990-01-01T00:00:00+02:00",
-      "videoUrl": "",
-      "cover": "The%20Amazing%20Spider-Man-01.png",
-      "video": "The%20Amazing%20Spider-Man.7ab3de2a-522c-491e-8343-1f64875712e3-01.mp4"
-    },
-    {
-      "platform": "Windows",
-      "title": "Carmageddon 2: Carpocalypse Now",
-      "id": "46148002-7ef3-4d37-822e-c74668583d16",
-      "communityStarRating": 3.7380953,
-      "communityStarRatingTotalVotes": 23,
-      "developer": "Stainless Games",
-      "maxPlayers": 6,
-      "description": "The world's first high-speed internal organ liberation simulator is back in full 3D! The slaughter is bloodier, the body parts fly further, and the destruction is heavier. Crash and burn through the 3D rendered crowds with the pedal to the metal.",
-      "playMode": "Multiplayer",
-      "publisher": "THQ Nordic",
-      "releaseDate": "1998-11-30T10:00:00+02:00",
-      "videoUrl": "http://cdn.akamai.steamstatic.com/steam/apps/2032556/movie_max.webm?t=1447362059",
-      "cover": "Carmageddon%202_%20Carpocalypse%20Now-01.jpg",
-      "video": "Carmageddon%202_%20Carpocalypse%20Now-01.webm"
-    },
-    {
-      "platform": "Arcade",
-      "title": "Time Crisis",
-      "id": "4dee5ec0-af41-42e8-b3d8-acb4e1f6fd58",
-      "communityStarRating": 4.385135,
-      "communityStarRatingTotalVotes": 74,
-      "developer": "Namco",
-      "maxPlayers": 1,
-      "description": "The game is a first person rail shooter that is played with a light gun and a foot pedal. The foot pedal is used to move out from behind cover to begin shooting. While the pedal is released the player is moved behind cover so that he can reload without being hit. The light gun that this arcade game used had a blowback function where the top of the gun would slide back to simulate a real gun. The game is moved along by a constantly decreasing timer that is only increased by completing a stage.",
-      "playMode": "Single Player",
-      "publisher": "Namco",
-      "releaseDate": "1995-01-01T00:00:00+02:00",
-      "videoUrl": "http://www.youtube.com/watch?v=ovC418vaJ60",
-      "cover": "Time%20Crisis-01.png",
-      "video": "Time%20Crisis-01.mp4"
-    },
-    {
-      "platform": "Sega Saturn",
-      "title": "Virtua Cop",
-      "id": "824f7c60-4458-4bce-9153-2006f6095189",
-      "communityStarRating": 4.081395,
-      "communityStarRatingTotalVotes": 43,
-      "developer": "Sega AM2",
-      "maxPlayers": 2,
-      "description": "You're a cop. Putting your life on the line is your job. Staying alive is your challenge. Split second decision making, timing and lightning fast reflexes are what it takes in this adrenaline pumping game of cat and mouse. Dirt bags pop out of virtually every hiding place with their guns aimed, cocked and ready to shoot - you!",
-      "playMode": "Multiplayer",
-      "publisher": "Sega",
-      "releaseDate": "1995-11-24T10:00:00+02:00",
-      "videoUrl": "https://www.youtube.com/watch?v=uYFaj6HGcWY",
-      "cover": "Virtua%20Cop-01.png",
-      "video": "Virtua%20Cop-01.mp4"
-    },
-    {
-      "platform": "Windows",
-      "title": "DOOM",
-      "id": "a07b86bb-7ee4-488b-b3eb-46fbeb0d20b5",
-      "communityStarRating": 4.5954356,
-      "communityStarRatingTotalVotes": 241,
-      "developer": "id Software",
-      "maxPlayers": 16,
-      "description": "\"They are rage, brutal, without mercy...\nBut you. You will be worse...\nRip and tear, until it is done...\"\n\nYou’ve come here for a reason. The Union Aerospace Corporation’s massive research facility on Mars is overwhelmed by fierce and powerful demons, and only one person stands between their world and ours. As the legendary DOOM Slayer, you’ve been re-awakened to do one thing: KILL... THEM... ALL...",
-      "playMode": "Cooperative; Multiplayer",
-      "publisher": "Bethesda Softworks",
-      "releaseDate": "2016-05-13T10:00:00+03:00",
-      "videoUrl": "https://www.youtube.com/watch?v=RO90omga8D4",
-      "cover": "DOOM-01.png",
-      "video": "DOOM-01.mp4"
-    },
-    {
-      "platform": "Nintendo Wii",
-      "title": "Wii Sports",
-      "id": "62898c03-23ad-43ba-a295-20a49fab76b0",
-      "communityStarRating": 4.3070865,
-      "communityStarRatingTotalVotes": 126,
-      "developer": "Nintendo EAD",
-      "maxPlayers": 4,
-      "description": "This is what video games should be: fun for everyone. Wii Sports offers five distinct sports experiences, each using the Wii Remote controller to provide a natural, intuitive and realistic feel. To play a Wii Sports game, all you need to do is pick up a controller and get ready for the pitch, serve or that right hook. If you've played any of these sports before, you're ready for fun! \n\nPlay Tennis, Baseball, Golf, Bowling and Boxing in the comfort of one's living room. No ball boys scurrying about, no oil from the alleys to get players dirty and no rain to keep anyone from a day at the court, park or course. Use the Wii Remote controller to mimic the actions of swinging a racket, bat or club, roll a ball down an alley or bring the left jab. \n\nPlayers can use their own Mii caricatures in the game and play them against their friends' Miis for a more personalized experience. As players improve, their Miis' skill levels will increase, so that they can see exactly how much better they've become. \n\nPeople of all skill levels can pick up and play any of the games in the unprecedented Wii Sports package, making this truly a title for everyone!",
-      "playMode": "Multiplayer",
-      "publisher": "Nintendo",
-      "releaseDate": "2006-11-19T10:00:00+02:00",
-      "videoUrl": "https://www.youtube.com/watch?v=-9mnuKggIjo",
-      "cover": "Wii%20Sports-01.jpg",
-      "video": "Wii%20Sports-01.mp4"
-    },
-    {
-      "platform": "MS-DOS",
-      "title": "Cool Spot",
-      "id": "cfac9a35-22e5-4c67-a3e4-5d2b5d47f36d",
-      "communityStarRating": 3.6875,
-      "communityStarRatingTotalVotes": 8,
-      "developer": "Virgin Games",
-      "maxPlayers": 0,
-      "description": "Cool Spot is a colorful 2D platform game featuring the 7-Up mascot as the main protagonist. The game objective is fairly simple and straightforward. The player character has to collect enough number of cool points throughout each level in order to find and rescue his captured uncool Spot buddies and complete the game.",
-      "playMode": "Multiplayer",
-      "publisher": "Virgin Interactive Entertainment (Europe) Ltd.",
-      "releaseDate": "1994-01-01T00:00:00+02:00",
-      "videoUrl": "",
-      "cover": "Cool%20Spot-01.png",
-      "video": "Cool%20Spot-01.mp4"
     }
   ],
   "platforms": {
