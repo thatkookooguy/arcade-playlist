@@ -112,7 +112,7 @@ async function getPlaylistData(playlistName: string) {
   );
   if (playlistClearLogoImage) {
     imagesToCopy.push(join(playlistClearLogoFolder, playlistClearLogoImage));
-    (playlist as any).cover = playlistClearLogoImage;
+    (playlist as any).cover = encodeURIComponent(playlistClearLogoImage);
   }
 
   playlistProgressBar.update(150, {
@@ -241,6 +241,16 @@ async function getPlaylistData(playlistName: string) {
   createResultFolderProgressBar.start(imagesToCopy.length, 0, {
     stepName: '📁✅ Creating Result Folder'
   });
+
+  playlist.games.forEach((game: any) => {
+    if (game.cover) {
+      game.cover = encodeURIComponent(game.cover);
+    }
+
+    if (game.video) {
+      game.video = encodeURIComponent(game.video);
+    }
+  })
 
   const assetFolder = join(__dirname, '..', 'lb-playlist-ui', 'src', 'assets');
   removeSync(assetFolder);
