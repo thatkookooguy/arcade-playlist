@@ -16,7 +16,7 @@
       "publisher": "Hi-Tech Expressions",
       "releaseDate": "1990-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Adventures of Beetlejuice_ Skeletons in the Closet-01.jpg"
+      "cover": "Adventures%20of%20Beetlejuice_%20Skeletons%20in%20the%20Closet-01.jpg"
     },
     {
       "platform": "Sony Playstation",
@@ -31,8 +31,8 @@
       "publisher": "Psygnosis",
       "releaseDate": "1996-10-31T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=7XB99NNXKcE&t=3s",
-      "cover": "Adventures of Lomax-01.jpg",
-      "video": "Adventures of Lomax-01.mp4"
+      "cover": "Adventures%20of%20Lomax-01.jpg",
+      "video": "Adventures%20of%20Lomax-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -47,8 +47,8 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "The Adventures of Willy Beamish.3784791f-606c-4bda-b729-da6c76b11780-01.png",
-      "video": "The Adventures of Willy Beamish.3784791f-606c-4bda-b729-da6c76b11780-01.mp4"
+      "cover": "The%20Adventures%20of%20Willy%20Beamish.3784791f-606c-4bda-b729-da6c76b11780-01.png",
+      "video": "The%20Adventures%20of%20Willy%20Beamish.3784791f-606c-4bda-b729-da6c76b11780-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -63,8 +63,8 @@
       "publisher": "Interplay",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=iSwYY2eoKhQ",
-      "cover": "Alone in the Dark-01.png",
-      "video": "Alone in the Dark-01.mp4"
+      "cover": "Alone%20in%20the%20Dark-01.png",
+      "video": "Alone%20in%20the%20Dark-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -79,8 +79,8 @@
       "publisher": "I•Motion, Inc.",
       "releaseDate": "1993-10-02T09:00:00+02:00",
       "videoUrl": "",
-      "cover": "Alone in the Dark 2-01.png",
-      "video": "Alone in the Dark 2-01.mp4"
+      "cover": "Alone%20in%20the%20Dark%202-01.png",
+      "video": "Alone%20in%20the%20Dark%202-01.mp4"
     },
     {
       "platform": "Windows",
@@ -95,8 +95,8 @@
       "publisher": "Elektrogames",
       "releaseDate": "2006-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=Z2GPP0xZs5E",
-      "cover": "Another World_ 15th Anniversary Edition-01.png",
-      "video": "Another World_ 15th Anniversary Edition-01.mp4"
+      "cover": "Another%20World_%2015th%20Anniversary%20Edition-01.png",
+      "video": "Another%20World_%2015th%20Anniversary%20Edition-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -111,8 +111,8 @@
       "publisher": "Strategic Simulations, Inc.",
       "releaseDate": "1994-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Archon Ultra-01.png",
-      "video": "Archon Ultra.6211c769-f57e-4dfe-b864-6233f4545a13-01.mp4"
+      "cover": "Archon%20Ultra-01.png",
+      "video": "Archon%20Ultra.6211c769-f57e-4dfe-b864-6233f4545a13-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -127,8 +127,8 @@
       "publisher": "Loriciel",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Baby Jo in _Going Home_-01.png",
-      "video": "Baby Jo in _Going Home_-01.mp4"
+      "cover": "Baby%20Jo%20in%20_Going%20Home_-01.png",
+      "video": "Baby%20Jo%20in%20_Going%20Home_-01.mp4"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -143,8 +143,8 @@
       "publisher": "Acclaim",
       "releaseDate": "1991-11-01T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=B7XhTST-t_A",
-      "cover": "Bart Simpson_s Escape from Camp Deadly-01.jpg",
-      "video": "Bart Simpson_s Escape from Camp Deadly-01.mp4"
+      "cover": "Bart%20Simpson_s%20Escape%20from%20Camp%20Deadly-01.jpg",
+      "video": "Bart%20Simpson_s%20Escape%20from%20Camp%20Deadly-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -159,7 +159,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1995-04-07T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "The Bizarre Adventures of Woodruff and the Schnibble-01.jpg"
+      "cover": "The%20Bizarre%20Adventures%20of%20Woodruff%20and%20the%20Schnibble-01.jpg"
     },
     {
       "platform": "Nintendo DS",
@@ -174,8 +174,8 @@
       "publisher": "Nintendo",
       "releaseDate": "2005-12-29T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Brain Age 2_ More Training in Minutes a Day!-01.png",
-      "video": "Brain Age 2_ More Training in Minutes a Day!-01.mp4"
+      "cover": "Brain%20Age%202_%20More%20Training%20in%20Minutes%20a%20Day!-01.png",
+      "video": "Brain%20Age%202_%20More%20Training%20in%20Minutes%20a%20Day!-01.mp4"
     },
     {
       "platform": "Nintendo DS",
@@ -190,8 +190,8 @@
       "publisher": "Nintendo",
       "releaseDate": "2005-05-19T10:00:00+03:00",
       "videoUrl": "https://www.youtube.com/watch?v=Vu-9qKp9_gY",
-      "cover": "Brain Age_ Train Your Brain in Minutes a Day!-01.png",
-      "video": "Brain Age_ Train Your Brain in Minutes a Day!-01.mp4"
+      "cover": "Brain%20Age_%20Train%20Your%20Brain%20in%20Minutes%20a%20Day!-01.png",
+      "video": "Brain%20Age_%20Train%20Your%20Brain%20in%20Minutes%20a%20Day!-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -206,8 +206,8 @@
       "publisher": "Taito Software",
       "releaseDate": "1988-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Bubble Bobble.b4c25073-b257-45e4-85e2-d60113740edd-01.png",
-      "video": "Bubble Bobble.b4c25073-b257-45e4-85e2-d60113740edd-01.mp4"
+      "cover": "Bubble%20Bobble.b4c25073-b257-45e4-85e2-d60113740edd-01.png",
+      "video": "Bubble%20Bobble.b4c25073-b257-45e4-85e2-d60113740edd-01.mp4"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -222,8 +222,8 @@
       "publisher": "Kemco",
       "releaseDate": "1989-09-05T10:00:00+03:00",
       "videoUrl": "https://www.youtube.com/watch?v=TZrEwNJP6ic",
-      "cover": "The Bugs Bunny Crazy Castle-01.jpg",
-      "video": "The Bugs Bunny Crazy Castle-01.mp4"
+      "cover": "The%20Bugs%20Bunny%20Crazy%20Castle-01.jpg",
+      "video": "The%20Bugs%20Bunny%20Crazy%20Castle-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -238,8 +238,8 @@
       "publisher": "Loriciel",
       "releaseDate": "1992-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Bumpy_s Arcade Fantasy-01.jpg",
-      "video": "Bumpy_s Arcade Fantasy-01.mp4"
+      "cover": "Bumpy_s%20Arcade%20Fantasy-01.jpg",
+      "video": "Bumpy_s%20Arcade%20Fantasy-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -254,8 +254,8 @@
       "publisher": "Virgin Interactive",
       "releaseDate": "1993-12-01T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Cannon Fodder-01.png",
-      "video": "Cannon Fodder.141b2161-07e4-4bda-974a-7d148b928e12-01.mp4"
+      "cover": "Cannon%20Fodder-01.png",
+      "video": "Cannon%20Fodder.141b2161-07e4-4bda-974a-7d148b928e12-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -270,8 +270,8 @@
       "publisher": "Virgin",
       "releaseDate": "1994-11-13T10:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=HqRag50MCek",
-      "cover": "Cannon Fodder 2-01.png",
-      "video": "Cannon Fodder 2-01.mp4"
+      "cover": "Cannon%20Fodder%202-01.png",
+      "video": "Cannon%20Fodder%202-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -286,7 +286,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Castle of Dr. Brain-01.jpg"
+      "cover": "Castle%20of%20Dr.%20Brain-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -301,8 +301,8 @@
       "publisher": "Electronic Arts Inc.",
       "releaseDate": "1986-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "The Chessmaster 2000-01.png",
-      "video": "The Chessmaster 2000-01.mp4"
+      "cover": "The%20Chessmaster%202000-01.png",
+      "video": "The%20Chessmaster%202000-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -317,8 +317,8 @@
       "publisher": "Virgin Interactive",
       "releaseDate": "1995-09-26T10:00:00+03:00",
       "videoUrl": "http://www.youtube.com/watch?v=Aui392986EE",
-      "cover": "Command & Conquer-01.png",
-      "video": "Command & Conquer-01.mp4"
+      "cover": "Command%20%26%20Conquer-01.png",
+      "video": "Command%20%26%20Conquer-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -333,8 +333,8 @@
       "publisher": "Virgin Interactive",
       "releaseDate": "1996-10-31T10:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=bSXu_3qtsl4",
-      "cover": "Command & Conquer_ Red Alert-01.png",
-      "video": "Command & Conquer_ Red Alert-01.mp4"
+      "cover": "Command%20%26%20Conquer_%20Red%20Alert-01.png",
+      "video": "Command%20%26%20Conquer_%20Red%20Alert-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -349,8 +349,8 @@
       "publisher": "Apogee Software",
       "releaseDate": "1990-12-14T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=YUyQSfKRU1w",
-      "cover": "Commander Keen 1_ Marooned on Mars-01.jpg",
-      "video": "Commander Keen 1_ Marooned on Mars-01.mp4"
+      "cover": "Commander%20Keen%201_%20Marooned%20on%20Mars-01.jpg",
+      "video": "Commander%20Keen%201_%20Marooned%20on%20Mars-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -365,8 +365,8 @@
       "publisher": "Apogee Software Ltd.",
       "releaseDate": "1990-12-14T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Commander Keen 2_ The Earth Explodes-01.jpg",
-      "video": "Commander Keen 2_ The Earth Explodes-01.mp4"
+      "cover": "Commander%20Keen%202_%20The%20Earth%20Explodes-01.jpg",
+      "video": "Commander%20Keen%202_%20The%20Earth%20Explodes-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -381,8 +381,8 @@
       "publisher": "Apogee Software Ltd.",
       "releaseDate": "1990-12-14T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Commander Keen 3_ Keen Must Die!-01.jpg",
-      "video": "Commander Keen 3_ Keen Must Die!-01.mp4"
+      "cover": "Commander%20Keen%203_%20Keen%20Must%20Die!-01.jpg",
+      "video": "Commander%20Keen%203_%20Keen%20Must%20Die!-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -397,7 +397,7 @@
       "publisher": "LucasArts",
       "releaseDate": "1997-10-31T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "The Curse of Monkey Island-01.jpg"
+      "cover": "The%20Curse%20of%20Monkey%20Island-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -412,7 +412,7 @@
       "publisher": "Softdisk Publishing",
       "releaseDate": "1990-11-01T10:00:00+02:00",
       "videoUrl": "https://youtu.be/yUfYd8xGVng",
-      "cover": "Dangerous Dave-01.png"
+      "cover": "Dangerous%20Dave-01.png"
     },
     {
       "platform": "MS-DOS",
@@ -427,8 +427,8 @@
       "publisher": "Softdisk Publishing",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Dangerous Dave in the Haunted Mansion-01.png",
-      "video": "Dangerous Dave in the Haunted Mansion-01.mp4"
+      "cover": "Dangerous%20Dave%20in%20the%20Haunted%20Mansion-01.png",
+      "video": "Dangerous%20Dave%20in%20the%20Haunted%20Mansion-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -443,8 +443,8 @@
       "publisher": "LucasArts",
       "releaseDate": "1995-11-01T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "The Dig-01.jpg",
-      "video": "The Dig-01.mp4"
+      "cover": "The%20Dig-01.jpg",
+      "video": "The%20Dig-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -491,8 +491,8 @@
       "publisher": "Nintendo",
       "releaseDate": "1990-12-31T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=AT7U9x2gFvY",
-      "cover": "Dr. Mario-01.jpg",
-      "video": "Dr. Mario-01.mp4"
+      "cover": "Dr.%20Mario-01.jpg",
+      "video": "Dr.%20Mario-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -507,7 +507,7 @@
       "publisher": "Walt Disney Computer Software, Inc.",
       "releaseDate": "1990-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Duck Tales_ The Quest for Gold-02.png"
+      "cover": "Duck%20Tales_%20The%20Quest%20for%20Gold-02.png"
     },
     {
       "platform": "MS-DOS",
@@ -522,8 +522,8 @@
       "publisher": "GT Interactive",
       "releaseDate": "1996-01-29T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=jNOU3BSB_bc",
-      "cover": "Duke Nukem 3D.0e6d30f4-4092-4053-87f0-e6645db07943-01.png",
-      "video": "Duke Nukem 3D.0e6d30f4-4092-4053-87f0-e6645db07943-01.mp4"
+      "cover": "Duke%20Nukem%203D.0e6d30f4-4092-4053-87f0-e6645db07943-01.png",
+      "video": "Duke%20Nukem%203D.7f813358-0b0b-454d-9239-914f6c6cf200-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -538,8 +538,8 @@
       "publisher": "Activision",
       "releaseDate": "1995-11-30T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Earthworm Jim-01.png",
-      "video": "Earthworm Jim-01.mp4"
+      "cover": "Earthworm%20Jim-01.png",
+      "video": "Earthworm%20Jim-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -554,8 +554,8 @@
       "publisher": "Playmates Interactive Entertainment",
       "releaseDate": "1996-04-30T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Earthworm Jim 2-01.png",
-      "video": "Earthworm Jim 2-01.mp4"
+      "cover": "Earthworm%20Jim%202-01.png",
+      "video": "Earthworm%20Jim%202-01.mp4"
     },
     {
       "platform": "Nintendo 64",
@@ -570,8 +570,8 @@
       "publisher": "Rockstar Games",
       "releaseDate": "1999-11-04T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=sc8HkWDaCGU",
-      "cover": "Earthworm Jim 3D-01.jpg",
-      "video": "Earthworm Jim 3D-01.mp4"
+      "cover": "Earthworm%20Jim%203D-01.jpg",
+      "video": "Earthworm%20Jim%203D-01.mp4"
     },
     {
       "platform": "Nintendo DS",
@@ -586,8 +586,8 @@
       "publisher": "Nintendo",
       "releaseDate": "2006-11-08T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=4CHUDhIOicQ",
-      "cover": "Elite Beat Agents-01.png",
-      "video": "Elite Beat Agents-01.mp4"
+      "cover": "Elite%20Beat%20Agents-01.png",
+      "video": "Elite%20Beat%20Agents-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -602,7 +602,7 @@
       "publisher": "Strategic Simulations",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Eye of the Beholder-01.jpg"
+      "cover": "Eye%20of%20the%20Beholder-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -617,8 +617,8 @@
       "publisher": "MicroIllusions",
       "releaseDate": "1988-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Fire Power-01.png",
-      "video": "Fire Power-01.mp4"
+      "cover": "Fire%20Power-01.png",
+      "video": "Fire%20Power-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -633,8 +633,8 @@
       "publisher": "Strategic Simulations, Inc.",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=nXyNcig0NOc",
-      "cover": "Flashback_ The Quest for Identity-01.png",
-      "video": "Flashback_ The Quest for Identity.0dbfc4fa-13cf-45a8-a179-12510f3d9665-01.mp4"
+      "cover": "Flashback_%20The%20Quest%20for%20Identity-01.png",
+      "video": "Flashback_%20The%20Quest%20for%20Identity.0dbfc4fa-13cf-45a8-a179-12510f3d9665-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -649,7 +649,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Freddy Pharkas_ Frontier Pharmacist-01.jpg"
+      "cover": "Freddy%20Pharkas_%20Frontier%20Pharmacist-01.jpg"
     },
     {
       "platform": "ScummVM",
@@ -664,7 +664,7 @@
       "publisher": "LucasArts",
       "releaseDate": "1995-04-30T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Full Throttle-01.png"
+      "cover": "Full%20Throttle-01.png"
     },
     {
       "platform": "MS-DOS",
@@ -679,8 +679,8 @@
       "publisher": "Mindscape",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Fury of the Furries-01.png",
-      "video": "Fury of the Furries-02.mp4"
+      "cover": "Fury%20of%20the%20Furries-01.png",
+      "video": "Fury%20of%20the%20Furries-02.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -695,8 +695,8 @@
       "publisher": "Capcom U.S.A.",
       "releaseDate": "1987-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Ghosts _n Goblins-01.png",
-      "video": "Ghosts _n Goblins-01.mp4"
+      "cover": "Ghosts%20_n%20Goblins-01.png",
+      "video": "Ghosts%20_n%20Goblins-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -727,8 +727,8 @@
       "publisher": "Sierra On-Line, Inc.",
       "releaseDate": "1993-02-10T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Gobliins 2_ The Prince Buffoon-01.png",
-      "video": "Gobliins 2_ The Prince Buffoon-01.mp4"
+      "cover": "Gobliins%202_%20The%20Prince%20Buffoon-01.png",
+      "video": "Gobliins%202_%20The%20Prince%20Buffoon-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -743,8 +743,8 @@
       "publisher": "Sierra On-Line, Inc.",
       "releaseDate": "1994-03-18T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Goblins Quest 3-01.jpg",
-      "video": "Goblins Quest 3.5243d576-4859-4f67-b04a-8e23e49beb7a-01.mp4"
+      "cover": "Goblins%20Quest%203-01.jpg",
+      "video": "Goblins%20Quest%203.5243d576-4859-4f67-b04a-8e23e49beb7a-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -759,8 +759,8 @@
       "publisher": "Psygnosis",
       "releaseDate": "1994-11-17T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Holiday Lemmings (1994).3bac31f2-8525-4845-a0cb-6903f5ec1d70-01.png",
-      "video": "Holiday Lemmings (1994).3bac31f2-8525-4845-a0cb-6903f5ec1d70-01.mp4"
+      "cover": "Holiday%20Lemmings%20(1994).3bac31f2-8525-4845-a0cb-6903f5ec1d70-01.png",
+      "video": "Holiday%20Lemmings%20(1994).3bac31f2-8525-4845-a0cb-6903f5ec1d70-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -775,7 +775,7 @@
       "publisher": "Lucasfilm Games",
       "releaseDate": "1992-06-15T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Indiana Jones and the Fate of Atlantis-01.png"
+      "cover": "Indiana%20Jones%20and%20the%20Fate%20of%20Atlantis-01.png"
     },
     {
       "platform": "ScummVM",
@@ -790,7 +790,7 @@
       "publisher": "Lucasfilm Games",
       "releaseDate": "1989-07-02T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Indiana Jones and the Last Crusade_ The Graphic Adventure-01.jpg"
+      "cover": "Indiana%20Jones%20and%20the%20Last%20Crusade_%20The%20Graphic%20Adventure-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -805,8 +805,8 @@
       "publisher": "Pop Software",
       "releaseDate": "1995-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=4H5M5FAGq0c",
-      "cover": "Invasion of the Mutant Space Bats of Doom-01.png",
-      "video": "Invasion of the Mutant Space Bats of Doom-01.mp4"
+      "cover": "Invasion%20of%20the%20Mutant%20Space%20Bats%20of%20Doom-01.png",
+      "video": "Invasion%20of%20the%20Mutant%20Space%20Bats%20of%20Doom-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -821,7 +821,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1992-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "The Island of Dr. Brain-01.jpg"
+      "cover": "The%20Island%20of%20Dr.%20Brain-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -836,8 +836,8 @@
       "publisher": "Epic MegaGames, Inc.",
       "releaseDate": "1994-07-30T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Jazz Jackrabbit-01.png",
-      "video": "Jazz Jackrabbit-01.mp4"
+      "cover": "Jazz%20Jackrabbit-01.png",
+      "video": "Jazz%20Jackrabbit-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -852,8 +852,8 @@
       "publisher": "Epic MegaGames, Inc.",
       "releaseDate": "1992-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Jill of the Jungle-01.png",
-      "video": "Jill of the Jungle-01.mp4"
+      "cover": "Jill%20of%20the%20Jungle-01.png",
+      "video": "Jill%20of%20the%20Jungle-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -868,8 +868,8 @@
       "publisher": "New World Computing",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Joe & Mac_ Caveman Ninja-01.png",
-      "video": "Joe & Mac_ Caveman Ninja-01.mp4"
+      "cover": "Joe%20%26%20Mac_%20Caveman%20Ninja-01.png",
+      "video": "Joe%20%26%20Mac_%20Caveman%20Ninja-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -884,7 +884,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Jones in the Fast Lane-01.jpg"
+      "cover": "Jones%20in%20the%20Fast%20Lane-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -915,7 +915,7 @@
       "publisher": "Psygnosis",
       "releaseDate": "1991-02-14T10:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=IN-Ob5phQ1M",
-      "cover": "Lemmings-01.jpg",
+      "cover": "Lemmings-01.png",
       "video": "Lemmings-01.mp4"
     },
     {
@@ -947,8 +947,8 @@
       "publisher": "Public Domain/Freeware",
       "releaseDate": "1998-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=KE2XtQaMb5I",
-      "cover": "Liero 1.36-01.jpg",
-      "video": "Liero 1.36-01.mp4"
+      "cover": "Liero%201.36-01.jpg",
+      "video": "Liero%201.36-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -978,8 +978,8 @@
       "publisher": "Interplay Productions, Inc.",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=T2J1PpIy0l0",
-      "cover": "The Lost Vikings-01.png",
-      "video": "The Lost Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-01.mp4"
+      "cover": "The%20Lost%20Vikings-01.png",
+      "video": "The%20Lost%20Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -994,8 +994,8 @@
       "publisher": "Interplay Productions, Inc.",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=T2J1PpIy0l0",
-      "cover": "The Lost Vikings-01.png",
-      "video": "The Lost Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-01.mp4"
+      "cover": "The%20Lost%20Vikings-01.png",
+      "video": "The%20Lost%20Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1010,7 +1010,7 @@
       "publisher": "LucasArts Entertainment Company, LLC",
       "releaseDate": "1993-06-01T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Maniac Mansion_ Day of the Tentacle-01.jpg"
+      "cover": "Maniac%20Mansion_%20Day%20of%20the%20Tentacle-01.jpg"
     },
     {
       "platform": "Nintendo Game & Watch",
@@ -1025,7 +1025,7 @@
       "publisher": "Nintendo",
       "releaseDate": "1983-03-14T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Mario Bros.-01.jpg"
+      "cover": "Mario%20Bros.-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -1040,8 +1040,8 @@
       "publisher": "The Codemasters Software Company Limited",
       "releaseDate": "1994-10-01T09:00:00+02:00",
       "videoUrl": "",
-      "cover": "Micro Machines-01.jpg",
-      "video": "Micro Machines-01.mp4"
+      "cover": "Micro%20Machines-01.jpg",
+      "video": "Micro%20Machines-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1056,8 +1056,8 @@
       "publisher": "Codemasters Software",
       "releaseDate": "1995-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Micro Machines 2_ Turbo Tournament-01.png",
-      "video": "Micro Machines 2_ Turbo Tournament-01.mp4"
+      "cover": "Micro%20Machines%202_%20Turbo%20Tournament-01.png",
+      "video": "Micro%20Machines%202_%20Turbo%20Tournament-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1072,7 +1072,7 @@
       "publisher": "Lucasfilm Games",
       "releaseDate": "1991-12-01T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Monkey Island 2_ LeChuck_s Revenge-01.jpg"
+      "cover": "Monkey%20Island%202_%20LeChuck_s%20Revenge-01.jpg"
     },
     {
       "platform": "ScummVM",
@@ -1087,8 +1087,8 @@
       "publisher": "DreamWorks Interactive",
       "releaseDate": "1996-10-31T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=8aO2Z61bT6I",
-      "cover": "The Neverhood-01.jpg",
-      "video": "The Neverhood-01.mp4"
+      "cover": "The%20Neverhood-01.jpg",
+      "video": "The%20Neverhood-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1103,8 +1103,8 @@
       "publisher": "Epic MegaGames, Inc.",
       "releaseDate": "1994-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=6fGM1cvUQv8",
-      "cover": "One Must Fall_ 2097-01.png",
-      "video": "One Must Fall_ 2097-01.mp4"
+      "cover": "One%20Must%20Fall_%202097-01.png",
+      "video": "One%20Must%20Fall_%202097-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1119,8 +1119,8 @@
       "publisher": "Epic MegaGames, Inc.",
       "releaseDate": "1994-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=6fGM1cvUQv8",
-      "cover": "One Must Fall_ 2097-01.png",
-      "video": "One Must Fall_ 2097-01.mp4"
+      "cover": "One%20Must%20Fall_%202097-01.png",
+      "video": "One%20Must%20Fall_%202097-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1135,8 +1135,8 @@
       "publisher": "Interplay Productions, Inc.",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=csSYcpjswFo",
-      "cover": "Out of this World-01.png",
-      "video": "Out of this World.35c2f963-48e9-4d79-8c88-72432d59ce6e-01.mp4"
+      "cover": "Out%20of%20this%20World-01.png",
+      "video": "Out%20of%20this%20World.35c2f963-48e9-4d79-8c88-72432d59ce6e-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1151,8 +1151,8 @@
       "publisher": "Interplay Productions, Inc.",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=csSYcpjswFo",
-      "cover": "Out of this World-01.png",
-      "video": "Out of this World.35c2f963-48e9-4d79-8c88-72432d59ce6e-01.mp4"
+      "cover": "Out%20of%20this%20World-01.png",
+      "video": "Out%20of%20this%20World.35c2f963-48e9-4d79-8c88-72432d59ce6e-01.mp4"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -1167,8 +1167,8 @@
       "publisher": "HAL Laboratory",
       "releaseDate": "1989-10-18T09:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=NKeoPSPm4kw",
-      "cover": "Pinball_ Revenge of the _Gator-01.jpg",
-      "video": "Pinball_ Revenge of the _Gator-01.mp4"
+      "cover": "Pinball_%20Revenge%20of%20the%20_Gator-01.jpg",
+      "video": "Pinball_%20Revenge%20of%20the%20_Gator-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1199,8 +1199,8 @@
       "publisher": "Brøderbund Software",
       "releaseDate": "1990-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Prince of Persia-01.png",
-      "video": "Prince of Persia-01.mp4"
+      "cover": "Prince%20of%20Persia-01.png",
+      "video": "Prince%20of%20Persia-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1215,8 +1215,8 @@
       "publisher": "Brøderbund Software",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=_VM3ECIH2wA",
-      "cover": "Prince of Persia 2_ The Shadow & The Flame-01.png",
-      "video": "Prince of Persia 2_ The Shadow & The Flame.2fb0fa1e-fb20-4536-bee5-af3147d861e9-01.mp4"
+      "cover": "Prince%20of%20Persia%202_%20The%20Shadow%20%26%20The%20Flame-01.png",
+      "video": "Prince%20of%20Persia%202_%20The%20Shadow%20%26%20The%20Flame.2fb0fa1e-fb20-4536-bee5-af3147d861e9-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1231,8 +1231,8 @@
       "publisher": "Gainax",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Princess Maker 2-01.jpg",
-      "video": "Princess Maker 2-01.mp4"
+      "cover": "Princess%20Maker%202-01.jpg",
+      "video": "Princess%20Maker%202-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1247,7 +1247,7 @@
       "publisher": "Humongous Entertainment",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Putt-Putt Goes to the Moon-01.jpg"
+      "cover": "Putt-Putt%20Goes%20to%20the%20Moon-01.jpg"
     },
     {
       "platform": "ScummVM",
@@ -1262,7 +1262,7 @@
       "publisher": "Humongous Entertainment",
       "releaseDate": "1992-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Putt-Putt Joins the Parade-01.jpg"
+      "cover": "Putt-Putt%20Joins%20the%20Parade-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -1293,8 +1293,8 @@
       "publisher": "Mindscape, Inc.",
       "releaseDate": "1996-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=mVhCJKMrql8",
-      "cover": "Quarantine II_ Road Warrior-01.png",
-      "video": "Quarantine II_ Road Warrior-01.mp4"
+      "cover": "Quarantine%20II_%20Road%20Warrior-01.png",
+      "video": "Quarantine%20II_%20Road%20Warrior-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1309,7 +1309,7 @@
       "publisher": "Activision",
       "releaseDate": "1990-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=1lQwqr4HPVs",
-      "cover": "Quest for Glory II_ Trial by Fire-01.jpg"
+      "cover": "Quest%20for%20Glory%20II_%20Trial%20by%20Fire-01.jpg"
     },
     {
       "platform": "ScummVM",
@@ -1324,7 +1324,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1992-08-01T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Quest for Glory III_ Wages of War-01.jpg"
+      "cover": "Quest%20for%20Glory%20III_%20Wages%20of%20War-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -1356,7 +1356,7 @@
       "releaseDate": "1996-04-30T10:00:00+03:00",
       "videoUrl": "",
       "cover": "Rayman-01.png",
-      "video": "Rayman.d012ecf0-9293-4510-a711-162a14a43f31-01.mp4"
+      "video": "Rayman.7facb4c6-3cee-4156-a04d-ed48ad4d6f69-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1371,7 +1371,7 @@
       "publisher": "Electronic Arts, Inc.",
       "releaseDate": "1994-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=vX1LxYWtwPs",
-      "cover": "Relentless_ Twinsen_s Adventure-01.jpg"
+      "cover": "Relentless_%20Twinsen_s%20Adventure-01.jpg"
     },
     {
       "platform": "3DO Interactive Multiplayer",
@@ -1386,8 +1386,8 @@
       "publisher": "Prolific Publishing",
       "releaseDate": "1995-01-01T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=Eo62ZfY35mk&ab_channel=TGApuleius",
-      "cover": "Return Fire-01.jpg",
-      "video": "Return Fire-01.mp4"
+      "cover": "Return%20Fire-01.jpg",
+      "video": "Return%20Fire-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1402,7 +1402,7 @@
       "publisher": "LucasArts",
       "releaseDate": "1993-11-01T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Sam & Max Hit the Road-01.jpg"
+      "cover": "Sam%20%26%20Max%20Hit%20the%20Road-01.jpg"
     },
     {
       "platform": "ScummVM",
@@ -1417,7 +1417,7 @@
       "publisher": "Lucasfilm Games",
       "releaseDate": "1990-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "The Secret of Monkey Island-01.jpg"
+      "cover": "The%20Secret%20of%20Monkey%20Island-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -1432,8 +1432,8 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "https://youtu.be/C-7LgrEUOL4",
-      "cover": "Sid & Al_s Incredible Toons-01.png",
-      "video": "Sid & Al_s Incredible Toons.200abad8-f3e2-4644-ba44-a8e230e61c50-01.mp4"
+      "cover": "Sid%20%26%20Al_s%20Incredible%20Toons-01.png",
+      "video": "Sid%20%26%20Al_s%20Incredible%20Toons.200abad8-f3e2-4644-ba44-a8e230e61c50-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1448,8 +1448,8 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "https://youtu.be/C-7LgrEUOL4",
-      "cover": "Sid & Al_s Incredible Toons-01.png",
-      "video": "Sid & Al_s Incredible Toons.200abad8-f3e2-4644-ba44-a8e230e61c50-01.mp4"
+      "cover": "Sid%20%26%20Al_s%20Incredible%20Toons-01.png",
+      "video": "Sid%20%26%20Al_s%20Incredible%20Toons.200abad8-f3e2-4644-ba44-a8e230e61c50-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1479,8 +1479,8 @@
       "publisher": "Maxis",
       "releaseDate": "1991-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=1ucLyqEboGM",
-      "cover": "SimAnt_ The Electronic Ant Colony-01.png",
-      "video": "SimAnt_ The Electronic Ant Colony.18c0a5a0-a08d-4116-b0e5-e73149beb7c5-01.mp4"
+      "cover": "SimAnt_%20The%20Electronic%20Ant%20Colony-01.png",
+      "video": "SimAnt_%20The%20Electronic%20Ant%20Colony.18c0a5a0-a08d-4116-b0e5-e73149beb7c5-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1496,7 +1496,7 @@
       "releaseDate": "1989-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=03SYHkETg9s",
       "cover": "SimCity-01.png",
-      "video": "SimCity.0c162e52-cad6-4d0e-89f3-9f586849f4a1-01.mp4"
+      "video": "SimCity.0a4c3096-2cf5-4602-a406-4eee6318961b-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1511,7 +1511,7 @@
       "publisher": "Mindscape, Inc.",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=UBMrAJ-uTJY",
-      "cover": "SimCity 2000.4aec8039-24a7-4138-a7cd-f0b2c7168a9f-01.jpg"
+      "cover": "SimCity%202000.4aec8039-24a7-4138-a7cd-f0b2c7168a9f-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -1526,8 +1526,8 @@
       "publisher": "Infocom, Inc.",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=VxmhPYbqKZA",
-      "cover": "Simon the Sorcerer-01.png",
-      "video": "Simon the Sorcerer.20300741-2e31-4a97-8486-83ed5a54d9a8-01.mp4"
+      "cover": "Simon%20the%20Sorcerer-01.png",
+      "video": "Simon%20the%20Sorcerer.20300741-2e31-4a97-8486-83ed5a54d9a8-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1542,8 +1542,8 @@
       "publisher": "Adventure Soft",
       "releaseDate": "1995-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Simon the Sorcerer II_ The Lion, the Wizard and the Wardrobe-01.png",
-      "video": "Simon the Sorcerer II_ The Lion, the Wizard and the Wardrobe-01.mp4"
+      "cover": "Simon%20the%20Sorcerer%20II_%20The%20Lion%2C%20the%20Wizard%20and%20the%20Wardrobe-01.png",
+      "video": "Simon%20the%20Sorcerer%20II_%20The%20Lion%2C%20the%20Wizard%20and%20the%20Wardrobe-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1574,8 +1574,8 @@
       "publisher": "Sega",
       "releaseDate": "1994-10-17T09:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=3brewFc7kAE",
-      "cover": "Sonic & Knuckles-01.png",
-      "video": "Sonic & Knuckles-01.mp4"
+      "cover": "Sonic%20%26%20Knuckles-01.png",
+      "video": "Sonic%20%26%20Knuckles-01.mp4"
     },
     {
       "platform": "Sega Genesis",
@@ -1590,8 +1590,8 @@
       "publisher": "Sega",
       "releaseDate": "1994-10-18T09:00:00+02:00",
       "videoUrl": "",
-      "cover": "Sonic & Knuckles _ Sonic the Hedgehog 3-01.jpg",
-      "video": "Sonic & Knuckles _ Sonic the Hedgehog 3-01.mp4"
+      "cover": "Sonic%20%26%20Knuckles%20_%20Sonic%20the%20Hedgehog%203-01.jpg",
+      "video": "Sonic%20%26%20Knuckles%20_%20Sonic%20the%20Hedgehog%203-01.mp4"
     },
     {
       "platform": "Sega Genesis",
@@ -1606,8 +1606,8 @@
       "publisher": "Sega",
       "releaseDate": "1994-10-18T09:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=qdO-iKWe_yg",
-      "cover": "Sonic & Knuckles + Sonic The Hedgehog 2-01.png",
-      "video": "Sonic & Knuckles + Sonic The Hedgehog 2-01.mp4"
+      "cover": "Sonic%20%26%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%202-01.png",
+      "video": "Sonic%20%26%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%202-01.mp4"
     },
     {
       "platform": "Sega Genesis",
@@ -1622,8 +1622,8 @@
       "publisher": "Sonic Retro",
       "releaseDate": "2013-08-10T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Sonic 3 Complete-01.png",
-      "video": "Sonic 3 Complete-01.mp4"
+      "cover": "Sonic%203%20Complete-01.png",
+      "video": "Sonic%203%20Complete-01.mp4"
     },
     {
       "platform": "ScummVM",
@@ -1638,7 +1638,7 @@
       "publisher": "Sierra On-Line, Inc.",
       "releaseDate": "1995-03-01T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=YCxfFAmNh7c",
-      "cover": "Space Quest 6_ The Spinal Frontier-01.jpg"
+      "cover": "Space%20Quest%206_%20The%20Spinal%20Frontier-01.jpg"
     },
     {
       "platform": "ScummVM",
@@ -1653,7 +1653,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1989-03-01T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Space Quest III_ The Pirates of Pestulon-01.jpg"
+      "cover": "Space%20Quest%20III_%20The%20Pirates%20of%20Pestulon-01.jpg"
     },
     {
       "platform": "ScummVM",
@@ -1668,7 +1668,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1991-03-04T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Space Quest IV_ Roger Wilco and the Time Rippers-01.jpg"
+      "cover": "Space%20Quest%20IV_%20Roger%20Wilco%20and%20the%20Time%20Rippers-01.jpg"
     },
     {
       "platform": "ScummVM",
@@ -1683,7 +1683,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1993-02-05T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Space Quest V_ The Next Mutation-01.jpg"
+      "cover": "Space%20Quest%20V_%20The%20Next%20Mutation-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -1698,8 +1698,8 @@
       "publisher": "Accolade",
       "releaseDate": "1990-07-01T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "Star Control-01.png",
-      "video": "Star Control-01.mp4"
+      "cover": "Star%20Control-01.png",
+      "video": "Star%20Control-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1714,8 +1714,8 @@
       "publisher": "Accolade",
       "releaseDate": "1992-11-17T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Star Control II-01.png",
-      "video": "Star Control II.1de5eb9b-99b1-4ab8-912e-b2e453ae7a63-01.mp4"
+      "cover": "Star%20Control%20II-01.png",
+      "video": "Star%20Control%20II.1de5eb9b-99b1-4ab8-912e-b2e453ae7a63-01.mp4"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -1730,8 +1730,8 @@
       "publisher": "Konami Co., Ltd.",
       "releaseDate": "1992-02-01T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=iBs5Y76ANjU",
-      "cover": "Star Trek_ 25th Anniversary-01.jpg",
-      "video": "Star Trek_ 25th Anniversary-01.mp4"
+      "cover": "Star%20Trek_%2025th%20Anniversary-01.jpg",
+      "video": "Star%20Trek_%2025th%20Anniversary-01.mp4"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -1746,8 +1746,8 @@
       "publisher": "Nintendo",
       "releaseDate": "1989-04-21T10:00:00+03:00",
       "videoUrl": "https://www.youtube.com/watch?v=Tvysldm_DPw",
-      "cover": "Super Mario Land-02.jpg",
-      "video": "Super Mario Land-01.mp4"
+      "cover": "Super%20Mario%20Land-01.jpg",
+      "video": "Super%20Mario%20Land-01.mp4"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -1778,8 +1778,8 @@
       "publisher": "Electronic Arts",
       "releaseDate": "1997-03-30T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=j9UKHKMomsQ",
-      "cover": "Theme Hospital-01.png",
-      "video": "Theme Hospital-01.mp4"
+      "cover": "Theme%20Hospital-01.png",
+      "video": "Theme%20Hospital-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1825,7 +1825,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1995-10-31T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "Torin_s Passage-01.jpg"
+      "cover": "Torin_s%20Passage-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -1888,8 +1888,8 @@
       "publisher": "sc2.sourceforge.net",
       "releaseDate": "2011-01-01T00:00:00+02:00",
       "videoUrl": "https://youtu.be/w6wbJ7uNBws",
-      "cover": "The Ur-Quan Masters-01.jpg",
-      "video": "The Ur-Quan Masters-01.mp4"
+      "cover": "The%20Ur-Quan%20Masters-01.jpg",
+      "video": "The%20Ur-Quan%20Masters-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1936,7 +1936,7 @@
       "publisher": "Blizzard Entertainment",
       "releaseDate": "1996-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Warcraft II_ Beyond the Dark Portal-01.jpg"
+      "cover": "Warcraft%20II_%20Beyond%20the%20Dark%20Portal-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -1951,8 +1951,8 @@
       "publisher": "Blizzard Entertainment",
       "releaseDate": "1995-12-09T10:00:00+02:00",
       "videoUrl": "https://youtu.be/rFCWKRW5HDI",
-      "cover": "Warcraft II_ Tides of Darkness-01.jpg",
-      "video": "Warcraft II_ Tides of Darkness-01.mp4"
+      "cover": "Warcraft%20II_%20Tides%20of%20Darkness-01.jpg",
+      "video": "Warcraft%20II_%20Tides%20of%20Darkness-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1967,8 +1967,8 @@
       "publisher": "Blizzard Entertainment",
       "releaseDate": "1994-01-15T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=mPvPT9wDLvQ",
-      "cover": "Warcraft_ Orcs & Humans-01.jpg",
-      "video": "Warcraft_ Orcs & Humans-01.mp4"
+      "cover": "Warcraft_%20Orcs%20%26%20Humans-01.jpg",
+      "video": "Warcraft_%20Orcs%20%26%20Humans-01.mp4"
     },
     {
       "platform": "Nintendo Wii",
@@ -1983,8 +1983,8 @@
       "publisher": "Nintendo",
       "releaseDate": "2008-01-15T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "WarioWare_ Smooth Moves-01.png",
-      "video": "WarioWare_ Smooth Moves-01.mp4"
+      "cover": "WarioWare_%20Smooth%20Moves-01.png",
+      "video": "WarioWare_%20Smooth%20Moves-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -1999,8 +1999,8 @@
       "publisher": "Electronic Arts",
       "releaseDate": "1991-09-04T10:00:00+03:00",
       "videoUrl": "http://www.youtube.com/watch?v=08Y0qwFLt54",
-      "cover": "Wing Commander II_ Vengeance of the Kilrathi-01.jpg",
-      "video": "Wing Commander II_ Vengeance of the Kilrathi-01.mp4"
+      "cover": "Wing%20Commander%20II_%20Vengeance%20of%20the%20Kilrathi-01.jpg",
+      "video": "Wing%20Commander%20II_%20Vengeance%20of%20the%20Kilrathi-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -2015,8 +2015,8 @@
       "publisher": "Apogee Software, Ltd.",
       "releaseDate": "1992-05-05T10:00:00+03:00",
       "videoUrl": "https://www.youtube.com/watch?v=7P_dic-pSKo",
-      "cover": "Wolfenstein 3D-01.png",
-      "video": "Wolfenstein 3D-01.mp4"
+      "cover": "Wolfenstein%203D-01.png",
+      "video": "Wolfenstein%203D-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -2046,8 +2046,8 @@
       "publisher": "Capcom",
       "releaseDate": "1996-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=z-rG6RVLeMw",
-      "cover": "X-Men Vs. Street Fighter-01.jpg",
-      "video": "X-Men Vs. Street Fighter-01.mp4"
+      "cover": "X-Men%20Vs.%20Street%20Fighter-01.jpg",
+      "video": "X-Men%20Vs.%20Street%20Fighter-01.mp4"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -2094,8 +2094,8 @@
       "publisher": "Gremlin Interactive Limited",
       "releaseDate": "1994-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Zool 2-01.jpg",
-      "video": "Zool 2-01.mp4"
+      "cover": "Zool%202-01.jpg",
+      "video": "Zool%202-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -2108,7 +2108,7 @@
       "playMode": "",
       "publisher": "מטח",
       "videoUrl": "",
-      "cover": "בונוס-01.png"
+      "cover": "%D7%91%D7%95%D7%A0%D7%95%D7%A1-01.png"
     },
     {
       "platform": "ScummVM",
@@ -2123,7 +2123,7 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1994-03-18T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "גובלינים 3-01.jpg"
+      "cover": "%D7%92%D7%95%D7%91%D7%9C%D7%99%D7%A0%D7%99%D7%9D%203-01.jpg"
     },
     {
       "platform": "ScummVM",
@@ -2138,7 +2138,7 @@
       "publisher": "Lucasfilm Games",
       "releaseDate": "1990-01-01T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "האורגים-01.jpg"
+      "cover": "%D7%94%D7%90%D7%95%D7%A8%D7%92%D7%99%D7%9D-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -2151,7 +2151,7 @@
       "playMode": "",
       "publisher": "ורד הגליל",
       "videoUrl": "",
-      "cover": "ורדית בשביל השוקולד-01.png"
+      "cover": "%D7%95%D7%A8%D7%93%D7%99%D7%AA%20%D7%91%D7%A9%D7%91%D7%99%D7%9C%20%D7%94%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93-01.png"
     },
     {
       "platform": "MS-DOS",
@@ -2164,7 +2164,7 @@
       "playMode": "",
       "publisher": "אסם",
       "videoUrl": "",
-      "cover": "מסיבמבה של במבה-01.png"
+      "cover": "%D7%9E%D7%A1%D7%99%D7%91%D7%9E%D7%91%D7%94%20%D7%A9%D7%9C%20%D7%91%D7%9E%D7%91%D7%94-01.png"
     },
     {
       "platform": "ScummVM",
@@ -2179,7 +2179,7 @@
       "publisher": "Humongous Entertainment",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "פאט פאט על הירח-01.jpg"
+      "cover": "%D7%A4%D7%90%D7%98%20%D7%A4%D7%90%D7%98%20%D7%A2%D7%9C%20%D7%94%D7%99%D7%A8%D7%97-01.jpg"
     },
     {
       "platform": "MS-DOS",
@@ -2194,8 +2194,8 @@
       "publisher": "Paragon Software Corporation",
       "releaseDate": "1990-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "The Amazing Spider-Man-01.png",
-      "video": "The Amazing Spider-Man.7ab3de2a-522c-491e-8343-1f64875712e3-01.mp4"
+      "cover": "The%20Amazing%20Spider-Man-01.png",
+      "video": "The%20Amazing%20Spider-Man.7ab3de2a-522c-491e-8343-1f64875712e3-01.mp4"
     },
     {
       "platform": "Windows",
@@ -2210,8 +2210,8 @@
       "publisher": "THQ Nordic",
       "releaseDate": "1998-11-30T10:00:00+02:00",
       "videoUrl": "http://cdn.akamai.steamstatic.com/steam/apps/2032556/movie_max.webm?t=1447362059",
-      "cover": "Carmageddon 2_ Carpocalypse Now-01.jpg",
-      "video": "Carmageddon 2_ Carpocalypse Now-01.webm"
+      "cover": "Carmageddon%202_%20Carpocalypse%20Now-01.jpg",
+      "video": "Carmageddon%202_%20Carpocalypse%20Now-01.webm"
     },
     {
       "platform": "Arcade",
@@ -2226,8 +2226,8 @@
       "publisher": "Namco",
       "releaseDate": "1995-01-01T00:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=ovC418vaJ60",
-      "cover": "Time Crisis-01.png",
-      "video": "Time Crisis-01.mp4"
+      "cover": "Time%20Crisis-01.png",
+      "video": "Time%20Crisis-01.mp4"
     },
     {
       "platform": "Sega Saturn",
@@ -2242,8 +2242,8 @@
       "publisher": "Sega",
       "releaseDate": "1995-11-24T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=uYFaj6HGcWY",
-      "cover": "Virtua Cop-01.png",
-      "video": "Virtua Cop-01.mp4"
+      "cover": "Virtua%20Cop-01.png",
+      "video": "Virtua%20Cop-01.mp4"
     },
     {
       "platform": "Windows",
@@ -2258,7 +2258,7 @@
       "publisher": "Bethesda Softworks",
       "releaseDate": "2016-05-13T10:00:00+03:00",
       "videoUrl": "https://www.youtube.com/watch?v=RO90omga8D4",
-      "cover": "DOOM-02.png",
+      "cover": "DOOM-01.png",
       "video": "DOOM-01.mp4"
     },
     {
@@ -2274,8 +2274,8 @@
       "publisher": "Nintendo",
       "releaseDate": "2006-11-19T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=-9mnuKggIjo",
-      "cover": "Wii Sports-01.jpg",
-      "video": "Wii Sports-01.mp4"
+      "cover": "Wii%20Sports-01.jpg",
+      "video": "Wii%20Sports-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -2290,8 +2290,8 @@
       "publisher": "Virgin Interactive Entertainment (Europe) Ltd.",
       "releaseDate": "1994-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Cool Spot-01.png",
-      "video": "Cool Spot-01.mp4"
+      "cover": "Cool%20Spot-01.png",
+      "video": "Cool%20Spot-01.mp4"
     }
   ],
   "platforms": {
