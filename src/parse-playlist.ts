@@ -143,49 +143,56 @@ async function getPlaylistData(playlistName: string) {
 
       const matchedFrontBoxes = await FindFiles(
         join(imagesRoot, `${ game.platform }/Box - Front/`),
-        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
         5
       );
       const matchedFrontReconstructedBoxes = await FindFiles(
         join(imagesRoot, `${ game.platform }/Box - Front - Reconstructed/`),
-        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
+        5
+      );
+      const matchedFanartFrontBoxes = await FindFiles(
+        join(imagesRoot, `${ game.platform }/Fanart - Box - Front/`),
+        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
         5
       );
       const matched3DBoxes = await FindFiles(
         join(imagesRoot, `${ game.platform }/Box - 3D/`),
-        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
         5
       );
 
       const matchedVideos = await FindFiles(
         join(videosRoot, `${ game.platform }/`),
-        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
         5
       );
 
       const matchedPlatforms = await FindFiles(
         join(imagesRoot, `Platforms`, game.platform, 'Clear Logo/'),
-        new RegExp(`^${ game.platform.replace(/[^\w\s.&א-ת!-]/ug, '.') }`),
+        new RegExp(`^${ game.platform.replace(/[^\w\s.&א-ת!-]/ug, '.') }((\-\d+)|(\\.[\w-]+))?\\.`),
         5
       );
     
       const matchedFrontBoxFile = closest(game.title, matchedFrontBoxes.map((file: any) => file.file));
       const matchedFrontReconstructedBoxFile = closest(game.title, matchedFrontReconstructedBoxes.map((file: any) => file.file));
+      const matchedFanartFrontBoxFile = closest(game.title, matchedFanartFrontBoxes.map((file: any) => file.file));
       const matched3dBoxFile = closest(game.title, matched3DBoxes.map((file: any) => file.file));
       const matchedVideoFile = closest(game.title, matchedVideos.map((file: any) => file.file));
 
       const matchedFrontBox = matchedFrontBoxes.find((file: any) => file.file === matchedFrontBoxFile);
       const matchedFrontReconstructedBox = matchedFrontReconstructedBoxes.find((file: any) => file.file === matchedFrontReconstructedBoxFile);
+      const matchedFanartFrontBox = matchedFanartFrontBoxes.find((file: any) => file.file === matchedFanartFrontBoxFile);
       const matched3dBox = matched3DBoxes.find((file: any) => file.file === matched3dBoxFile);
       const matchedVideo = matchedVideos.find((file: any) => file.file === matchedVideoFile);
 
-      if (!matchedFrontBox && !matchedFrontReconstructedBox && !matched3dBox) {
-        // console.log(`Could not find box for ${ game.title }`);
+      if (!matchedFrontBox && !matchedFrontReconstructedBox && !matched3dBox && !matchedFanartFrontBox) {
+        console.log(`Could not find box for ${ game.title }`);
       }
 
-      if (!matchedVideo) {
-        // console.log(`Could not find video for ${ game.title }`);
-      }
+      // if (!matchedVideo) {
+      //   console.log(`Could not find video for ${ game.title }`);
+      // }
 
       if (matchedPlatforms.length > 0) {
         const matchedPlatformImageFile = closest(game.platform, matchedPlatforms.map((file: any) => file.file));
@@ -197,7 +204,7 @@ async function getPlaylistData(playlistName: string) {
         imagesToCopy.push(matchedPlatformImage);
       }
 
-      imagesToCopy.push(matchedFrontBox || matchedFrontReconstructedBox || matched3dBox);
+      imagesToCopy.push(matchedFrontBox || matchedFrontReconstructedBox || matchedFanartFrontBox || matched3dBox);
       imagesToCopy.push(matchedVideo);
 
       platformGameInfoProgress += 10;
@@ -218,7 +225,7 @@ async function getPlaylistData(playlistName: string) {
           releaseDate: matchingPlatformGame.ReleaseDate,
           videoUrl: matchingPlatformGame.VideoUrl,
           wikipediaUrl: matchingPlatformGame.WikipediaUrl,
-          cover: (matchedFrontBox || matchedFrontReconstructedBox || matched3dBox)?.file,
+          cover: (matchedFrontBox || matchedFrontReconstructedBox || matchedFanartFrontBox || matched3dBox)?.file,
           video: matchedVideo?.file,
         }
       }
@@ -233,20 +240,20 @@ async function getPlaylistData(playlistName: string) {
       stepName: '📁✅ Creating Result Folder'
     });
 
-    removeSync(join(__dirname, '..', 'result'));
-    ensureDirSync(join(__dirname, '..', 'result'));
-    ensureDirSync(join(__dirname, '..', 'result', 'assets'));
-    writeJSONSync(join(__dirname, '..', 'result', 'assets', 'playlist-data.json'), playlist, { spaces: 2 });
+    const assetFolder = join(__dirname, '..', 'lb-playlist-ui', 'src', 'assets');
+    removeSync(assetFolder);
+    ensureDirSync(assetFolder);
+    writeJSONSync(join(assetFolder, 'playlist-data.json'), playlist, { spaces: 2 });
     imagesToCopy.forEach((image: any, index: number) => {
       createResultFolderProgressBar.update(index);
       if (!image) return;
 
       if (isString(image)) {
-        copyFileSync(image, join(__dirname, '..', 'result', 'assets', parse(image).base));
+        copyFileSync(image, join(assetFolder, parse(image).base));
         return;
       }
 
-      copyFileSync(join(image.dir, image.file), join(__dirname, '..', 'result', 'assets', image.file));
+      copyFileSync(join(image.dir, image.file), join(assetFolder, image.file));
     });
 
     // update to 100%
