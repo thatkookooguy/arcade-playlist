@@ -159,7 +159,8 @@
       "publisher": "Sierra On-Line",
       "releaseDate": "1995-04-07T10:00:00+03:00",
       "videoUrl": "",
-      "cover": "The%20Bizarre%20Adventures%20of%20Woodruff%20and%20the%20Schnibble-01.jpg"
+      "cover": "The%20Bizarre%20Adventures%20of%20Woodruff%20and%20the%20Schnibble-01.jpg",
+      "video": "The%20Bizarre%20Adventures%20of%20Woodruff%20and%20the%20Schnibble-01.mp4"
     },
     {
       "platform": "Nintendo DS",
@@ -397,7 +398,8 @@
       "publisher": "LucasArts",
       "releaseDate": "1997-10-31T10:00:00+02:00",
       "videoUrl": "",
-      "cover": "The%20Curse%20of%20Monkey%20Island-01.jpg"
+      "cover": "The%20Curse%20of%20Monkey%20Island-01.jpg",
+      "video": "The%20Curse%20of%20Monkey%20Island-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -523,7 +525,7 @@
       "releaseDate": "1996-01-29T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=jNOU3BSB_bc",
       "cover": "Duke%20Nukem%203D.0e6d30f4-4092-4053-87f0-e6645db07943-01.png",
-      "video": "Duke%20Nukem%203D.7f813358-0b0b-454d-9239-914f6c6cf200-01.mp4"
+      "video": "Duke%20Nukem%203D.0e6d30f4-4092-4053-87f0-e6645db07943-01.mp4"
     },
     {
       "platform": "MS-DOS",
@@ -915,7 +917,7 @@
       "publisher": "Psygnosis",
       "releaseDate": "1991-02-14T10:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=IN-Ob5phQ1M",
-      "cover": "Lemmings-01.png",
+      "cover": "Lemmings-01.jpg",
       "video": "Lemmings-01.mp4"
     },
     {
