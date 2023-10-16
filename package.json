@@ -6,8 +6,8 @@
   "scripts": {
     "lint:code": "eslint . --ext .ts",
     "lint:code:fix": "eslint . --ext .ts --fix",
-    "lint:style": "stylelint \"src/**/*.scss\"",
-    "lint:style:fix": "stylelint \"src/**/*.scss\" --fix",
+    "lint:style": "stylelint \"**/*.scss\"",
+    "lint:style:fix": "stylelint \"**/*.scss\" --fix",
     "lint": "npm run lint:code && npm run lint:style",
     "lint:fix": "npm run lint:code:fix && npm run lint:style:fix",
     "build": "tsc",
