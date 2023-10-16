@@ -130,3 +130,10 @@
         }
     }
 }
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-block-end: 1em;
+    gap: 1em;
+}

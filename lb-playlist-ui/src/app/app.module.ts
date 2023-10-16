@@ -1,4 +1,4 @@
-import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
+import { APP_BASE_HREF, CommonModule, PlatformLocation } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -9,15 +9,18 @@ import { ModalContainerComponent } from './modal-container/modal-container.compo
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { getBaseHref } from './base-href';
+import { StarsComponent } from './stars/stars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GameCollectionComponent,
     ModalContainerComponent,
-    GameDetailsComponent
+    GameDetailsComponent,
+    StarsComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     HttpClientModule,
     AppRoutingModule

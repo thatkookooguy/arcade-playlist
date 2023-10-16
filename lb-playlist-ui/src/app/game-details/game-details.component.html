@@ -1,17 +1,20 @@
 <ng-container *ngIf="gameDetails">
 <div class="kb-game-details">
     <div class="header">
-        <h2><strong>Game Details:</strong> {{ gameDetails.title }}</h2>
+        <h2>{{ gameDetails.title }}</h2>
         <button (click)="closeDetails()" class="kb-close-button">X</button>
     </div>
     <div class="content">
         <div class="info">
+            <div class="rating">
+                <kb-stars [rating]="gameDetails.communityStarRating" ></kb-stars>
+                {{ gameDetails.communityStarRating | number: '1.1-2' }}
+                ({{ gameDetails.communityStarRatingTotalVotes }} votes)
+            </div>
             <div><strong>Developer:</strong> {{ gameDetails.developer }}</div>
-            <div><strong>Release Date:</strong> {{ gameDetails.releaseDate }}</div>
+            <div><strong>Release Date:</strong> {{ gameDetails.releaseDate | date: 'mediumDate' }}</div>
             <div><strong>Publisher:</strong> {{ gameDetails.publisher }}</div>
             <div><strong>Platform:</strong> {{ gameDetails.platform }}</div>
-            <div><strong>Rating:</strong> {{ gameDetails.communityStarRating | number }} ({{
-                gameDetails.communityStarRatingTotalVotes }})</div>
             <p>{{ gameDetails.description }}</p>
             <div class="platform-logo">
                 <img [src]="baseHref + 'assets/' + platform.image" alt="{{ platform.name }}" />
