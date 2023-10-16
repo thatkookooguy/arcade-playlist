@@ -250,7 +250,7 @@ async function getPlaylistData(playlistName: string) {
     if (game.video) {
       game.video = encodeURIComponent(game.video);
     }
-  })
+  });
 
   const assetFolder = join(__dirname, '..', 'lb-playlist-ui', 'src', 'assets');
   removeSync(assetFolder);
