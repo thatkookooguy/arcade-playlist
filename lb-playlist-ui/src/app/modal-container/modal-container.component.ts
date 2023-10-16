@@ -18,7 +18,7 @@ export class ModalContainerComponent implements OnDestroy {
     route.params.pipe(takeUntil(this.destroy)).subscribe((params) => {
       // When router navigates on this component is takes the params and opens up the photo detail modal
       // this.currentDialog = this.modalService.open(PhotoDetailComponent, {centered: true});
-      this.gameId = params.id;
+      this.gameId = params['id'];
     });
   }
 
