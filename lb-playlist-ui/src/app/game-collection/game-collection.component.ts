@@ -24,5 +24,4 @@ export class GameCollectionComponent implements OnInit {
         };
       });
   }
-  public readonly encodeURIComponent = encodeURIComponent;
 }

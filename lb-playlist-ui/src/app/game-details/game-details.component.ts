@@ -59,6 +59,4 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
       this.router.navigate([ { outlets: { 'game-details': null } } ]);
     }, { once: true });
   }
-
-  readonly encodeURIComponent = encodeURIComponent;
 }
