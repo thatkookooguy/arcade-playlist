@@ -1,74 +1,88 @@
 .header {
-    padding: 0 1em;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-grow: 0;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 1em;
 
     .kb-playlist-info {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
         flex-grow: 0;
+        justify-content: space-between;
+        align-items: center;
+
         // gap: 1em;
 
         h2 {
-            font-size: 2em;
             font-weight: bold;
+            font-size: 2em;
         }
 
         .kb-playlist-image {
-            padding: 1em;
             width: 100px;
             height: 100px;
+            padding: 1em;
+
             border-radius: 5px;
         }
     }
 
     .kb-close-button {
+        padding: .5em;
+
+        // add custom styling
+        color: #ffffff;
+        font-size: 1.5em;
+
         // remove button styling
         border: none;
+
         background: none;
-        // add custom styling
-        color: #fff;
-        padding: .5em;
-        font-size: 1.5em;
+
         cursor: pointer;
     }
 }
 
 .kb-playlist-collection {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-flow: row wrap;
+    gap: 10px;
     justify-content: center;
+    align-items: center;
+
     width: 100%;
     height: 100%;
-    gap: 10px;
+
     overflow-y: auto;
 
     .kb-card {
+        width: 200px;
+        height: 400px;
+
+        // background: rgba(pink, 0.5);
+        padding: 5px 8px 8px;
+
+        border-radius: 5px;
+
         > a {
             color: inherit; /* blue colors for links too */
             text-decoration: inherit; /* no underline */
         }
-        border-radius: 5px;
-        width: 200px;
-        height: 400px;
-        // background: rgba(pink, 0.5);
-        padding: 5px 8px 8px;
 
         .kb-cover-container {
-            height: 300px;
-            width: 100%;
             display: flex;
             align-items: center;
+
+            width: 100%;
+            height: 300px;
+
             overflow: hidden;
         }
 
         img, video {
             width: 100%;
+
             border-radius: 5px;
         }
 

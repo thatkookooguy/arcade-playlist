@@ -1,23 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 
 * {
-    line-height: 1.5;
     box-sizing: border-box;
+
+    line-height: 1.5;
 }
 
 html, body {
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
+
     overflow: hidden;
 }
 
 body {
-    background-color: #212121;
     color: white;
-    font-family: 'Comfortaa', sans-serif;
     font-size: 14px;
+    font-family: Comfortaa, sans-serif;
+
+    background-color: #212121;
 
     &.modal-open {
         overflow: hidden;
@@ -25,7 +28,7 @@ body {
 }
 
 html::-webkit-scrollbar {
-    padding-right: 20px;
+    padding-inline-end: 20px;
 }
 
 /* custom scrollbar */
@@ -38,10 +41,12 @@ html::-webkit-scrollbar {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgba(white, .2);
-    border-radius: 20px;
     border: 6px solid transparent;
+    border-radius: 20px;
+
+    background-color: rgb(white .2);
     background-clip: content-box;
+
     transition: background-color .3s ease-in-out;
 }
 
