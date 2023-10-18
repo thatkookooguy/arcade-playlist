@@ -1,27 +1,23 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'kb-soft-tabs',
   templateUrl: './soft-tabs.component.html',
   styleUrls: [ './soft-tabs.component.scss' ]
 })
-export class SoftTabsComponent implements OnInit {
-  activeTab: string = '';
-  activeTabIndex: number = 0;
-
+export class SoftTabsComponent {
   @Input() tabs: string[] = [];
+
+  @Input() activeTab!: string;
+  @Output() activeTabChange = new EventEmitter<string>();
 
   @Output()
     handleTabSelection = new EventEmitter<string>();
 
-  ngOnInit(): void {
-    this.activeTab = this.tabs[this.activeTabIndex];
-  }
-
   selectTab(tabIndex: number) {
     console.log('selectTab', tabIndex);
-    this.activeTabIndex = tabIndex;
     this.activeTab = this.tabs[tabIndex];
-    this.handleTabSelection.emit(this.tabs[tabIndex]);
+    this.activeTabChange.emit(this.activeTab);
+    // this.handleTabSelection.emit(this.tabs[tabIndex]);
   }
 }

@@ -7,7 +7,7 @@
     type="radio"
     name="tabs"
     id="radio-{{ i }}"
-    [checked]="i === activeTabIndex"
+    [checked]="tab === activeTab"
   />
   <label
     class="tab"
@@ -18,5 +18,5 @@
     {{ tab }}
   </label>
 </ng-container>
-  <span class="glider" [style.transform]="'translateX(' + (activeTabIndex * 100) + '%)'"></span>
+  <span class="glider" [style.transform]="'translateX(' + ((tabs.indexOf(activeTab) === -1 ? 0 : tabs.indexOf(activeTab)) * 100) + '%)'"></span>
 </div>

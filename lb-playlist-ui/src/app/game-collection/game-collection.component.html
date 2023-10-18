@@ -11,7 +11,8 @@
   <div class="sorting">
     <kb-soft-tabs
       [tabs]="gameSortOptions"
-      (handleTabSelection)="handleTabSelection($event)"
+      [activeTab]="sortBy"
+      (activeTabChange)="handleTabSelection($event)"
     ></kb-soft-tabs>
   </div>
   <div class="kb-playlist-collection">

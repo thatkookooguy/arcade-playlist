@@ -18,7 +18,7 @@ export class GameCollectionComponent implements OnInit {
     'Release Date'
   ];
 
-  public test: string = 'nothing happend yet';
+  public sortBy: string = this.gameSortOptions[0];
 
   constructor(
     @Inject(APP_BASE_HREF) public baseHref: string,
@@ -46,7 +46,7 @@ export class GameCollectionComponent implements OnInit {
       queryParams: { sortBy: tabName },
       queryParamsHandling: 'merge'
     });
-    this.test = tabName;
+    this.sortBy = tabName;
 
     if (tabName === 'A - Z') {
       this.playlistData.games = this.playlistData.games.sort((a: any, b: any) => {
