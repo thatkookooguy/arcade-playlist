@@ -20,6 +20,7 @@ export class StarsComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
+    // eslint-disable-next-line dot-notation
     if (changes['size']) {
       this.updateModalSize();
     }
