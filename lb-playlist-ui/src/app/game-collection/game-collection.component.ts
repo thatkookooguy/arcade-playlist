@@ -1,7 +1,9 @@
 import { uniqBy } from 'lodash-es';
+import { combineLatest } from 'rxjs';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, Inject, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'kb-game-collection',
@@ -20,20 +22,30 @@ export class GameCollectionComponent implements OnInit {
 
   constructor(
     @Inject(APP_BASE_HREF) public baseHref: string,
-    private readonly httpClient: HttpClient
+    private readonly httpClient: HttpClient,
+    private readonly router: Router,
+    private readonly route: ActivatedRoute
   ) { }
   ngOnInit(): void {
-    this.httpClient.get(`${ this.baseHref }assets/playlist-data.json`)
-      .subscribe((playlistData: any) => {
+    combineLatest([
+      this.httpClient.get(`${ this.baseHref }assets/playlist-data.json`),
+      this.route.queryParamMap
+    ])
+      .subscribe(([ playlistData, queryParams ]: any) => {
         this.playlistData = {
           ...playlistData,
           games: uniqBy(playlistData.games, 'title')
         };
+
+        this.handleTabSelection(queryParams.params.sortBy || 'A - Z');
       });
   }
 
-  handleTabSelection(tabName: string) {
-    console.log('handleTabSelection', tabName);
+  async handleTabSelection(tabName: string) {
+    await this.router.navigate([], {
+      queryParams: { sortBy: tabName },
+      queryParamsHandling: 'merge'
+    });
     this.test = tabName;
 
     if (tabName === 'A - Z') {
