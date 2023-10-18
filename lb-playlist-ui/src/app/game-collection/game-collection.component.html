@@ -2,14 +2,20 @@
   <iframe src="https://olafwempe.com/mp3/silence/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
   <div class="header">
     <div class="kb-playlist-info">
-      <img [src]="baseHref + 'assets/' + playlistData.cover" alt="{{ playlistData.name }}" class="kb-playlist-image" />
+      <img class="kb-playlist-image" [src]="baseHref + 'assets/' + playlistData.cover" alt="{{ playlistData.name }}" />
       <h2>
         {{ playlistData.name }}
       </h2>
     </div>
   </div>
+  <div class="sorting">
+    <kb-soft-tabs
+      [tabs]="gameSortOptions"
+      (handleTabSelection)="handleTabSelection($event)"
+    ></kb-soft-tabs>
+  </div>
   <div class="kb-playlist-collection">
-    <div class="kb-card" *ngFor="let game of playlistData.games">
+    <div *ngFor="let game of playlistData.games" class="kb-card">
       <a [routerLink]="[{ outlets: { 'game-details': [game.id] } }]">
         <div class="kb-cover-container">
           <img *ngIf="game.cover" src="{{ baseHref }}assets/{{ game.cover }}" alt="{{ game.title }}">

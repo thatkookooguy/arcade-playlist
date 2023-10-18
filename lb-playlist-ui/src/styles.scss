@@ -54,6 +54,13 @@ html::-webkit-scrollbar {
     background-color: #a8bbbf;
 }
 
+/* if device width is under 365 px, hide the .sorting and .searching */
+@media (max-width: 365px) {
+    .sorting, .searching {
+        opacity: 0;
+    }
+}
+
 /* reveal animation using opacity */
 @keyframes kb-reveal {
     0% {

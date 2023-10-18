@@ -5,19 +5,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { GameCollectionComponent } from './game-collection/game-collection.component';
 import { GameDetailsComponent } from './game-details/game-details.component';
-import { ModalContainerComponent } from './modal-container/modal-container.component';
+import { SoftTabsComponent } from './soft-tabs/soft-tabs.component';
 import { StarsComponent } from './stars/stars.component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { getBaseHref } from './base-href';
+import { SafePipe } from './safe.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     GameCollectionComponent,
-    ModalContainerComponent,
     GameDetailsComponent,
-    StarsComponent
+    StarsComponent,
+    SoftTabsComponent,
+    SafePipe
   ],
   imports: [
     CommonModule,
