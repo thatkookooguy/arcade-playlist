@@ -1,0 +1,18 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.rulers": [
+    120
+  ],
+  "editor.matchBrackets": "always",
+  "terminal.integrated.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "debug.javascript.autoAttachFilter": "smart",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "eslint.format.enable": true,
+  "typescript.format.enable": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+}
