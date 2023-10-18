@@ -16,7 +16,7 @@
   </div>
   <div class="kb-playlist-collection">
     <div *ngFor="let game of playlistData.games" class="kb-card">
-      <a [routerLink]="[{ outlets: { 'game-details': [game.id] } }]">
+      <a queryParamsHandling="merge" [routerLink]="[{ outlets: { 'game-details': [game.id] } }]">
         <div class="kb-cover-container">
           <img *ngIf="game.cover" src="{{ baseHref }}assets/{{ game.cover }}" alt="{{ game.title }}">
         </div>

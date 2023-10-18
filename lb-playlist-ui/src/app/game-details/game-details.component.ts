@@ -56,7 +56,9 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
 
     // listen to transition end event once and navigate back to game collection
     this.elRef.nativeElement.addEventListener('animationend', () => {
-      this.router.navigate([ { outlets: { 'game-details': null } } ]);
+      this.router.navigate([ { outlets: { 'game-details': null } } ], {
+        queryParamsHandling: 'merge'
+      });
     }, { once: true });
   }
 
