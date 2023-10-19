@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+        href="./style.css">
+
+</head>
+
+<body class="kb-body">
+
+<div class="side">
+  <img src="" id="side-1">
+</div>
+<div class="main front">
+  <img src="" id="front">
+</div>
+<div class="side">
+  <img src="" id="side-1">
+</div>
+<div class="main back">
+  <img src="" id="back">
+</div>
+
+<script>
+  const activate = (data) => {
+    document.getElementById('side-1').src = data.side1;
+    document.getElementById('side-2').src = data.side2;
+    document.getElementById('front').src = data.front;
+    document.getElementById('side-1').src = data.side1;
+  }
+</script>
+</body>
+
+</html>
