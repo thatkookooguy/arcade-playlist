@@ -1,3 +1,4 @@
+/* eslint-disable require-atomic-updates */
 import { join, parse } from 'path';
 
 import cliProgress from 'cli-progress';
@@ -143,50 +144,19 @@ async function getPlaylistData(playlistName: string) {
     }
     const matchingPlatformGame = platformData.LaunchBox.Game.find((platformGame: ILBPlatformGame) => platformGame.ID === game.id);
 
-    const matchedFrontBoxes = await FindFiles(
-      join(imagesRoot, `${ game.platform }/Box - Front/`),
-      new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
-      5
-    );
-    const matchedFrontReconstructedBoxes = await FindFiles(
-      join(imagesRoot, `${ game.platform }/Box - Front - Reconstructed/`),
-      new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
-      5
-    );
-    const matchedFanartFrontBoxes = await FindFiles(
-      join(imagesRoot, `${ game.platform }/Fanart - Box - Front/`),
-      new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
-      5
-    );
-    const matched3DBoxes = await FindFiles(
-      join(imagesRoot, `${ game.platform }/Box - 3D/`),
-      new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
-      5
-    );
-
-    const matchedVideos = await FindFiles(
-      join(videosRoot, `${ game.platform }/`),
-      new RegExp(`^${ game.title.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
-      5
-    );
-
     const matchedPlatforms = await FindFiles(
       join(imagesRoot, 'Platforms', game.platform, 'Clear Logo/'),
       new RegExp(`^${ game.platform.replace(/[^\w\s.&א-ת!-]/ug, '.') }((\-\d+)|(\\.[\w-]+))?\\.`),
       5
     );
 
-    const matchedFrontBoxFile = closest(game.title, matchedFrontBoxes.map((file: any) => file.file));
-    const matchedFrontReconstructedBoxFile = closest(game.title, matchedFrontReconstructedBoxes.map((file: any) => file.file));
-    const matchedFanartFrontBoxFile = closest(game.title, matchedFanartFrontBoxes.map((file: any) => file.file));
-    const matched3dBoxFile = closest(game.title, matched3DBoxes.map((file: any) => file.file));
-    const matchedVideoFile = closest(game.title, matchedVideos.map((file: any) => file.file));
-
-    const matchedFrontBox = matchedFrontBoxes.find((file: any) => file.file === matchedFrontBoxFile);
-    const matchedFrontReconstructedBox = matchedFrontReconstructedBoxes.find((file: any) => file.file === matchedFrontReconstructedBoxFile);
-    const matchedFanartFrontBox = matchedFanartFrontBoxes.find((file: any) => file.file === matchedFanartFrontBoxFile);
-    const matched3dBox = matched3DBoxes.find((file: any) => file.file === matched3dBoxFile);
-    const matchedVideo = matchedVideos.find((file: any) => file.file === matchedVideoFile);
+    const matchedFrontBox = await getGameImageFromLaunchBox(game.title, game.platform, 'Box - Front');
+    const matchedFrontReconstructedBox = await getGameImageFromLaunchBox(game.title, game.platform, 'Box - Front - Reconstructed');
+    const matchedFanartFrontBox = await getGameImageFromLaunchBox(game.title, game.platform, 'Fanart - Box - Front');
+    const matched3dBox = await getGameImageFromLaunchBox(game.title, game.platform, 'Box - 3D');
+    const matchedSpine = await getGameImageFromLaunchBox(game.title, game.platform, 'Box - Spine');
+    const matchedBack = await getGameImageFromLaunchBox(game.title, game.platform, 'Box - Back');
+    const matchedVideo = await getGameImageFromLaunchBox(game.title, game.platform, 'Videos');
 
     if (!matchedFrontBox && !matchedFrontReconstructedBox && !matched3dBox && !matchedFanartFrontBox) {
       console.log(`Could not find box for ${ game.title }`);
@@ -228,7 +198,9 @@ async function getPlaylistData(playlistName: string) {
         videoUrl: matchingPlatformGame.VideoUrl,
         wikipediaUrl: matchingPlatformGame.WikipediaUrl,
         cover: (matchedFrontBox || matchedFrontReconstructedBox || matchedFanartFrontBox || matched3dBox)?.file,
-        video: matchedVideo?.file
+        video: matchedVideo?.file,
+        spine: matchedSpine?.file,
+        back: matchedBack?.file
       }
     };
   }));
@@ -273,4 +245,21 @@ async function getPlaylistData(playlistName: string) {
     stepName: '📁✅ Created Result Folder'
   });
   createResultFolderProgressBar.stop();
+}
+
+async function getGameImageFromLaunchBox(
+  gameTitle: string,
+  platform: string,
+  imageType: string
+) {
+  const matchedImages = await FindFiles(
+    join(imagesRoot, `${ platform }/${ imageType }/`),
+    new RegExp(`^${ gameTitle.replace(/[^\w\s.&א-ת!-]/ug, '.') }(\\.[\\w-]+)?(-\\d+)?\\.`),
+    5
+  );
+
+  const matchedImageFile = closest(gameTitle, matchedImages.map((file: any) => file.file));
+  const matchedImage = matchedImages.find((file: any) => file.file === matchedImageFile);
+
+  return matchedImage;
 }
