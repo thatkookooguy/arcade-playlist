@@ -1,45 +1,69 @@
+import { spawn } from 'child_process';
 import { join } from 'path';
 
-import { ensureDirSync, readFileSync, readJSONSync, writeFileSync } from 'fs-extra';
-import { kebabCase } from 'lodash';
-import probe from 'probe-image-size';
-import { SvgMaker, SvgMakerResultType } from '@kibibit/kb-hologram';
+import { readJSONSync, writeJsonSync } from 'fs-extra';
 
 const assetsFolder = join(__dirname, '..', 'lb-playlist-ui', 'src', 'assets');
-const spineFolder = join(assetsFolder, 'spine');
-const backFolder = join(assetsFolder, 'back');
 
-(async () => {
+(() => {
+  const games3dBoxes: Record<string, string> = {};
   const playlist = readJSONSync(join(assetsFolder, 'playlist-data.json'));
+  const numberOfTotalGames = playlist.games.length;
+  let numberOfDoneGames = 0;
+  let numberOfFailedGames = 0;
+  let numberOfSkippedGames = 0;
 
-  playlist.games.forEach(async (gameDetails: any) => {
-    try {
-      if (!gameDetails.spine || !gameDetails.back) {
+  playlist.games.forEach((gameDetails: any) => {
+    if (!gameDetails.back) {
+      numberOfDoneGames++;
+      numberOfSkippedGames++;
+      return;
+    }
+
+    const child = spawn(
+      process.execPath,
+      [ join(__dirname, 'single-3d-box-process.js'), JSON.stringify(gameDetails) ]
+    );
+
+    child.stdout.on('data', (data) => {
+      const dataAsString = data.toString();
+      const isDoneMessage = dataAsString.startsWith('[DONE]');
+      if (isDoneMessage) {
+        const messageJsonPart = dataAsString
+          .replace('[DONE]', '')
+          .trim();
+        const parsedMessage = JSON.parse(messageJsonPart);
+        // console.log('parsedMessage', parsedMessage);
+        games3dBoxes[parsedMessage.title] = parsedMessage.box3D;
         return;
       }
+      // console.log(`stdout: ${ data }`);
+    });
 
-      console.log(gameDetails.cover);
-      const coverImageDetails = probe.sync(readFileSync(join(assetsFolder, unescape(gameDetails.cover))));
-      console.log(coverImageDetails);
-      const svgMaker = new SvgMaker({
-        type: 'html',
-        width: (coverImageDetails?.width || 600 ) * 2.5,
-        height: coverImageDetails?.height || 900,
-        templateFile: join(__dirname, './template/index.html'),
-        data: {
-          side1: join(spineFolder, gameDetails.spine),
-          side2: join(spineFolder, gameDetails.spine),
-          front: join(assetsFolder, gameDetails.cover),
-          back: join(backFolder, gameDetails.back)
-        }
-      });
+    child.stderr.on('data', (data) => {
+      console.error(`stderr: ${ data }`);
+      numberOfFailedGames++;
+    });
 
-      const result = await svgMaker.render(SvgMakerResultType.PngBuffer);
-      ensureDirSync(join(__dirname, '..', 'lb-playlist-ui', 'src', 'assets', '3d-box-textures'));
-      writeFileSync(join(__dirname, '..', 'lb-playlist-ui', 'src', 'assets', '3d-box-textures', kebabCase(gameDetails.title) + '.png'), result);
-    } catch (error) {
-      console.error(error);
-    }
+    child.on('exit', (code) => {
+      numberOfDoneGames++;
+      console.log(`child process exited with code ${ code }`);
+
+      if (numberOfDoneGames === numberOfTotalGames) {
+        console.log('games3dBoxes', games3dBoxes);
+        console.log('numberOfDoneGames', numberOfDoneGames);
+        console.log('numberOfFailedGames', numberOfFailedGames);
+        console.log('numberOfSkippedGames', numberOfSkippedGames);
+
+        playlist.games.forEach((gameDetails: any) => {
+          if (games3dBoxes[gameDetails.title]) {
+            gameDetails.box3D = encodeURIComponent(games3dBoxes[gameDetails.title]);
+            // gameDetails.boxColor = games3dBoxes[gameDetails.title].boxColor;
+          }
+        });
+
+        writeJsonSync(join(assetsFolder, 'playlist-data.json'), playlist, { spaces: 2 });
+      }
+    });
   });
-  // const gameDetails = playlist.games.find((game: any) => game.spine && game.back);
 })();
