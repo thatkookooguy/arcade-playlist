@@ -8,6 +8,7 @@ body {
   height: 100vh;
   display: flex;
   background: #212121;
+  --color: #212121;
 }
 
 img {
@@ -18,10 +19,10 @@ img {
 
 .side {
   width: 10%;
-  background: pink;
+  background: var(--color);
 }
 
 .main {
   width: 40%;
-  background: green;
+  background: var(--color);
 }

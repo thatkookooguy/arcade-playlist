@@ -27,10 +27,33 @@
 
 <script>
   const activate = (data) => {
-    document.getElementById('side-1').src = data.side1;
-    document.getElementById('side-2').src = data.side2;
-    document.getElementById('front').src = data.front;
-    document.getElementById('back').src = data.back;
+    if (data.side1) {
+      document.getElementById('side-1').src = data.side1;
+    } else {
+      document.getElementById('side-1').remove();
+    }
+
+    if (data.side2) {
+      document.getElementById('side-2').src = data.side2;
+    } else {
+      document.getElementById('side-2').remove();
+    }
+
+    if (data.front) {
+      document.getElementById('front').src = data.front;
+    } else {
+      document.getElementById('front').remove();
+    }
+
+    if (data.back) {
+      document.getElementById('back').src = data.back;
+    } else {
+      document.getElementById('back').remove();
+    }
+
+    if (data.color) {
+      document.body.style.setProperty('--color', data.color);
+    }
   }
 </script>
 </body>
