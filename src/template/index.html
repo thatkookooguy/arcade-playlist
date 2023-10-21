@@ -13,16 +13,16 @@
 <body class="kb-body">
 
 <div class="side">
-  <img src="" id="side-1">
+  <img src="./cardboard.png" id="side-1">
 </div>
 <div class="main front">
-  <img src="" id="front">
+  <img id="front">
 </div>
 <div class="side">
-  <img src="" id="side-2">
+  <img src="./cardboard.png" id="side-2">
 </div>
 <div class="main back">
-  <img src="" id="back">
+  <img id="back">
 </div>
 
 <script>
@@ -30,13 +30,13 @@
     if (data.side1) {
       document.getElementById('side-1').src = data.side1;
     } else {
-      document.getElementById('side-1').remove();
+      document.getElementById('side-1').classList.add('texture');
     }
 
     if (data.side2) {
       document.getElementById('side-2').src = data.side2;
     } else {
-      document.getElementById('side-2').remove();
+      document.getElementById('side-2').classList.add('texture');
     }
 
     if (data.front) {

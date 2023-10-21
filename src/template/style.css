@@ -3,12 +3,21 @@ html, body {
   padding: 0;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   display: flex;
   background: #212121;
   --color: #212121;
+}
+
+.texture img {
+  opacity: 0.5;
 }
 
 img {
@@ -20,9 +29,11 @@ img {
 .side {
   width: 10%;
   background: var(--color);
+  height: 100%;
 }
 
 .main {
   width: 40%;
   background: var(--color);
+  height: 100%;
 }
