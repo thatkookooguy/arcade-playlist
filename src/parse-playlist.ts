@@ -34,7 +34,7 @@ const launchBoxRoot = join('E:/', 'LaunchBox');
 const platformDataRoot = join(launchBoxRoot, 'Data/Platforms');
 const playlistDataRoot = join(launchBoxRoot, 'Data/Playlists');
 const imagesRoot = join(launchBoxRoot, 'Images');
-const videosRoot = join(launchBoxRoot, 'Videos');
+// const videosRoot = join(launchBoxRoot, 'Videos');
 
 (async () => {
   /**
