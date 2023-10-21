@@ -7,6 +7,7 @@ const assetsFolder = join(__dirname, '..', 'lb-playlist-ui', 'src', 'assets');
 
 (() => {
   const games3dBoxes: Record<string, string> = {};
+  const extraGameDetails: Record<string, any> = {};
   const playlist = readJSONSync(join(assetsFolder, 'playlist-data.json'));
   const numberOfTotalGames = playlist.games.length;
   let numberOfDoneGames = 0;
@@ -35,6 +36,13 @@ const assetsFolder = join(__dirname, '..', 'lb-playlist-ui', 'src', 'assets');
         const parsedMessage = JSON.parse(messageJsonPart);
         // console.log('parsedMessage', parsedMessage);
         games3dBoxes[parsedMessage.title] = parsedMessage.box3D;
+        extraGameDetails[parsedMessage.title] = {
+          boxColor: parsedMessage.boxColor,
+          frontWidth: parsedMessage.frontWidth,
+          frontHeight: parsedMessage.frontHeight,
+          spineWidth: parsedMessage.spineWidth,
+          spineHeight: parsedMessage.spineHeight
+        };
         return;
       }
       // console.log(`stdout: ${ data }`);
@@ -58,7 +66,11 @@ const assetsFolder = join(__dirname, '..', 'lb-playlist-ui', 'src', 'assets');
         playlist.games.forEach((gameDetails: any) => {
           if (games3dBoxes[gameDetails.title]) {
             gameDetails.box3D = encodeURIComponent(games3dBoxes[gameDetails.title]);
-            // gameDetails.boxColor = games3dBoxes[gameDetails.title].boxColor;
+            gameDetails.boxColor = extraGameDetails[gameDetails.title]?.boxColor;
+            gameDetails.frontWidth = extraGameDetails[gameDetails.title]?.frontWidth;
+            gameDetails.frontHeight = extraGameDetails[gameDetails.title]?.frontHeight;
+            gameDetails.spineWidth = extraGameDetails[gameDetails.title]?.spineWidth;
+            gameDetails.spineHeight = extraGameDetails[gameDetails.title]?.spineHeight;
           }
         });
 

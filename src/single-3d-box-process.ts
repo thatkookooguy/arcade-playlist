@@ -16,6 +16,7 @@ const backFolder = join(assetsFolder, 'back');
   try {
     // console.log(gameDetails.cover);
     const coverImageDetails = probe.sync(readFileSync(join(assetsFolder, decodeURIComponent(gameDetails.cover))));
+    const spineImageDetails = gameDetails.spine ? probe.sync(readFileSync(join(spineFolder, gameDetails.spine))) : {} as Record<string, any>;
     let backColors;
     try {
       if (!gameDetails.back) {
@@ -52,7 +53,11 @@ const backFolder = join(assetsFolder, 'back');
     console.log('[DONE]', JSON.stringify({
       title: gameDetails.title,
       box3D: kebabCase(gameDetails.title) + '.png',
-      boxColor: isString(backColors[0]) ? backColors[0] : backColors[0].hex()
+      boxColor: isString(backColors[0]) ? backColors[0] : backColors[0].hex(),
+      frontWidth: coverImageDetails?.width,
+      frontHeight: coverImageDetails?.height,
+      spineWidth: spineImageDetails?.width,
+      spineHeight: spineImageDetails?.height
     }));
   } catch (error) {
     console.error(error);
