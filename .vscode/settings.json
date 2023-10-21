@@ -7,7 +7,7 @@
   ],
   "editor.matchBrackets": "always",
   "terminal.integrated.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-  "debug.javascript.autoAttachFilter": "smart",
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
   },
