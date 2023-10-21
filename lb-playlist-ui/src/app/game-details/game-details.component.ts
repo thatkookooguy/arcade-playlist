@@ -64,9 +64,9 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
 
   toggleMute(video: HTMLVideoElement) {
     if (video.muted) {
-      video.muted = false; // Unmute the video
+      video.muted = false;
     } else {
-      video.muted = true; // Mute the video
+      video.muted = true;
     }
   }
 }
