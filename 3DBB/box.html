@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<style>
+		*{
+			font-family: 'Roboto', sans-serif;
+		}
+		body {
+			margin: 0px;
+			font-size:9pt;
+		}
+		#box{
+			cursor:-webkit-grab;
+			position:absolute;
+			top:0em;
+			bottom:0em;
+			left:0em;
+			right:0em;
+			overflow:hidden;
+			transition-timing-function: ease;
+			transition: opacity 0.4s;
+			z-index:1;
+			opacity:0;
+			box-shadow:0 2px 20px 0px rgba(0,0,0,0.6) inset;
+		}
+		#bbclink{
+			position:absolute;
+			bottom:0.4em;
+			right:0.8em;
+			/text-transform: uppercase;
+			text-align:right;
+			font-size:0.8em;
+			z-index:2;
+			color:#fff;
+			text-shadow: 0 0 2px #000;
+		}
+		#bbclink a{
+			color:#fff;
+			text-decoration:none;
+		}
+		#fullscreen{
+			display:none;
+			cursor:pointer;
+			position:absolute;
+			top:0.4em;
+			right:0.4em;
+			background-image:url(fullscreen.png);
+			background-position:50% 50%;
+			background-size:100% 100%;
+			background-repeat:no-repeat;
+			width:1.8em;
+			height:1.8em;
+			z-index:4;
+		}
+		#idle{
+			display:block;
+			position:absolute;
+			top:0px;
+			left:0px;
+			right:0px;
+			bottom:0px;
+			opacity:1;
+			transition: opacity 0.4s ease, left 0.4s ease;
+			z-index:0;
+			background-image:url(idle.gif);
+			background-position:50% 50%;
+			background-repeat:no-repeat;
+		}
+	</style>
+  </head>
+  <body>
+	<div id="box"></div>
+	<div id="idle"></div>
+	<a id="fullscreen" title="Fullscreen" href="" target="_blank"></a>
+	<div id="bbclink"><a href="http://bigboxcollection.com/#ThreeDBB" target="_blank">About <b>3DBigBox</b></a></div>
+    <script src="three.min.js"></script>
+	<script src="bigbox.js"></script>
+</body>
