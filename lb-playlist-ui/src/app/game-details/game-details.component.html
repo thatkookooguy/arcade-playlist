@@ -23,12 +23,12 @@
         </div>
       </div>
       <div class="video-container">
-        <video *ngIf="gameDetails.video" #gameVideo loop onloadstart="this.volume=0.1"
+        <video *ngIf="!gameDetails.box3D && gameDetails.video" #gameVideo loop onloadstart="this.volume=0.1"
           oncanplay="this.play()" onloadedmetadata="this.muted = true" (click)="toggleMute(gameVideo)">
           <source type="video/mp4" src="{{ baseHref }}assets/{{ gameDetails.video }}">
           Your browser does not support HTML5 video.
         </video>
-        <object *ngIf="threeDBoxUrl && !gameDetails.video" style="height:500px;width:100%;border:none;" [data]="threeDBoxUrl"></object>
+        <object *ngIf="threeDBoxUrl && gameDetails.box3D" style="height:500px;width:100%;border:none;" [data]="threeDBoxUrl"></object>
       </div>
     </div>
   </div>

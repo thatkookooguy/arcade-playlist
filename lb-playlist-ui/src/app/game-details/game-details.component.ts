@@ -41,7 +41,7 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
         this.gameId = params.id;
         this.gameDetails = playlistData.games.find((game: any) => game.id === this.gameId);
         this.platform = (playlistData.platforms as any)[this.gameDetails.platform];
-        this.threeDBoxUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${ this.threeDBoxUrlBase }${ this.baseHref }assets/${ this.gameDetails.cover }`);
+        this.threeDBoxUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${ this.threeDBoxUrlBase }${ this.baseHref }assets/3d-box-textures/${ this.gameDetails.box3D }`);
         this.videoIntervalId = setInterval(() => {
           if (this.gameVideo?.nativeElement) {
             this.gameVideo.nativeElement.muted = !this.router.navigated;
