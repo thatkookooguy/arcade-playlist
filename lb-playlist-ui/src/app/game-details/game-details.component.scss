@@ -131,10 +131,16 @@
 
 // media query under 900px, only 1 column
 @media (width <= 900px) {
+  .kb-game-details {
+    min-width: 0;
+    min-height: 0;
+  }
     .content {
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-gap: 1em;
+        flex-wrap: wrap-reverse;
+        overflow-y: auto;
 
         .info {
             grid-area: 1 / 1 / 2 / 3;
