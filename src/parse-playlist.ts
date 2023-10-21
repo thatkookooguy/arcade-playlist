@@ -4,9 +4,10 @@ import { join, parse } from 'path';
 import cliProgress from 'cli-progress';
 import { XMLParser } from 'fast-xml-parser';
 import { closest } from 'fastest-levenshtein';
-import { copyFileSync, ensureDirSync, readdirSync, readFileSync, removeSync, writeJSONSync } from 'fs-extra';
+import { copyFileSync, ensureDirSync, readdirSync, readFileSync, removeSync, writeFileSync, writeJSONSync } from 'fs-extra';
 import inquirer from 'inquirer';
 import { isString } from 'lodash';
+import { SvgMaker, SvgMakerResultType } from '@kibibit/kb-hologram';
 
 const FindFiles = require('file-regex');
 
@@ -188,6 +189,25 @@ async function getPlaylistData(playlistName: string) {
     PlatformGameInfoProgressBar.update(platformGameInfoProgress, {
       stepName: `ℹ️🎮 Get Game Details: ${ game.title }`
     });
+
+    const svgMaker = new SvgMaker({
+      type: 'html',
+      width: 400,
+      height: 245,
+      data: {
+        side1: '',
+        side2: '',
+        front: matchedFrontBox?.file || matchedFrontReconstructedBox?.file || matchedFanartFrontBox?.file,
+        back: ''
+      },
+      templateFile: join(__dirname, 'template', 'index.html')
+    });
+
+    const rendered3dBox = await svgMaker.render(SvgMakerResultType.PngBuffer);
+
+    writeFileSync(join(__dirname, 'template', 'tests', `${ game.title }.png`), rendered3dBox);
+
+    process.exit(0);
 
     return {
       ...game,
