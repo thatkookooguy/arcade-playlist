@@ -110,7 +110,8 @@
 
     .video-container {
         // grid-area: 1 / 2 / 2 / 3;
-        width: 40%;
+        width: 370px;
+        min-height: 600px;
         flex-grow: 1;
 
         display: flex;
@@ -121,6 +122,8 @@
             width: 100%;
             height: 100%;
             object-fit: scale-down;
+            object-position: top;
+            margin-top: 1em;
 
             border-radius: 5px;
 

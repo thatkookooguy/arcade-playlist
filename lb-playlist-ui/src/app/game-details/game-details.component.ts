@@ -18,6 +18,11 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
   private videoIntervalId?: any;
   public threeDBoxUrlBase: string = `${ this.baseHref }assets/3DBB/box.html?b=212121&h=220&w=180&d=40&s=80&z=1&b=aaa&t=`;
   public threeDBoxUrl!: SafeResourceUrl;
+  public readonly tabs = [
+    'Video',
+    '3D Box'
+  ];
+  public activeTab = this.tabs[0];
 
   @HostBinding('class.hide') hide: boolean = false;
   @ViewChild('gameVideo')
@@ -42,6 +47,7 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
         this.gameDetails = playlistData.games.find((game: any) => game.id === this.gameId);
         this.platform = (playlistData.platforms as any)[this.gameDetails.platform];
         this.threeDBoxUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${ this.threeDBoxUrlBase }${ this.baseHref }assets/3d-box-textures/${ this.gameDetails.box3D }`);
+        this.activeTab = this.gameDetails.video ? this.tabs[0] : this.tabs[1];
         this.videoIntervalId = setInterval(() => {
           if (this.gameVideo?.nativeElement) {
             this.gameVideo.nativeElement.muted = !this.router.navigated;
@@ -54,6 +60,10 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
 
   ngAfterContentInit(): void {
     this.hide = false;
+  }
+
+  handleActiveTabChange(tab: string) {
+    this.activeTab = tab;
   }
 
   closeDetails() {
