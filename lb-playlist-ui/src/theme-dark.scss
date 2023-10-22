@@ -1,4 +1,4 @@
-body.theme-dark {
+@mixin theme-dark {
   --kb-color-bg: #212121;
   --kb-color-scrollbar-thumb-hover: #a8bbbf;
   --kb-color-scrollbar-thumb: rgb(255, 255, 255, .2);
@@ -6,16 +6,9 @@ body.theme-dark {
   --kb-color-text-primary: #fff;
   --kb-color-text-secondary: #62626C;
   --kb-color-tertiary: #e6eef9;
-  --kb-color-text-tertiary: white;
+  --kb-color-text-tertiary: var(--kb-color-text-secondary);
 }
 
-:root {
-  --kb-color-bg: #212121;
-  --kb-color-scrollbar-thumb-hover: #a8bbbf;
-  --kb-color-scrollbar-thumb: rgb(255, 255, 255, .2);
-  --kb-color-scrollbar-track: transparent;
-  --kb-color-text-primary: #fff;
-  --kb-color-text-secondary: #62626C;
-  --kb-color-tertiary: #e6eef9;
-  --kb-color-text-tertiary: white;
+body.theme-dark {
+  @include theme-dark;
 }

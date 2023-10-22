@@ -1,4 +1,4 @@
-body.theme-light {
+@mixin theme-light {
   --kb-color-bg: white;
   --kb-color-scrollbar-thumb-hover: #a8bbbf;
   --kb-color-scrollbar-thumb: rgb(255, 255, 255, .2);
@@ -7,16 +7,9 @@ body.theme-light {
   --kb-color-text-secondary: #62626C;
   --kb-color-tertiary: #e6eef9;
   --kb-color-tertiary: #6D2D8E;
-  --kb-color-text-tertiary: white;
+  --kb-color-text-tertiary: var(--kb-color-text-secondary);
 }
 
-// :root {
-//   --kb-color-bg: white;
-//   --kb-color-scrollbar-thumb-hover: black;
-//   --kb-color-scrollbar-thumb: rgb(255, 255, 255, .8);
-//   --kb-color-scrollbar-track: transparent;
-//   --kb-color-text-primary: #212121;
-//   --kb-color-text-secondary: #62626C;
-//   --kb-color-tertiary: #6D2D8E;
-//   --kb-color-text-tertiary: grey;
-// }
+body.theme-light {
+  @include theme-light;
+}

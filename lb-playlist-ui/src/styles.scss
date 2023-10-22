@@ -3,6 +3,18 @@
 @import './theme-dark.scss';
 @import './theme-light.scss';
 
+@media (prefers-color-scheme: dark) {
+    body {
+        @include theme-dark;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        @include theme-light;
+    }
+}
+
 * {
     box-sizing: border-box;
 
