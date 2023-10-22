@@ -1,6 +1,6 @@
 :host {
   --font-size: 14px;
-	--glider-color: #e6eef9;
+	--glider-color: var(--kb-color-tertiary);
   --animation-speed: 200ms;
 }
 
@@ -16,11 +16,9 @@ label.tab {
 
 .tabs {
   font-size: var(--font-size);
-  color: grey;
+  color: var(--kb-color-text-tertiary);
 	display: flex;
 	position: relative;
-	// background-color: darken(#212121, 10%);
-	// box-shadow: 0 0 0.05em 0 rgba(#185ee0, 0.15), 0 0.3em 0.6em 0 rgba(#185ee0, 0.15);
 	padding: 0.0375em;
 	border-radius: 4.95em;
 }
@@ -42,9 +40,9 @@ input[type="radio"] {
 }
 
 input[type="radio"] {
-	&:checked {
+	&[checked="true"] {
 		& + label {
-			color: #212121;
+			color: var(--kb-color-bg);
 		}
 	}
 }

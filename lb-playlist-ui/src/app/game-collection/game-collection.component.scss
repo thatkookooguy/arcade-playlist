@@ -45,7 +45,7 @@
         padding: .5em;
 
         // add custom styling
-        color: #ffffff;
+        color: var(--kb-color-text-primary);
         font-size: 1.5em;
 
         // remove button styling
@@ -100,7 +100,7 @@
         }
 
         .kb-subtitle {
-            color: #62626C;
+            color: var(--kb-color-text-secondary);
         }
     }
 }
