@@ -15,4 +15,9 @@
   "typescript.format.enable": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
+  "cSpell.words": [
+    "analyse",
+    "chardet",
+    "languagedetect"
+  ],
 }
