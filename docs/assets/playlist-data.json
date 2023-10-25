@@ -18,7 +18,11 @@
       "videoUrl": "",
       "cover": "Adventures%20of%20Beetlejuice_%20Skeletons%20in%20the%20Closet-01.jpg",
       "back": "Adventures of Beetlejuice_ Skeletons in the Closet-01.jpg",
-      "box3D": "adventures-of-beetlejuice-skeletons-in-the-closet.png"
+      "box3D": "adventures-of-beetlejuice-skeletons-in-the-closet.png",
+      "boxColor": "#f2f34f",
+      "frontWidth": 1000,
+      "frontHeight": 1486,
+      "language": "en"
     },
     {
       "platform": "Sony Playstation",
@@ -37,7 +41,13 @@
       "video": "Adventures%20of%20Lomax-01.mp4",
       "spine": "Adventures of Lomax-01.jpg",
       "back": "Adventures of Lomax-01.jpg",
-      "box3D": "adventures-of-lomax.png"
+      "box3D": "adventures-of-lomax.png",
+      "boxColor": "#4a5e8b",
+      "frontWidth": 1422,
+      "frontHeight": 1411,
+      "spineWidth": 33,
+      "spineHeight": 640,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -56,7 +66,13 @@
       "video": "The%20Adventures%20of%20Willy%20Beamish.3784791f-606c-4bda-b729-da6c76b11780-01.mp4",
       "spine": "The Adventures of Willy Beamish.3784791f-606c-4bda-b729-da6c76b11780-01.jpg",
       "back": "The Adventures of Willy Beamish.3784791f-606c-4bda-b729-da6c76b11780-01.jpg",
-      "box3D": "the-adventures-of-willy-beamish.png"
+      "box3D": "the-adventures-of-willy-beamish.png",
+      "boxColor": "#bba479",
+      "frontWidth": 640,
+      "frontHeight": 801,
+      "spineWidth": 399,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -75,7 +91,13 @@
       "video": "Alone%20in%20the%20Dark-01.mp4",
       "spine": "Alone in the Dark-01.jpg",
       "back": "Alone in the Dark-01.png",
-      "box3D": "alone-in-the-dark.png"
+      "box3D": "alone-in-the-dark.png",
+      "boxColor": "#d7c386",
+      "frontWidth": 640,
+      "frontHeight": 815,
+      "spineWidth": 263,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -94,7 +116,13 @@
       "video": "Alone%20in%20the%20Dark%202-01.mp4",
       "spine": "Alone in the Dark 2-01.jpg",
       "back": "Alone in the Dark 2-01.png",
-      "box3D": "alone-in-the-dark-2.png"
+      "box3D": "alone-in-the-dark-2.png",
+      "boxColor": "#dbbd6e",
+      "frontWidth": 640,
+      "frontHeight": 806,
+      "spineWidth": 263,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -112,7 +140,11 @@
       "cover": "The%20Amazing%20Spider-Man-01.png",
       "video": "The%20Amazing%20Spider-Man.7ab3de2a-522c-491e-8343-1f64875712e3-01.mp4",
       "back": "The Amazing Spider-Man-01.jpg",
-      "box3D": "the-amazing-spider-man.png"
+      "box3D": "the-amazing-spider-man.png",
+      "boxColor": "#244756",
+      "frontWidth": 640,
+      "frontHeight": 746,
+      "language": "en"
     },
     {
       "platform": "Windows",
@@ -128,7 +160,8 @@
       "releaseDate": "2006-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=Z2GPP0xZs5E",
       "cover": "Another%20World_%2015th%20Anniversary%20Edition-01.png",
-      "video": "Another%20World_%2015th%20Anniversary%20Edition-01.mp4"
+      "video": "Another%20World_%2015th%20Anniversary%20Edition-01.mp4",
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -146,7 +179,11 @@
       "cover": "Archon%20Ultra-01.png",
       "video": "Archon%20Ultra.6211c769-f57e-4dfe-b864-6233f4545a13-01.mp4",
       "back": "Archon Ultra-01.png",
-      "box3D": "archon-ultra.png"
+      "box3D": "archon-ultra.png",
+      "boxColor": "#a1a497",
+      "frontWidth": 640,
+      "frontHeight": 820,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -164,7 +201,11 @@
       "cover": "Baby%20Jo%20in%20_Going%20Home_-01.png",
       "video": "Baby%20Jo%20in%20_Going%20Home_-01.mp4",
       "back": "Baby Jo in _Going Home_-01.png",
-      "box3D": "baby-jo-in-going-home.png"
+      "box3D": "baby-jo-in-going-home.png",
+      "boxColor": "#d2dfd5",
+      "frontWidth": 640,
+      "frontHeight": 754,
+      "language": "en"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -182,7 +223,11 @@
       "cover": "Bart%20Simpson_s%20Escape%20from%20Camp%20Deadly-01.jpg",
       "video": "Bart%20Simpson_s%20Escape%20from%20Camp%20Deadly-01.mp4",
       "back": "Bart Simpson_s Escape from Camp Deadly-01.jpg",
-      "box3D": "bart-simpsons-escape-from-camp-deadly.png"
+      "box3D": "bart-simpsons-escape-from-camp-deadly.png",
+      "boxColor": "#254f4d",
+      "frontWidth": 733,
+      "frontHeight": 733,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -201,7 +246,13 @@
       "video": "The%20Bizarre%20Adventures%20of%20Woodruff%20and%20the%20Schnibble-01.mp4",
       "spine": "The Bizarre Adventures of Woodruff and the Schnibble-01.jpg",
       "back": "The Bizarre Adventures of Woodruff and the Schnibble-01.jpg",
-      "box3D": "the-bizarre-adventures-of-woodruff-and-the-schnibble.png"
+      "box3D": "the-bizarre-adventures-of-woodruff-and-the-schnibble.png",
+      "boxColor": "#563962",
+      "frontWidth": 480,
+      "frontHeight": 609,
+      "spineWidth": 252,
+      "spineHeight": 1374,
+      "language": "en"
     },
     {
       "platform": "Nintendo DS",
@@ -220,7 +271,13 @@
       "video": "Brain%20Age%202_%20More%20Training%20in%20Minutes%20a%20Day!-01.mp4",
       "spine": "Brain Age 2_ More Training in Minutes a Day!-01.png",
       "back": "Brain Age 2_ More Training in Minutes a Day!-01.jpg",
-      "box3D": "brain-age-2-more-training-in-minutes-a-day.png"
+      "box3D": "brain-age-2-more-training-in-minutes-a-day.png",
+      "boxColor": "#393e5d",
+      "frontWidth": 499,
+      "frontHeight": 448,
+      "spineWidth": 63,
+      "spineHeight": 458,
+      "language": "en"
     },
     {
       "platform": "Nintendo DS",
@@ -239,7 +296,13 @@
       "video": "Brain%20Age_%20Train%20Your%20Brain%20in%20Minutes%20a%20Day!-01.mp4",
       "spine": "Brain Age_ Train Your Brain in Minutes a Day!-01.png",
       "back": "Brain Age_ Train Your Brain in Minutes a Day!-01.jpg",
-      "box3D": "brain-age-train-your-brain-in-minutes-a-day.png"
+      "box3D": "brain-age-train-your-brain-in-minutes-a-day.png",
+      "boxColor": "#dec565",
+      "frontWidth": 500,
+      "frontHeight": 450,
+      "spineWidth": 63,
+      "spineHeight": 458,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -257,7 +320,11 @@
       "cover": "Bubble%20Bobble.b4c25073-b257-45e4-85e2-d60113740edd-01.png",
       "video": "Bubble%20Bobble.b4c25073-b257-45e4-85e2-d60113740edd-01.mp4",
       "back": "Bubble Bobble.b4c25073-b257-45e4-85e2-d60113740edd-01.png",
-      "box3D": "bubble-bobble.png"
+      "box3D": "bubble-bobble.png",
+      "boxColor": "#f3efe9",
+      "frontWidth": 640,
+      "frontHeight": 850,
+      "language": "en"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -276,7 +343,13 @@
       "video": "The%20Bugs%20Bunny%20Crazy%20Castle-01.mp4",
       "spine": "The Bugs Bunny Crazy Castle-01.jpg",
       "back": "The Bugs Bunny Crazy Castle-01.jpg",
-      "box3D": "the-bugs-bunny-crazy-castle.png"
+      "box3D": "the-bugs-bunny-crazy-castle.png",
+      "boxColor": "#f2f4e6",
+      "frontWidth": 1370,
+      "frontHeight": 1370,
+      "spineWidth": 272,
+      "spineHeight": 1476,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -294,7 +367,11 @@
       "cover": "Bumpy_s%20Arcade%20Fantasy-01.jpg",
       "video": "Bumpy_s%20Arcade%20Fantasy-01.mp4",
       "back": "Bumpy_s Arcade Fantasy-01.jpg",
-      "box3D": "bumpys-arcade-fantasy.png"
+      "box3D": "bumpys-arcade-fantasy.png",
+      "boxColor": "#af9356",
+      "frontWidth": 691,
+      "frontHeight": 807,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -312,7 +389,11 @@
       "cover": "Cannon%20Fodder-01.png",
       "video": "Cannon%20Fodder.141b2161-07e4-4bda-974a-7d148b928e12-01.mp4",
       "back": "Cannon Fodder-01.png",
-      "box3D": "cannon-fodder.png"
+      "box3D": "cannon-fodder.png",
+      "boxColor": "#4e3f38",
+      "frontWidth": 640,
+      "frontHeight": 720,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -330,7 +411,11 @@
       "cover": "Cannon%20Fodder%202-01.png",
       "video": "Cannon%20Fodder%202-01.mp4",
       "back": "Cannon Fodder 2-01.png",
-      "box3D": "cannon-fodder-2.png"
+      "box3D": "cannon-fodder-2.png",
+      "boxColor": "#2d281d",
+      "frontWidth": 640,
+      "frontHeight": 821,
+      "language": "en"
     },
     {
       "platform": "Windows",
@@ -348,7 +433,11 @@
       "cover": "Carmageddon%202_%20Carpocalypse%20Now-01.jpg",
       "video": "Carmageddon%202_%20Carpocalypse%20Now-01.webm",
       "back": "Carmageddon 2_ Carpocalypse Now-01.jpg",
-      "box3D": "carmageddon-2-carpocalypse-now.png"
+      "box3D": "carmageddon-2-carpocalypse-now.png",
+      "boxColor": "#383230",
+      "frontWidth": 342,
+      "frontHeight": 482,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -366,7 +455,13 @@
       "cover": "Castle%20of%20Dr.%20Brain-01.jpg",
       "spine": "Castle of Dr. Brain-01.jpg",
       "back": "Castle of Dr. Brain-01.jpg",
-      "box3D": "castle-of-dr-brain.png"
+      "box3D": "castle-of-dr-brain.png",
+      "boxColor": "#d7d4d7",
+      "frontWidth": 800,
+      "frontHeight": 993,
+      "spineWidth": 393,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -384,7 +479,11 @@
       "cover": "The%20Chessmaster%202000-01.png",
       "video": "The%20Chessmaster%202000-01.mp4",
       "back": "The Chessmaster 2000-01.png",
-      "box3D": "the-chessmaster-2000.png"
+      "box3D": "the-chessmaster-2000.png",
+      "boxColor": "#17191b",
+      "frontWidth": 640,
+      "frontHeight": 655,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -403,7 +502,13 @@
       "video": "Command%20%26%20Conquer-01.mp4",
       "spine": "Command & Conquer-01.jpg",
       "back": "Command & Conquer-01.png",
-      "box3D": "command-conquer.png"
+      "box3D": "command-conquer.png",
+      "boxColor": "#2a2624",
+      "frontWidth": 640,
+      "frontHeight": 736,
+      "spineWidth": 246,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -422,7 +527,13 @@
       "video": "Command%20%26%20Conquer_%20Red%20Alert-01.mp4",
       "spine": "Command & Conquer_ Red Alert-01.jpg",
       "back": "Command & Conquer_ Red Alert-01.png",
-      "box3D": "command-conquer-red-alert.png"
+      "box3D": "command-conquer-red-alert.png",
+      "boxColor": "#45413d",
+      "frontWidth": 640,
+      "frontHeight": 768,
+      "spineWidth": 220,
+      "spineHeight": 1599,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -440,7 +551,11 @@
       "cover": "Commander%20Keen%201_%20Marooned%20on%20Mars-01.jpg",
       "video": "Commander%20Keen%201_%20Marooned%20on%20Mars-01.mp4",
       "back": "Commander Keen 1_ Marooned on Mars-01.png",
-      "box3D": "commander-keen-1-marooned-on-mars.png"
+      "box3D": "commander-keen-1-marooned-on-mars.png",
+      "boxColor": "#dff2ea",
+      "frontWidth": 300,
+      "frontHeight": 397,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -458,7 +573,11 @@
       "cover": "Commander%20Keen%202_%20The%20Earth%20Explodes-01.jpg",
       "video": "Commander%20Keen%202_%20The%20Earth%20Explodes-01.mp4",
       "back": "Commander Keen 2_ The Earth Explodes-01.png",
-      "box3D": "commander-keen-2-the-earth-explodes.png"
+      "box3D": "commander-keen-2-the-earth-explodes.png",
+      "boxColor": "#dff2ea",
+      "frontWidth": 512,
+      "frontHeight": 678,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -476,7 +595,11 @@
       "cover": "Commander%20Keen%203_%20Keen%20Must%20Die!-01.jpg",
       "video": "Commander%20Keen%203_%20Keen%20Must%20Die!-01.mp4",
       "back": "Commander Keen 3_ Keen Must Die!-01.png",
-      "box3D": "commander-keen-3-keen-must-die.png"
+      "box3D": "commander-keen-3-keen-must-die.png",
+      "boxColor": "#dff2ea",
+      "frontWidth": 512,
+      "frontHeight": 678,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -494,7 +617,11 @@
       "cover": "Cool%20Spot-01.png",
       "video": "Cool%20Spot-01.mp4",
       "back": "Cool Spot-01.png",
-      "box3D": "cool-spot.png"
+      "box3D": "cool-spot.png",
+      "boxColor": "#c83a2c",
+      "frontWidth": 640,
+      "frontHeight": 810,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -513,7 +640,13 @@
       "video": "The%20Curse%20of%20Monkey%20Island-01.mp4",
       "spine": "The Curse of Monkey Island-01.jpg",
       "back": "The Curse of Monkey Island-01.jpg",
-      "box3D": "the-curse-of-monkey-island.png"
+      "box3D": "the-curse-of-monkey-island.png",
+      "boxColor": "#cba168",
+      "frontWidth": 1527,
+      "frontHeight": 2156,
+      "spineWidth": 342,
+      "spineHeight": 2541,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -528,7 +661,8 @@
       "publisher": "Softdisk Publishing",
       "releaseDate": "1990-11-01T10:00:00+02:00",
       "videoUrl": "https://youtu.be/yUfYd8xGVng",
-      "cover": "Dangerous%20Dave-01.png"
+      "cover": "Dangerous%20Dave-01.png",
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -546,7 +680,11 @@
       "cover": "Dangerous%20Dave%20in%20the%20Haunted%20Mansion-02.jpg",
       "video": "Dangerous%20Dave%20in%20the%20Haunted%20Mansion-02.mp4",
       "back": "Dangerous Dave in the Haunted Mansion-01.png",
-      "box3D": "dangerous-dave-in-the-haunted-mansion.png"
+      "box3D": "dangerous-dave-in-the-haunted-mansion.png",
+      "boxColor": "#f1f0f1",
+      "frontWidth": 800,
+      "frontHeight": 1228,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -565,7 +703,13 @@
       "video": "The%20Dig-01.mp4",
       "spine": "The Dig-01.jpg",
       "back": "The Dig-01.jpg",
-      "box3D": "the-dig.png"
+      "box3D": "the-dig.png",
+      "boxColor": "#171a1b",
+      "frontWidth": 800,
+      "frontHeight": 1025,
+      "spineWidth": 243,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -581,7 +725,8 @@
       "releaseDate": "1983-01-01T00:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=M6V4AoafGbU",
       "cover": "Digger-01.png",
-      "video": "Digger-01.mp4"
+      "video": "Digger-01.mp4",
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -600,7 +745,13 @@
       "video": "DOOM-01.mp4",
       "spine": "DOOM-01.jpg",
       "back": "DOOM-01.png",
-      "box3D": "doom.png"
+      "box3D": "doom.png",
+      "boxColor": "#8b2c31",
+      "frontWidth": 640,
+      "frontHeight": 965,
+      "spineWidth": 246,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "Windows",
@@ -618,7 +769,13 @@
       "cover": "DOOM-01.png",
       "video": "DOOM-01.mp4",
       "back": "DOOM-01.png",
-      "box3D": "doom.png"
+      "box3D": "doom.png",
+      "boxColor": "#8b2c31",
+      "frontWidth": 640,
+      "frontHeight": 965,
+      "spineWidth": 246,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -636,7 +793,11 @@
       "cover": "Dr.%20Mario-01.jpg",
       "video": "Dr.%20Mario-01.mp4",
       "back": "Dr. Mario-01.jpg",
-      "box3D": "dr-mario.png"
+      "box3D": "dr-mario.png",
+      "boxColor": "#e6d22d",
+      "frontWidth": 1370,
+      "frontHeight": 1370,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -653,7 +814,11 @@
       "videoUrl": "",
       "cover": "Duck%20Tales_%20The%20Quest%20for%20Gold-02.png",
       "back": "Duck Tales_ The Quest for Gold-01.png",
-      "box3D": "duck-tales-the-quest-for-gold.png"
+      "box3D": "duck-tales-the-quest-for-gold.png",
+      "boxColor": "#edd5a5",
+      "frontWidth": 800,
+      "frontHeight": 1165,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -672,7 +837,13 @@
       "video": "Duke%20Nukem%203D.0e6d30f4-4092-4053-87f0-e6645db07943-01.mp4",
       "spine": "Duke Nukem 3D.0e6d30f4-4092-4053-87f0-e6645db07943-01.jpg",
       "back": "Duke Nukem 3D.0e6d30f4-4092-4053-87f0-e6645db07943-01.png",
-      "box3D": "duke-nukem-3-d.png"
+      "box3D": "duke-nukem-3-d.png",
+      "boxColor": "#2b1b1c",
+      "frontWidth": 640,
+      "frontHeight": 766,
+      "spineWidth": 276,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -690,7 +861,11 @@
       "cover": "Earthworm%20Jim-01.png",
       "video": "Earthworm%20Jim-01.mp4",
       "back": "Earthworm Jim-01.png",
-      "box3D": "earthworm-jim.png"
+      "box3D": "earthworm-jim.png",
+      "boxColor": "#4a3d55",
+      "frontWidth": 663,
+      "frontHeight": 768,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -708,7 +883,11 @@
       "cover": "Earthworm%20Jim%202-01.png",
       "video": "Earthworm%20Jim%202-01.mp4",
       "back": "Earthworm Jim 2-01.png",
-      "box3D": "earthworm-jim-2.png"
+      "box3D": "earthworm-jim-2.png",
+      "boxColor": "#acbd85",
+      "frontWidth": 640,
+      "frontHeight": 849,
+      "language": "en"
     },
     {
       "platform": "Nintendo 64",
@@ -727,7 +906,13 @@
       "video": "Earthworm%20Jim%203D-01.mp4",
       "spine": "Earthworm Jim 3D-01.png",
       "back": "Earthworm Jim 3D-01.jpg",
-      "box3D": "earthworm-jim-3-d.png"
+      "box3D": "earthworm-jim-3-d.png",
+      "boxColor": "#d2af5b",
+      "frontWidth": 2100,
+      "frontHeight": 1532,
+      "spineWidth": 680,
+      "spineHeight": 95,
+      "language": "en"
     },
     {
       "platform": "Nintendo DS",
@@ -746,7 +931,13 @@
       "video": "Elite%20Beat%20Agents-01.mp4",
       "spine": "Elite Beat Agents-01.png",
       "back": "Elite Beat Agents-01.png",
-      "box3D": "elite-beat-agents.png"
+      "box3D": "elite-beat-agents.png",
+      "boxColor": "#d2ddcb",
+      "frontWidth": 800,
+      "frontHeight": 708,
+      "spineWidth": 63,
+      "spineHeight": 458,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -763,7 +954,11 @@
       "videoUrl": "",
       "cover": "Eye%20of%20the%20Beholder-01.jpg",
       "back": "Eye of the Beholder-01.jpg",
-      "box3D": "eye-of-the-beholder.png"
+      "box3D": "eye-of-the-beholder.png",
+      "boxColor": "#403a35",
+      "frontWidth": 1007,
+      "frontHeight": 1500,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -781,7 +976,11 @@
       "cover": "Fire%20Power-01.png",
       "video": "Fire%20Power-01.mp4",
       "back": "Fire Power-01.png",
-      "box3D": "fire-power.png"
+      "box3D": "fire-power.png",
+      "boxColor": "#2f2e2b",
+      "frontWidth": 640,
+      "frontHeight": 651,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -799,7 +998,11 @@
       "cover": "Flashback_%20The%20Quest%20for%20Identity-01.png",
       "video": "Flashback_%20The%20Quest%20for%20Identity.0dbfc4fa-13cf-45a8-a179-12510f3d9665-01.mp4",
       "back": "Flashback_ The Quest for Identity-01.png",
-      "box3D": "flashback-the-quest-for-identity.png"
+      "box3D": "flashback-the-quest-for-identity.png",
+      "boxColor": "#d1ccc3",
+      "frontWidth": 640,
+      "frontHeight": 817,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -817,7 +1020,13 @@
       "cover": "Freddy%20Pharkas_%20Frontier%20Pharmacist-01.jpg",
       "spine": "Freddy Pharkas_ Frontier Pharmacist-01.jpg",
       "back": "Freddy Pharkas_ Frontier Pharmacist-01.jpg",
-      "box3D": "freddy-pharkas-frontier-pharmacist.png"
+      "box3D": "freddy-pharkas-frontier-pharmacist.png",
+      "boxColor": "#d9bfad",
+      "frontWidth": 800,
+      "frontHeight": 1000,
+      "spineWidth": 303,
+      "spineHeight": 1923,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -835,7 +1044,13 @@
       "cover": "Full%20Throttle-01.png",
       "spine": "Full Throttle-01.jpg",
       "back": "Full Throttle-02.jpg",
-      "box3D": "full-throttle.png"
+      "box3D": "full-throttle.png",
+      "boxColor": "#302c2d",
+      "frontWidth": 640,
+      "frontHeight": 502,
+      "spineWidth": 304,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -853,7 +1068,11 @@
       "cover": "Fury%20of%20the%20Furries-01.png",
       "video": "Fury%20of%20the%20Furries-01.mp4",
       "back": "Fury of the Furries-01.png",
-      "box3D": "fury-of-the-furries.png"
+      "box3D": "fury-of-the-furries.png",
+      "boxColor": "#d8b46f",
+      "frontWidth": 640,
+      "frontHeight": 808,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -871,7 +1090,11 @@
       "cover": "Ghosts%20_n%20Goblins-01.png",
       "video": "Ghosts%20_n%20Goblins-01.mp4",
       "back": "Ghosts _n Goblins-01.png",
-      "box3D": "ghosts-n-goblins.png"
+      "box3D": "ghosts-n-goblins.png",
+      "boxColor": "#393c47",
+      "frontWidth": 640,
+      "frontHeight": 932,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -890,7 +1113,13 @@
       "video": "Gobliiins-01.mp4",
       "spine": "Gobliiins-01.jpg",
       "back": "Gobliiins-01.jpg",
-      "box3D": "gobliiins.png"
+      "box3D": "gobliiins.png",
+      "boxColor": "#be9571",
+      "frontWidth": 320,
+      "frontHeight": 406,
+      "spineWidth": 206,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -909,7 +1138,13 @@
       "video": "Gobliins%202_%20The%20Prince%20Buffoon-01.mp4",
       "spine": "Gobliins 2_ The Prince Buffoon-01.jpg",
       "back": "Gobliins 2_ The Prince Buffoon-01.png",
-      "box3D": "gobliins-2-the-prince-buffoon.png"
+      "box3D": "gobliins-2-the-prince-buffoon.png",
+      "boxColor": "#000000",
+      "frontWidth": 800,
+      "frontHeight": 986,
+      "spineWidth": 417,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -928,7 +1163,13 @@
       "video": "Goblins%20Quest%203.5243d576-4859-4f67-b04a-8e23e49beb7a-01.mp4",
       "spine": "Goblins Quest 3-01.jpg",
       "back": "Goblins Quest 3-01.jpg",
-      "box3D": "goblins-quest-3.png"
+      "box3D": "goblins-quest-3.png",
+      "boxColor": "#b4463a",
+      "frontWidth": 842,
+      "frontHeight": 960,
+      "spineWidth": 245,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -946,7 +1187,11 @@
       "cover": "Holiday%20Lemmings%20(1994).3bac31f2-8525-4845-a0cb-6903f5ec1d70-01.png",
       "video": "Holiday%20Lemmings%20(1994).3bac31f2-8525-4845-a0cb-6903f5ec1d70-01.mp4",
       "back": "Holiday Lemmings (1994).3bac31f2-8525-4845-a0cb-6903f5ec1d70-01.png",
-      "box3D": "holiday-lemmings-1994.png"
+      "box3D": "holiday-lemmings-1994.png",
+      "boxColor": "#473472",
+      "frontWidth": 535,
+      "frontHeight": 750,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -964,7 +1209,13 @@
       "cover": "Indiana%20Jones%20and%20the%20Fate%20of%20Atlantis-01.png",
       "spine": "Indiana Jones and the Fate of Atlantis-01.jpg",
       "back": "Indiana Jones and the Fate of Atlantis-01.jpg",
-      "box3D": "indiana-jones-and-the-fate-of-atlantis.png"
+      "box3D": "indiana-jones-and-the-fate-of-atlantis.png",
+      "boxColor": "#968979",
+      "frontWidth": 800,
+      "frontHeight": 1017,
+      "spineWidth": 261,
+      "spineHeight": 1583,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -982,7 +1233,13 @@
       "cover": "Indiana%20Jones%20and%20the%20Last%20Crusade_%20The%20Graphic%20Adventure-01.jpg",
       "spine": "Indiana Jones and the Last Crusade_ The Graphic Adventure-01.jpg",
       "back": "Indiana Jones and the Last Crusade_ The Graphic Adventure-01.jpg",
-      "box3D": "indiana-jones-and-the-last-crusade-the-graphic-adventure.png"
+      "box3D": "indiana-jones-and-the-last-crusade-the-graphic-adventure.png",
+      "boxColor": "#b19f89",
+      "frontWidth": 513,
+      "frontHeight": 650,
+      "spineWidth": 271,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -998,7 +1255,8 @@
       "releaseDate": "1995-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=4H5M5FAGq0c",
       "cover": "Invasion%20of%20the%20Mutant%20Space%20Bats%20of%20Doom-01.png",
-      "video": "Invasion%20of%20the%20Mutant%20Space%20Bats%20of%20Doom-01.mp4"
+      "video": "Invasion%20of%20the%20Mutant%20Space%20Bats%20of%20Doom-01.mp4",
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1016,7 +1274,13 @@
       "cover": "The%20Island%20of%20Dr.%20Brain-01.jpg",
       "spine": "The Island of Dr. Brain-01.jpg",
       "back": "The Island of Dr. Brain-01.jpg",
-      "box3D": "the-island-of-dr-brain.png"
+      "box3D": "the-island-of-dr-brain.png",
+      "boxColor": "#d3cab9",
+      "frontWidth": 1046,
+      "frontHeight": 1321,
+      "spineWidth": 225,
+      "spineHeight": 892,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1034,7 +1298,11 @@
       "cover": "Jazz%20Jackrabbit-01.png",
       "video": "Jazz%20Jackrabbit-01.mp4",
       "back": "Jazz Jackrabbit-01.png",
-      "box3D": "jazz-jackrabbit.png"
+      "box3D": "jazz-jackrabbit.png",
+      "boxColor": "#77b64a",
+      "frontWidth": 640,
+      "frontHeight": 850,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1052,7 +1320,11 @@
       "cover": "Jill%20of%20the%20Jungle-01.png",
       "video": "Jill%20of%20the%20Jungle-01.mp4",
       "back": "Jill of the Jungle-01.png",
-      "box3D": "jill-of-the-jungle.png"
+      "box3D": "jill-of-the-jungle.png",
+      "boxColor": "#cc884b",
+      "frontWidth": 640,
+      "frontHeight": 867,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1070,7 +1342,11 @@
       "cover": "Joe%20%26%20Mac_%20Caveman%20Ninja-01.png",
       "video": "Joe%20%26%20Mac_%20Caveman%20Ninja-01.mp4",
       "back": "Joe & Mac_ Caveman Ninja-01.png",
-      "box3D": "joe-mac-caveman-ninja.png"
+      "box3D": "joe-mac-caveman-ninja.png",
+      "boxColor": "#c8b783",
+      "frontWidth": 640,
+      "frontHeight": 808,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1087,7 +1363,11 @@
       "videoUrl": "",
       "cover": "Jones%20in%20the%20Fast%20Lane-01.jpg",
       "back": "Jones in the Fast Lane-01.jpg",
-      "box3D": "jones-in-the-fast-lane.png"
+      "box3D": "jones-in-the-fast-lane.png",
+      "boxColor": "#e9c6a7",
+      "frontWidth": 631,
+      "frontHeight": 801,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1105,7 +1385,11 @@
       "cover": "Karateka-01.png",
       "video": "Karateka-02.mp4",
       "back": "Karateka-01.png",
-      "box3D": "karateka.png"
+      "box3D": "karateka.png",
+      "boxColor": "#ece7b3",
+      "frontWidth": 640,
+      "frontHeight": 883,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1123,7 +1407,11 @@
       "cover": "Lemmings-01.jpg",
       "video": "Lemmings-01.mp4",
       "back": "Lemmings-01.png",
-      "box3D": "lemmings.png"
+      "box3D": "lemmings.png",
+      "boxColor": "#342b2a",
+      "frontWidth": 1158,
+      "frontHeight": 1322,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1139,7 +1427,8 @@
       "releaseDate": "1998-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=KE2XtQaMb5I",
       "cover": "Liero-01.jpg",
-      "video": "Liero-01.mp4"
+      "video": "Liero-01.mp4",
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1155,7 +1444,8 @@
       "releaseDate": "1998-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=KE2XtQaMb5I",
       "cover": "Liero%201.36-01.jpg",
-      "video": "Liero%201.36-01.mp4"
+      "video": "Liero%201.36-01.mp4",
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1173,7 +1463,13 @@
       "cover": "Loom-01.jpg",
       "spine": "Loom-01.jpg",
       "back": "Loom-01.jpg",
-      "box3D": "loom.png"
+      "box3D": "loom.png",
+      "boxColor": "#ccaf80",
+      "frontWidth": 796,
+      "frontHeight": 1017,
+      "spineWidth": 262,
+      "spineHeight": 1592,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1191,7 +1487,11 @@
       "cover": "The%20Lost%20Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-01.png",
       "video": "The%20Lost%20Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-02.mp4",
       "back": "The Lost Vikings.6e1111bd-3d97-4f66-9760-e521badf68ef-01.png",
-      "box3D": "the-lost-vikings.png"
+      "box3D": "the-lost-vikings.png",
+      "boxColor": "#3e4461",
+      "frontWidth": 640,
+      "frontHeight": 793,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1209,7 +1509,13 @@
       "cover": "Maniac%20Mansion_%20Day%20of%20the%20Tentacle-01.jpg",
       "spine": "Maniac Mansion_ Day of the Tentacle-01.jpg",
       "back": "Maniac Mansion_ Day of the Tentacle-01.jpg",
-      "box3D": "maniac-mansion-day-of-the-tentacle.png"
+      "box3D": "maniac-mansion-day-of-the-tentacle.png",
+      "boxColor": "#575f88",
+      "frontWidth": 1634,
+      "frontHeight": 2048,
+      "spineWidth": 262,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "Nintendo Game & Watch",
@@ -1228,7 +1534,13 @@
       "video": "Mario%20Bros.-01.mp4",
       "spine": "Mario Bros.-01.jpg",
       "back": "Mario Bros.-01.jpg",
-      "box3D": "mario-bros.png"
+      "box3D": "mario-bros.png",
+      "boxColor": "#6c0816",
+      "frontWidth": 1855,
+      "frontHeight": 1550,
+      "spineWidth": 1105,
+      "spineHeight": 3586,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1246,7 +1558,11 @@
       "cover": "Micro%20Machines-01.jpg",
       "video": "Micro%20Machines-01.mp4",
       "back": "Micro Machines-01.jpg",
-      "box3D": "micro-machines.png"
+      "box3D": "micro-machines.png",
+      "boxColor": "#d9d5c5",
+      "frontWidth": 700,
+      "frontHeight": 870,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1264,7 +1580,11 @@
       "cover": "Micro%20Machines%202_%20Turbo%20Tournament-01.png",
       "video": "Micro%20Machines%202_%20Turbo%20Tournament-01.mp4",
       "back": "Micro Machines 2_ Turbo Tournament-01.png",
-      "box3D": "micro-machines-2-turbo-tournament.png"
+      "box3D": "micro-machines-2-turbo-tournament.png",
+      "boxColor": "#e0d6be",
+      "frontWidth": 640,
+      "frontHeight": 729,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1282,7 +1602,13 @@
       "cover": "Monkey%20Island%202_%20LeChuck_s%20Revenge-01.jpg",
       "spine": "Monkey Island 2_ LeChuck_s Revenge-01.jpg",
       "back": "Monkey Island 2_ LeChuck_s Revenge-01.jpg",
-      "box3D": "monkey-island-2-le-chucks-revenge.png"
+      "box3D": "monkey-island-2-le-chucks-revenge.png",
+      "boxColor": "#8f5925",
+      "frontWidth": 605,
+      "frontHeight": 761,
+      "spineWidth": 451,
+      "spineHeight": 2728,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1300,7 +1626,11 @@
       "cover": "The%20Neverhood-01.jpg",
       "video": "The%20Neverhood-01.mp4",
       "back": "The Neverhood-01.jpg",
-      "box3D": "the-neverhood.png"
+      "box3D": "the-neverhood.png",
+      "boxColor": "#e8704e",
+      "frontWidth": 300,
+      "frontHeight": 400,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1318,7 +1648,11 @@
       "cover": "One%20Must%20Fall_%202097-01.png",
       "video": "One%20Must%20Fall_%202097-01.mp4",
       "back": "One Must Fall_ 2097-01.png",
-      "box3D": "one-must-fall-2097.png"
+      "box3D": "one-must-fall-2097.png",
+      "boxColor": "#74717d",
+      "frontWidth": 640,
+      "frontHeight": 849,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1336,7 +1670,11 @@
       "cover": "One%20Must%20Fall_%202097-01.png",
       "video": "One%20Must%20Fall_%202097-01.mp4",
       "back": "One Must Fall_ 2097-01.png",
-      "box3D": "one-must-fall-2097.png"
+      "box3D": "one-must-fall-2097.png",
+      "boxColor": "#74717d",
+      "frontWidth": 640,
+      "frontHeight": 849,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1354,7 +1692,11 @@
       "cover": "Out%20of%20this%20World-01.png",
       "video": "Out%20of%20this%20World.35c2f963-48e9-4d79-8c88-72432d59ce6e-01.mp4",
       "back": "Out of this World-01.png",
-      "box3D": "out-of-this-world.png"
+      "box3D": "out-of-this-world.png",
+      "boxColor": "#1c2129",
+      "frontWidth": 640,
+      "frontHeight": 812,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1372,7 +1714,11 @@
       "cover": "Out%20of%20this%20World-01.png",
       "video": "Out%20of%20this%20World.35c2f963-48e9-4d79-8c88-72432d59ce6e-01.mp4",
       "back": "Out of this World-01.png",
-      "box3D": "out-of-this-world.png"
+      "box3D": "out-of-this-world.png",
+      "boxColor": "#1c2129",
+      "frontWidth": 640,
+      "frontHeight": 812,
+      "language": "en"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -1391,7 +1737,13 @@
       "video": "Pinball_%20Revenge%20of%20the%20_Gator-01.mp4",
       "spine": "Pinball_ Revenge of the _Gator-01.jpg",
       "back": "Pinball_ Revenge of the _Gator-01.jpg",
-      "box3D": "pinball-revenge-of-the-gator.png"
+      "box3D": "pinball-revenge-of-the-gator.png",
+      "boxColor": "#f29e42",
+      "frontWidth": 1370,
+      "frontHeight": 1370,
+      "spineWidth": 272,
+      "spineHeight": 1476,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1407,7 +1759,8 @@
       "releaseDate": "1988-01-01T00:00:00+02:00",
       "videoUrl": "",
       "cover": "Popcorn-01.png",
-      "video": "Popcorn-01.mp4"
+      "video": "Popcorn-01.mp4",
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1425,7 +1778,11 @@
       "cover": "Prince%20of%20Persia-01.png",
       "video": "Prince%20of%20Persia-01.mp4",
       "back": "Prince of Persia-01.png",
-      "box3D": "prince-of-persia.png"
+      "box3D": "prince-of-persia.png",
+      "boxColor": "#454635",
+      "frontWidth": 640,
+      "frontHeight": 765,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1444,7 +1801,13 @@
       "video": "Prince%20of%20Persia%202_%20The%20Shadow%20%26%20The%20Flame.2fb0fa1e-fb20-4536-bee5-af3147d861e9-01.mp4",
       "spine": "Prince of Persia 2_ The Shadow & The Flame-01.jpg",
       "back": "Prince of Persia 2_ The Shadow & The Flame-01.png",
-      "box3D": "prince-of-persia-2-the-shadow-the-flame.png"
+      "box3D": "prince-of-persia-2-the-shadow-the-flame.png",
+      "boxColor": "#343744",
+      "frontWidth": 640,
+      "frontHeight": 719,
+      "spineWidth": 192,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1460,7 +1823,8 @@
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
       "cover": "Princess%20Maker%202-01.jpg",
-      "video": "Princess%20Maker%202-02.mp4"
+      "video": "Princess%20Maker%202-02.mp4",
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1475,7 +1839,8 @@
       "publisher": "Humongous Entertainment",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "Putt-Putt%20Goes%20to%20the%20Moon-01.jpg"
+      "cover": "Putt-Putt%20Goes%20to%20the%20Moon-01.jpg",
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1492,7 +1857,11 @@
       "videoUrl": "",
       "cover": "Putt-Putt%20Joins%20the%20Parade-01.jpg",
       "back": "Putt-Putt Joins the Parade-01.jpg",
-      "box3D": "putt-putt-joins-the-parade.png"
+      "box3D": "putt-putt-joins-the-parade.png",
+      "boxColor": "#a04a93",
+      "frontWidth": 800,
+      "frontHeight": 993,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1510,7 +1879,11 @@
       "cover": "Quarantine-01.png",
       "video": "Quarantine-01.mp4",
       "back": "Quarantine-01.png",
-      "box3D": "quarantine.png"
+      "box3D": "quarantine.png",
+      "boxColor": "#1e1c18",
+      "frontWidth": 640,
+      "frontHeight": 803,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1528,7 +1901,11 @@
       "cover": "Quarantine%20II_%20Road%20Warrior-01.png",
       "video": "Quarantine%20II_%20Road%20Warrior-01.mp4",
       "back": "Quarantine II_ Road Warrior-01.png",
-      "box3D": "quarantine-ii-road-warrior.png"
+      "box3D": "quarantine-ii-road-warrior.png",
+      "boxColor": "#5a4143",
+      "frontWidth": 640,
+      "frontHeight": 822,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1546,7 +1923,13 @@
       "cover": "Quest%20for%20Glory%20II_%20Trial%20by%20Fire-01.jpg",
       "spine": "Quest for Glory II_ Trial by Fire-01.jpg",
       "back": "Quest for Glory II_ Trial by Fire-01.jpg",
-      "box3D": "quest-for-glory-ii-trial-by-fire.png"
+      "box3D": "quest-for-glory-ii-trial-by-fire.png",
+      "boxColor": "#c29874",
+      "frontWidth": 1064,
+      "frontHeight": 1345,
+      "spineWidth": 174,
+      "spineHeight": 1343,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1564,7 +1947,13 @@
       "cover": "Quest%20for%20Glory%20III_%20Wages%20of%20War-01.jpg",
       "spine": "Quest for Glory III_ Wages of War-01.jpg",
       "back": "Quest for Glory III_ Wages of War-01.jpg",
-      "box3D": "quest-for-glory-iii-wages-of-war.png"
+      "box3D": "quest-for-glory-iii-wages-of-war.png",
+      "boxColor": "#e8e0c2",
+      "frontWidth": 1059,
+      "frontHeight": 1325,
+      "spineWidth": 333,
+      "spineHeight": 1325,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1582,7 +1971,11 @@
       "cover": "Rampage.2d04818d-fa7e-4a14-91e2-8853c1c15e87-01.png",
       "video": "Rampage.2d04818d-fa7e-4a14-91e2-8853c1c15e87-01.mp4",
       "back": "Rampage.2d04818d-fa7e-4a14-91e2-8853c1c15e87-01.png",
-      "box3D": "rampage.png"
+      "box3D": "rampage.png",
+      "boxColor": "#ececd3",
+      "frontWidth": 640,
+      "frontHeight": 817,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1601,7 +1994,13 @@
       "video": "Rayman.7facb4c6-3cee-4156-a04d-ed48ad4d6f69-01.mp4",
       "spine": "Rayman.d012ecf0-9293-4510-a711-162a14a43f31-01.jpg",
       "back": "Rayman.d012ecf0-9293-4510-a711-162a14a43f31-01.png",
-      "box3D": "rayman.png"
+      "box3D": "rayman.png",
+      "boxColor": "#3a2e24",
+      "frontWidth": 696,
+      "frontHeight": 800,
+      "spineWidth": 136,
+      "spineHeight": 800,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1619,7 +2018,13 @@
       "cover": "Relentless_%20Twinsen_s%20Adventure-01.jpg",
       "spine": "Relentless_ Twinsen_s Adventure-01.jpg",
       "back": "Relentless_ Twinsen_s Adventure-01.jpg",
-      "box3D": "relentless-twinsens-adventure.png"
+      "box3D": "relentless-twinsens-adventure.png",
+      "boxColor": "#464136",
+      "frontWidth": 800,
+      "frontHeight": 973,
+      "spineWidth": 301,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "3DO Interactive Multiplayer",
@@ -1637,7 +2042,11 @@
       "cover": "Return%20Fire-01.jpg",
       "video": "Return%20Fire-01.mp4",
       "back": "Return Fire-01.jpg",
-      "box3D": "return-fire.png"
+      "box3D": "return-fire.png",
+      "boxColor": "#7e733b",
+      "frontWidth": 800,
+      "frontHeight": 1522,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1655,7 +2064,13 @@
       "cover": "Sam%20%26%20Max%20Hit%20the%20Road-01.jpg",
       "spine": "Sam & Max Hit the Road-01.jpg",
       "back": "Sam & Max Hit the Road-01.jpg",
-      "box3D": "sam-max-hit-the-road.png"
+      "box3D": "sam-max-hit-the-road.png",
+      "boxColor": "#63716a",
+      "frontWidth": 800,
+      "frontHeight": 1037,
+      "spineWidth": 267,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1673,7 +2088,13 @@
       "cover": "The%20Secret%20of%20Monkey%20Island-01.jpg",
       "spine": "The Secret of Monkey Island-01.jpg",
       "back": "The Secret of Monkey Island-01.jpg",
-      "box3D": "the-secret-of-monkey-island.png"
+      "box3D": "the-secret-of-monkey-island.png",
+      "boxColor": "#d3a069",
+      "frontWidth": 640,
+      "frontHeight": 819,
+      "spineWidth": 266,
+      "spineHeight": 1599,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1691,7 +2112,11 @@
       "cover": "Sid%20%26%20Al_s%20Incredible%20Toons-01.png",
       "video": "Sid%20%26%20Al_s%20Incredible%20Toons.200abad8-f3e2-4644-ba44-a8e230e61c50-01.mp4",
       "back": "Sid & Al_s Incredible Toons-01.png",
-      "box3D": "sid-als-incredible-toons.png"
+      "box3D": "sid-als-incredible-toons.png",
+      "boxColor": "#cecaab",
+      "frontWidth": 640,
+      "frontHeight": 800,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1709,7 +2134,11 @@
       "cover": "Sid%20%26%20Al_s%20Incredible%20Toons-01.png",
       "video": "Sid%20%26%20Al_s%20Incredible%20Toons.200abad8-f3e2-4644-ba44-a8e230e61c50-01.mp4",
       "back": "Sid & Al_s Incredible Toons-01.png",
-      "box3D": "sid-als-incredible-toons.png"
+      "box3D": "sid-als-incredible-toons.png",
+      "boxColor": "#cecaab",
+      "frontWidth": 640,
+      "frontHeight": 800,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1727,7 +2156,13 @@
       "cover": "SimAnt-01.jpg",
       "spine": "SimAnt-01.jpg",
       "back": "SimAnt-01.jpg",
-      "box3D": "sim-ant.png"
+      "box3D": "sim-ant.png",
+      "boxColor": "#e6e4d1",
+      "frontWidth": 800,
+      "frontHeight": 1000,
+      "spineWidth": 263,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1746,7 +2181,13 @@
       "video": "SimAnt_%20The%20Electronic%20Ant%20Colony.18c0a5a0-a08d-4116-b0e5-e73149beb7c5-01.mp4",
       "spine": "SimAnt_ The Electronic Ant Colony-01.jpg",
       "back": "SimAnt_ The Electronic Ant Colony-01.png",
-      "box3D": "sim-ant-the-electronic-ant-colony.png"
+      "box3D": "sim-ant-the-electronic-ant-colony.png",
+      "boxColor": "#413e4a",
+      "frontWidth": 640,
+      "frontHeight": 755,
+      "spineWidth": 263,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1765,7 +2206,13 @@
       "video": "SimCity.0a4c3096-2cf5-4602-a406-4eee6318961b-01.mp4",
       "spine": "SimCity-01.jpg",
       "back": "SimCity-01.png",
-      "box3D": "sim-city.png"
+      "box3D": "sim-city.png",
+      "boxColor": "#987748",
+      "frontWidth": 640,
+      "frontHeight": 811,
+      "spineWidth": 202,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1783,7 +2230,13 @@
       "cover": "SimCity%202000.4aec8039-24a7-4138-a7cd-f0b2c7168a9f-01.jpg",
       "spine": "SimCity 2000.4aec8039-24a7-4138-a7cd-f0b2c7168a9f-01.jpg",
       "back": "SimCity 2000.4aec8039-24a7-4138-a7cd-f0b2c7168a9f-01.jpg",
-      "box3D": "sim-city-2000.png"
+      "box3D": "sim-city-2000.png",
+      "boxColor": "#edece8",
+      "frontWidth": 1527,
+      "frontHeight": 1917,
+      "spineWidth": 247,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1801,7 +2254,11 @@
       "cover": "Simon%20the%20Sorcerer-01.png",
       "video": "Simon%20the%20Sorcerer.20300741-2e31-4a97-8486-83ed5a54d9a8-01.mp4",
       "back": "Simon the Sorcerer-01.jpg",
-      "box3D": "simon-the-sorcerer.png"
+      "box3D": "simon-the-sorcerer.png",
+      "boxColor": "#343343",
+      "frontWidth": 474,
+      "frontHeight": 566,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1819,7 +2276,11 @@
       "cover": "Simon%20the%20Sorcerer%20II_%20The%20Lion%2C%20the%20Wizard%20and%20the%20Wardrobe-01.png",
       "video": "Simon%20the%20Sorcerer%20II_%20The%20Lion%2C%20the%20Wizard%20and%20the%20Wardrobe-01.mp4",
       "back": "Simon the Sorcerer II_ The Lion, the Wizard and the Wardrobe-01.png",
-      "box3D": "simon-the-sorcerer-ii-the-lion-the-wizard-and-the-wardrobe.png"
+      "box3D": "simon-the-sorcerer-ii-the-lion-the-wizard-and-the-wardrobe.png",
+      "boxColor": "#28221b",
+      "frontWidth": 510,
+      "frontHeight": 658,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -1835,7 +2296,8 @@
       "releaseDate": "1993-08-11T10:00:00+03:00",
       "videoUrl": "https://www.youtube.com/watch?v=f7uxZ0QRXd0",
       "cover": "SkyRoads.6303254f-f23f-496e-924e-40faa10f7fb4-01.png",
-      "video": "SkyRoads.74c59c7a-02ab-446e-9efa-a3d23afaaab9-01.mp4"
+      "video": "SkyRoads.74c59c7a-02ab-446e-9efa-a3d23afaaab9-01.mp4",
+      "language": "en"
     },
     {
       "platform": "Sega Genesis",
@@ -1854,7 +2316,13 @@
       "video": "Sonic%20%26%20Knuckles-01.mp4",
       "spine": "Sonic & Knuckles-01.jpg",
       "back": "Sonic & Knuckles-01.png",
-      "box3D": "sonic-knuckles.png"
+      "box3D": "sonic-knuckles.png",
+      "boxColor": "#cec0c7",
+      "frontWidth": 785,
+      "frontHeight": 1079,
+      "spineWidth": 141,
+      "spineHeight": 897,
+      "language": "en"
     },
     {
       "platform": "Sega Genesis",
@@ -1872,7 +2340,11 @@
       "cover": "Sonic%20%26%20Knuckles%20_%20Sonic%20the%20Hedgehog%203-01.jpg",
       "video": "Sonic%20%26%20Knuckles%20_%20Sonic%20the%20Hedgehog%203-01.mp4",
       "back": "Sonic & Knuckles _ Sonic the Hedgehog 3-01.jpg",
-      "box3D": "sonic-knuckles-sonic-the-hedgehog-3.png"
+      "box3D": "sonic-knuckles-sonic-the-hedgehog-3.png",
+      "boxColor": "#d3c8b2",
+      "frontWidth": 1430,
+      "frontHeight": 1990,
+      "language": "en"
     },
     {
       "platform": "Sega Genesis",
@@ -1891,7 +2363,13 @@
       "video": "Sonic%20%26%20Knuckles%20%2B%20Sonic%20The%20Hedgehog%202-01.mp4",
       "spine": "Sonic & Knuckles + Sonic The Hedgehog 2-01.png",
       "back": "Sonic & Knuckles + Sonic The Hedgehog 2-01.png",
-      "box3D": "sonic-knuckles-sonic-the-hedgehog-2.png"
+      "box3D": "sonic-knuckles-sonic-the-hedgehog-2.png",
+      "boxColor": "#cabdc4",
+      "frontWidth": 817,
+      "frontHeight": 1239,
+      "spineWidth": 96,
+      "spineHeight": 680,
+      "language": "en"
     },
     {
       "platform": "Sega Genesis",
@@ -1910,7 +2388,13 @@
       "video": "Sonic%203%20Complete-01.mp4",
       "spine": "Sonic 3 Complete-01.png",
       "back": "Sonic 3 Complete-01.png",
-      "box3D": "sonic-3-complete.png"
+      "box3D": "sonic-3-complete.png",
+      "boxColor": "#094683",
+      "frontWidth": 1550,
+      "frontHeight": 2138,
+      "spineWidth": 142,
+      "spineHeight": 1021,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1928,7 +2412,13 @@
       "cover": "Space%20Quest%206_%20The%20Spinal%20Frontier-01.jpg",
       "spine": "Space Quest 6_ The Spinal Frontier-01.jpg",
       "back": "Space Quest 6_ The Spinal Frontier-01.jpg",
-      "box3D": "space-quest-6-the-spinal-frontier.png"
+      "box3D": "space-quest-6-the-spinal-frontier.png",
+      "boxColor": "#4f3e51",
+      "frontWidth": 1273,
+      "frontHeight": 1542,
+      "spineWidth": 262,
+      "spineHeight": 1540,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1946,7 +2436,13 @@
       "cover": "Space%20Quest%20III_%20The%20Pirates%20of%20Pestulon-01.jpg",
       "spine": "Space Quest III_ The Pirates of Pestulon-01.jpg",
       "back": "Space Quest III_ The Pirates of Pestulon-01.jpg",
-      "box3D": "space-quest-iii-the-pirates-of-pestulon.png"
+      "box3D": "space-quest-iii-the-pirates-of-pestulon.png",
+      "boxColor": "#4a3932",
+      "frontWidth": 800,
+      "frontHeight": 1009,
+      "spineWidth": 201,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1964,7 +2460,13 @@
       "cover": "Space%20Quest%20IV_%20Roger%20Wilco%20and%20the%20Time%20Rippers-01.jpg",
       "spine": "Space Quest IV_ Roger Wilco and the Time Rippers-01.jpg",
       "back": "Space Quest IV_ Roger Wilco and the Time Rippers-01.jpg",
-      "box3D": "space-quest-iv-roger-wilco-and-the-time-rippers.png"
+      "box3D": "space-quest-iv-roger-wilco-and-the-time-rippers.png",
+      "boxColor": "#f4ebc8",
+      "frontWidth": 620,
+      "frontHeight": 827,
+      "spineWidth": 337,
+      "spineHeight": 1316,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -1982,7 +2484,11 @@
       "cover": "Space%20Quest%20V_%20The%20Next%20Mutation-01.jpg",
       "video": "Space%20Quest%20V_%20The%20Next%20Mutation-01.mp4",
       "back": "Space Quest V_ The Next Mutation-01.jpg",
-      "box3D": "space-quest-v-the-next-mutation.png"
+      "box3D": "space-quest-v-the-next-mutation.png",
+      "boxColor": "#ded8c6",
+      "frontWidth": 980,
+      "frontHeight": 1224,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2000,7 +2506,11 @@
       "cover": "Star%20Control-01.png",
       "video": "Star%20Control-01.mp4",
       "back": "Star Control-01.png",
-      "box3D": "star-control.png"
+      "box3D": "star-control.png",
+      "boxColor": "#1a1e45",
+      "frontWidth": 640,
+      "frontHeight": 839,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2019,7 +2529,13 @@
       "video": "Star%20Control%20II.1de5eb9b-99b1-4ab8-912e-b2e453ae7a63-01.mp4",
       "spine": "Star Control II-02.jpg",
       "back": "Star Control II-01.png",
-      "box3D": "star-control-ii.png"
+      "box3D": "star-control-ii.png",
+      "boxColor": "#e8c95b",
+      "frontWidth": 640,
+      "frontHeight": 815,
+      "spineWidth": 198,
+      "spineHeight": 1261,
+      "language": "en"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -2037,7 +2553,11 @@
       "cover": "Star%20Trek_%2025th%20Anniversary-01.jpg",
       "video": "Star%20Trek_%2025th%20Anniversary-01.mp4",
       "back": "Star Trek_ 25th Anniversary-01.jpg",
-      "box3D": "star-trek-25th-anniversary.png"
+      "box3D": "star-trek-25th-anniversary.png",
+      "boxColor": "#deddda",
+      "frontWidth": 800,
+      "frontHeight": 800,
+      "language": "en"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -2056,7 +2576,13 @@
       "video": "Super%20Mario%20Land-01.mp4",
       "spine": "Super Mario Land-01.jpg",
       "back": "Super Mario Land-01.jpg",
-      "box3D": "super-mario-land.png"
+      "box3D": "super-mario-land.png",
+      "boxColor": "#dea51a",
+      "frontWidth": 1436,
+      "frontHeight": 1370,
+      "spineWidth": 268,
+      "spineHeight": 1477,
+      "language": "en"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -2074,7 +2600,11 @@
       "cover": "Tamagotchi-01.jpg",
       "video": "Tamagotchi-01.mp4",
       "back": "Tamagotchi-01.jpg",
-      "box3D": "tamagotchi.png"
+      "box3D": "tamagotchi.png",
+      "boxColor": "#edede6",
+      "frontWidth": 640,
+      "frontHeight": 637,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2093,7 +2623,13 @@
       "video": "Theme%20Hospital-01.mp4",
       "spine": "Theme Hospital-01.jpg",
       "back": "Theme Hospital-01.png",
-      "box3D": "theme-hospital.png"
+      "box3D": "theme-hospital.png",
+      "boxColor": "#cad8c5",
+      "frontWidth": 640,
+      "frontHeight": 800,
+      "spineWidth": 295,
+      "spineHeight": 1600,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2112,7 +2648,13 @@
       "video": "Thexder-02.mp4",
       "spine": "Thexder-01.jpg",
       "back": "Thexder-01.png",
-      "box3D": "thexder.png"
+      "box3D": "thexder.png",
+      "boxColor": "#e1e0e2",
+      "frontWidth": 640,
+      "frontHeight": 803,
+      "spineWidth": 181,
+      "spineHeight": 1342,
+      "language": "en"
     },
     {
       "platform": "Arcade",
@@ -2128,7 +2670,8 @@
       "releaseDate": "1995-01-01T00:00:00+02:00",
       "videoUrl": "http://www.youtube.com/watch?v=ovC418vaJ60",
       "cover": "Time%20Crisis-01.png",
-      "video": "Time%20Crisis-01.mp4"
+      "video": "Time%20Crisis-01.mp4",
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -2146,7 +2689,11 @@
       "cover": "Toonstruck-01.jpg",
       "video": "Toonstruck-01.mp4",
       "back": "Toonstruck-01.jpg",
-      "box3D": "toonstruck.png"
+      "box3D": "toonstruck.png",
+      "boxColor": "#ddc978",
+      "frontWidth": 800,
+      "frontHeight": 954,
+      "language": "en"
     },
     {
       "platform": "ScummVM",
@@ -2164,7 +2711,13 @@
       "cover": "Torin_s%20Passage-01.jpg",
       "spine": "Torin_s Passage-01.jpg",
       "back": "Torin_s Passage-01.jpg",
-      "box3D": "torins-passage.png"
+      "box3D": "torins-passage.png",
+      "boxColor": "#a97949",
+      "frontWidth": 1309,
+      "frontHeight": 1544,
+      "spineWidth": 266,
+      "spineHeight": 1541,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2182,7 +2735,11 @@
       "cover": "Trog!-01.jpg",
       "video": "Trog!-02.mp4",
       "back": "Trog!-01.jpg",
-      "box3D": "trog.png"
+      "box3D": "trog.png",
+      "boxColor": "#0a9fde",
+      "frontWidth": 800,
+      "frontHeight": 1027,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2200,7 +2757,11 @@
       "cover": "Trolls-01.png",
       "video": "Trolls-01.mp4",
       "back": "Trolls-01.png",
-      "box3D": "trolls.png"
+      "box3D": "trolls.png",
+      "boxColor": "#e4d632",
+      "frontWidth": 640,
+      "frontHeight": 821,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2218,7 +2779,11 @@
       "cover": "Ugh!-01.jpg",
       "video": "Ugh!-01.mp4",
       "back": "Ugh!-01.jpg",
-      "box3D": "ugh.png"
+      "box3D": "ugh.png",
+      "boxColor": "#74b193",
+      "frontWidth": 790,
+      "frontHeight": 936,
+      "language": "en"
     },
     {
       "platform": "Windows",
@@ -2234,7 +2799,8 @@
       "releaseDate": "2011-01-01T00:00:00+02:00",
       "videoUrl": "https://youtu.be/w6wbJ7uNBws",
       "cover": "The%20Ur-Quan%20Masters-01.jpg",
-      "video": "The%20Ur-Quan%20Masters-01.mp4"
+      "video": "The%20Ur-Quan%20Masters-01.mp4",
+      "language": "en"
     },
     {
       "platform": "Sega Saturn",
@@ -2253,7 +2819,13 @@
       "video": "Virtua%20Cop-01.mp4",
       "spine": "Virtua Cop-02.jpg",
       "back": "Virtua Cop-01.jpg",
-      "box3D": "virtua-cop.png"
+      "box3D": "virtua-cop.png",
+      "boxColor": "#e9eade",
+      "frontWidth": 822,
+      "frontHeight": 1208,
+      "spineWidth": 1000,
+      "spineHeight": 1709,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2271,7 +2843,11 @@
       "cover": "Volfied-01.jpg",
       "video": "Volfied-01.mp4",
       "back": "Volfied-01.jpg",
-      "box3D": "volfied.png"
+      "box3D": "volfied.png",
+      "boxColor": "#7c8e90",
+      "frontWidth": 408,
+      "frontHeight": 524,
+      "language": "en"
     },
     {
       "platform": "Arcade",
@@ -2288,7 +2864,11 @@
       "videoUrl": "https://www.youtube.com/watch?v=vlYYXHICUis",
       "cover": "Volfied-01.png",
       "video": "Volfied-01.mp4",
-      "box3D": "volfied.png"
+      "box3D": "volfied.png",
+      "boxColor": "#7c8e90",
+      "frontWidth": 408,
+      "frontHeight": 524,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2305,7 +2885,11 @@
       "videoUrl": "",
       "cover": "Warcraft%20II_%20Beyond%20the%20Dark%20Portal-01.jpg",
       "back": "Warcraft II_ Beyond the Dark Portal-01.jpg",
-      "box3D": "warcraft-ii-beyond-the-dark-portal.png"
+      "box3D": "warcraft-ii-beyond-the-dark-portal.png",
+      "boxColor": "#344435",
+      "frontWidth": 2475,
+      "frontHeight": 3137,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2323,7 +2907,11 @@
       "cover": "Warcraft%20II_%20Tides%20of%20Darkness-01.jpg",
       "video": "Warcraft%20II_%20Tides%20of%20Darkness-01.mp4",
       "back": "Warcraft II_ Tides of Darkness-01.jpg",
-      "box3D": "warcraft-ii-tides-of-darkness.png"
+      "box3D": "warcraft-ii-tides-of-darkness.png",
+      "boxColor": "#361736",
+      "frontWidth": 809,
+      "frontHeight": 1024,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2341,7 +2929,11 @@
       "cover": "Warcraft_%20Orcs%20%26%20Humans-01.jpg",
       "video": "Warcraft_%20Orcs%20%26%20Humans-01.mp4",
       "back": "Warcraft_ Orcs & Humans-01.jpg",
-      "box3D": "warcraft-orcs-humans.png"
+      "box3D": "warcraft-orcs-humans.png",
+      "boxColor": "#473a39",
+      "frontWidth": 800,
+      "frontHeight": 1019,
+      "language": "en"
     },
     {
       "platform": "Nintendo Wii",
@@ -2360,7 +2952,13 @@
       "video": "WarioWare_%20Smooth%20Moves-01.mp4",
       "spine": "WarioWare_ Smooth Moves-01.jpg",
       "back": "WarioWare_ Smooth Moves-01.jpg",
-      "box3D": "wario-ware-smooth-moves.png"
+      "box3D": "wario-ware-smooth-moves.png",
+      "boxColor": "#dcd0d1",
+      "frontWidth": 425,
+      "frontHeight": 600,
+      "spineWidth": 163,
+      "spineHeight": 2147,
+      "language": "en"
     },
     {
       "platform": "Nintendo Wii",
@@ -2379,7 +2977,13 @@
       "video": "Wii%20Sports-01.mp4",
       "spine": "Wii Sports-01.jpg",
       "back": "Wii Sports-01.jpg",
-      "box3D": "wii-sports.png"
+      "box3D": "wii-sports.png",
+      "boxColor": "#e5e4e7",
+      "frontWidth": 800,
+      "frontHeight": 804,
+      "spineWidth": 163,
+      "spineHeight": 2147,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2396,7 +3000,8 @@
       "videoUrl": "http://www.youtube.com/watch?v=08Y0qwFLt54",
       "cover": "Wing%20Commander%20II_%20Vengeance%20of%20the%20Kilrathi-01.jpg",
       "video": "Wing%20Commander%20II_%20Vengeance%20of%20the%20Kilrathi-01.mp4",
-      "spine": "Wing Commander II_ Vengeance of the Kilrathi-01.jpg"
+      "spine": "Wing Commander II_ Vengeance of the Kilrathi-01.jpg",
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2415,7 +3020,13 @@
       "video": "Wolfenstein%203D-01.mp4",
       "spine": "Wolfenstein 3D-01.jpg",
       "back": "Wolfenstein 3D-01.png",
-      "box3D": "wolfenstein-3-d.png"
+      "box3D": "wolfenstein-3-d.png",
+      "boxColor": "#20383e",
+      "frontWidth": 640,
+      "frontHeight": 751,
+      "spineWidth": 129,
+      "spineHeight": 800,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2430,7 +3041,8 @@
       "publisher": "Ocean Software",
       "releaseDate": "1995-11-29T10:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=E5o4ReqhcaY",
-      "cover": "Worms-01.png"
+      "cover": "Worms-01.png",
+      "language": "en"
     },
     {
       "platform": "Arcade",
@@ -2446,7 +3058,8 @@
       "releaseDate": "1996-01-01T00:00:00+02:00",
       "videoUrl": "https://www.youtube.com/watch?v=z-rG6RVLeMw",
       "cover": "X-Men%20Vs.%20Street%20Fighter-01.jpg",
-      "video": "X-Men%20Vs.%20Street%20Fighter-01.mp4"
+      "video": "X-Men%20Vs.%20Street%20Fighter-01.mp4",
+      "language": "en"
     },
     {
       "platform": "Nintendo Game Boy",
@@ -2464,7 +3077,11 @@
       "cover": "Yoshi-01.jpg",
       "video": "Yoshi-01.mp4",
       "back": "Yoshi-01.jpg",
-      "box3D": "yoshi.png"
+      "box3D": "yoshi.png",
+      "boxColor": "#f0d826",
+      "frontWidth": 1531,
+      "frontHeight": 1358,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2482,7 +3099,11 @@
       "cover": "Zool-01.jpg",
       "video": "Zool-01.mp4",
       "back": "Zool-01.jpg",
-      "box3D": "zool.png"
+      "box3D": "zool.png",
+      "boxColor": "#414241",
+      "frontWidth": 760,
+      "frontHeight": 979,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2500,7 +3121,11 @@
       "cover": "Zool%202-01.jpg",
       "video": "Zool%202-01.mp4",
       "back": "Zool 2-01.jpg",
-      "box3D": "zool-2.png"
+      "box3D": "zool-2.png",
+      "boxColor": "#415c72",
+      "frontWidth": 1000,
+      "frontHeight": 1266,
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2513,7 +3138,8 @@
       "playMode": "",
       "publisher": "מטח",
       "videoUrl": "",
-      "cover": "%D7%91%D7%95%D7%A0%D7%95%D7%A1-01.png"
+      "cover": "%D7%91%D7%95%D7%A0%D7%95%D7%A1-01.png",
+      "language": "he"
     },
     {
       "platform": "ScummVM",
@@ -2531,7 +3157,13 @@
       "cover": "%D7%92%D7%95%D7%91%D7%9C%D7%99%D7%A0%D7%99%D7%9D%203-01.jpg",
       "spine": "גובלינים 3-01.jpg",
       "back": "גובלינים 3-01.jpg",
-      "box3D": "%D7%92%D7%95%D7%91%D7%9C%D7%99%D7%A0%D7%99%D7%9D-3.png"
+      "box3D": "%D7%92%D7%95%D7%91%D7%9C%D7%99%D7%A0%D7%99%D7%9D-3.png",
+      "boxColor": "#b4463a",
+      "frontWidth": 842,
+      "frontHeight": 960,
+      "spineWidth": 250,
+      "spineHeight": 1391,
+      "language": "he"
     },
     {
       "platform": "ScummVM",
@@ -2549,7 +3181,13 @@
       "cover": "%D7%94%D7%90%D7%95%D7%A8%D7%92%D7%99%D7%9D-01.jpg",
       "spine": "האורגים-01.jpg",
       "back": "האורגים-01.jpg",
-      "box3D": "%D7%94%D7%90%D7%95%D7%A8%D7%92%D7%99%D7%9D.png"
+      "box3D": "%D7%94%D7%90%D7%95%D7%A8%D7%92%D7%99%D7%9D.png",
+      "boxColor": "#ccaf80",
+      "frontWidth": 796,
+      "frontHeight": 1017,
+      "spineWidth": 262,
+      "spineHeight": 1592,
+      "language": "he"
     },
     {
       "platform": "MS-DOS",
@@ -2562,7 +3200,8 @@
       "playMode": "",
       "publisher": "ורד הגליל",
       "videoUrl": "",
-      "cover": "%D7%95%D7%A8%D7%93%D7%99%D7%AA%20%D7%91%D7%A9%D7%91%D7%99%D7%9C%20%D7%94%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93-01.png"
+      "cover": "%D7%95%D7%A8%D7%93%D7%99%D7%AA%20%D7%91%D7%A9%D7%91%D7%99%D7%9C%20%D7%94%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93-01.png",
+      "language": "en"
     },
     {
       "platform": "MS-DOS",
@@ -2575,7 +3214,8 @@
       "playMode": "",
       "publisher": "אסם",
       "videoUrl": "",
-      "cover": "%D7%9E%D7%A1%D7%99%D7%91%D7%9E%D7%91%D7%94%20%D7%A9%D7%9C%20%D7%91%D7%9E%D7%91%D7%94-01.png"
+      "cover": "%D7%9E%D7%A1%D7%99%D7%91%D7%9E%D7%91%D7%94%20%D7%A9%D7%9C%20%D7%91%D7%9E%D7%91%D7%94-01.png",
+      "language": "he"
     },
     {
       "platform": "ScummVM",
@@ -2590,7 +3230,8 @@
       "publisher": "Humongous Entertainment",
       "releaseDate": "1993-01-01T00:00:00+02:00",
       "videoUrl": "",
-      "cover": "%D7%A4%D7%90%D7%98%20%D7%A4%D7%90%D7%98%20%D7%A2%D7%9C%20%D7%94%D7%99%D7%A8%D7%97-01.jpg"
+      "cover": "%D7%A4%D7%90%D7%98%20%D7%A4%D7%90%D7%98%20%D7%A2%D7%9C%20%D7%94%D7%99%D7%A8%D7%97-01.jpg",
+      "language": "he"
     }
   ],
   "platforms": {
