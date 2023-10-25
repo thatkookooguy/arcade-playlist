@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import './theme-dark.scss';
-@import './theme-light.scss';
+@import './theme-dark';
+@import './theme-light';
 
 @media (prefers-color-scheme: dark) {
     body {
@@ -70,7 +70,7 @@ html::-webkit-scrollbar {
 }
 
 /* if device width is under 365 px, hide the .sorting and .searching */
-@media (max-width: 365px) {
+@media (width <= 365px) {
     .sorting, .searching {
         opacity: 0;
     }

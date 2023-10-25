@@ -1,8 +1,10 @@
 .sorting {
-  padding-block-end: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding-block-end: 1em;
+
   transition: all 250ms ease-in-out;
 
   kb-soft-tabs {
@@ -21,9 +23,9 @@
     .kb-playlist-info {
         display: flex;
         flex-grow: 0;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: wrap;
 
         // gap: 1em;
 
@@ -97,6 +99,9 @@
             width: 100%;
 
             border-radius: 5px;
+
+            // box-shadow: 0 10px 20px 0 rgb(0 0 0 / 44%);
+            -webkit-box-reflect: below 2px linear-gradient(to bottom, transparent calc(100% - 25px), rgb(0 0 0 / 40%));
         }
 
         .kb-subtitle {

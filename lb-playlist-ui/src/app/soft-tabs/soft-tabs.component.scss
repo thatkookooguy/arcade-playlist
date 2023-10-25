@@ -5,8 +5,8 @@
 }
 
 *,
-*:after,
-*:before {
+*::after,
+*::before {
 	box-sizing: border-box;
 }
 
@@ -15,11 +15,15 @@ label.tab {
 }
 
 .tabs {
-  font-size: var(--font-size);
-  color: var(--kb-color-text-tertiary);
-	display: flex;
 	position: relative;
+
+	display: flex;
+
 	padding: 0.0375em;
+
+  color: var(--kb-color-text-tertiary);
+  font-size: var(--font-size);
+
 	border-radius: 4.95em;
 }
 
@@ -29,13 +33,18 @@ input[type="radio"] {
 
 .tab {
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	height: 2.7em;
+	align-items: center;
+
 	width: 10em;
+	height: 2.7em;
+
 	font-weight: 900;
+
 	border-radius: 4.95em;
+
 	cursor: pointer;
+
 	transition: color calc(var(--animation-speed) * 0.6) ease-in;
 }
 
@@ -73,12 +82,17 @@ input[type="radio"] {
 
 .glider {
 	position: absolute;
-	display: flex;
-	height: 2.7em;
-	width: 10em;
-	background-color: var(--glider-color);
 	z-index: 1;
+
+	display: flex;
+
+	width: 10em;
+	height: 2.7em;
+  margin-block-start: -0.1em;
+
 	border-radius: 4.95em;
+
+	background-color: var(--glider-color);
+
 	transition: var(--animation-speed) ease-out;
-  margin-top: -0.1em;
 }
