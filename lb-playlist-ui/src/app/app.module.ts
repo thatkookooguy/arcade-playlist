@@ -11,6 +11,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { getBaseHref } from './base-href';
 import { SafePipe } from './safe.pipe';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { LazyLoadDirective } from './lazy-load.directive';
 
 @NgModule({
   declarations: [
@@ -19,13 +21,15 @@ import { SafePipe } from './safe.pipe';
     GameDetailsComponent,
     StarsComponent,
     SoftTabsComponent,
-    SafePipe
+    SafePipe,
+    LazyLoadDirective
   ],
   imports: [
     CommonModule,
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ScrollingModule
   ],
   providers: [
     {

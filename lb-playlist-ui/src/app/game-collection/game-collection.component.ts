@@ -37,6 +37,11 @@ export class GameCollectionComponent implements OnInit {
           games: uniqBy(playlistData.games, 'title')
         };
 
+        this.playlistData.games = this.playlistData.games.map((game: any) => ({
+          ...game,
+          collectionImage: `${ this.baseHref }assets/optimized/${ game.cover.replace('.png', '.webp').replace('.jpg', '.webp').replace('.jpeg', '.webp') }`
+        }));
+
         this.handleTabSelection(queryParams.params.sortBy || 'A - Z');
       });
   }
