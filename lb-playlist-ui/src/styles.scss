@@ -97,3 +97,18 @@ html::-webkit-scrollbar {
         opacity: 0;
     }
 }
+
+@keyframes shimmer {
+  0% {
+      background-position: -1200px 0;
+  }
+
+  100% {
+      background-position: 1200px 0;
+  }
+}
+
+@keyframes shimmer-img {
+  80% {mask-position:-25%}
+  100% {mask-position:-25%}
+}

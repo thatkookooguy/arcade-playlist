@@ -120,13 +120,15 @@
 
         // grid-area: 1 / 2 / 2 / 3;
         width: 370px;
+
         // min-height: 600px;
         min-height: 20px;
 
         video {
+            flex-grow: 1;
+
             width: 100%;
             height: 1px;
-            flex-grow: 1;
             margin-block-start: 1em;
 
             border-radius: 5px;
@@ -161,8 +163,8 @@
         .video-container {
             grid-area: 2 / 1 / 3 / 3;
 
-            min-height: 0;
             height: 70vh;
+            min-height: 0;
 
             overflow: hidden;
         }

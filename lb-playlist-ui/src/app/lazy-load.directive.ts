@@ -1,10 +1,12 @@
-import { AfterViewInit, Directive, ElementRef } from '@angular/core';
+import { AfterViewInit, Directive, ElementRef, EventEmitter, Output } from '@angular/core';
 
 @Directive({
   selector: '[kbLazyLoad]'
 })
 export class LazyLoadDirective implements AfterViewInit {
   private observer!: IntersectionObserver;
+
+  @Output() kbImageLoaded = new EventEmitter<boolean>();
 
   constructor(private el: ElementRef) {}
 
@@ -22,10 +24,11 @@ export class LazyLoadDirective implements AfterViewInit {
           img.onload = () => {
             // Replace placeholder with actual image
             img.src = dataSrc;
+            this.kbImageLoaded.emit(true);
+            img.removeAttribute('data-src');
           };
           // Start loading the actual image
           img.src = dataSrc;
-          img.removeAttribute('data-src');
         }
         observer.unobserve(img);
       }
