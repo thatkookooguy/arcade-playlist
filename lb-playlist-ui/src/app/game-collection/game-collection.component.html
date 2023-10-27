@@ -2,7 +2,7 @@
   <iframe src="https://olafwempe.com/mp3/silence/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
   <div class="header">
     <div class="kb-playlist-info">
-      <img class="kb-playlist-image" [src]="baseHref + 'assets/' + playlistData.cover" alt="{{ playlistData.name }}" />
+      <img class="kb-playlist-image" [src]="baseHref + 'assets/optimized/' + playlistData.cover.replace('.png', '.webp')" alt="{{ playlistData.name }}" />
       <h2>
         {{ playlistData.name }}
       </h2>
