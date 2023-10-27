@@ -16,8 +16,8 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
   public platform: any;
   public muted: boolean = true;
   private videoIntervalId?: any;
-  public threeDBoxUrlBase: string = `${ this.baseHref }assets/3DBB/box.html?b=212121&h=220&w=180&d=40&s=80&z=1&b=aaa&t=`;
-  public threeDBoxUrl!: SafeResourceUrl;
+  public threeDBoxUrlBase: string = `${ this.baseHref }assets/3DBB/box.html`;
+  public threeDBoxUrl?: SafeResourceUrl;
   public readonly tabs = [
     'Video',
     '3D Box'
@@ -46,7 +46,30 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
         this.gameId = params.id;
         this.gameDetails = playlistData.games.find((game: any) => game.id === this.gameId);
         this.platform = (playlistData.platforms as any)[this.gameDetails.platform];
-        this.threeDBoxUrl = this.sanitizer.bypassSecurityTrustResourceUrl(`${ this.threeDBoxUrlBase }${ this.baseHref }assets/3d-box-textures/${ this.gameDetails.box3D }`);
+        const normalizedFrontHeight = 220;
+        const normalizationFactor = normalizedFrontHeight / this.gameDetails.frontHeight;
+        const normalizedFrontWidth = this.gameDetails.frontWidth * normalizationFactor;
+        const normalizedSplineWidth = this.gameDetails.splineWidth ?
+          (this.gameDetails.splineWidth * (normalizedFrontHeight / this.gameDetails.splineHeight)) :
+          undefined;
+        this.threeDBoxUrl = this.gameDetails.box3D ?
+        this.sanitizer.bypassSecurityTrustResourceUrl([
+          this.threeDBoxUrlBase,
+          // Background Color
+          '?b=212121',
+          // Height, Width, Depth
+          `&h=${ normalizedFrontHeight || 220}`,
+          `&w=${ normalizedFrontWidth || 180 }`,
+          `&d=${ normalizedSplineWidth || 40}`,
+          // Size: relative size that your big box should be rendered (100% is default)
+          '&s=80',
+          // Zoom: defines if your big box is zoomable (1 = zoomable; 0 = not zoomable)
+          '&z=1',
+          // Fullscreen: Allows fullscreen view in new tab (1 = allowed; 0 = not allowed)
+          '&f=1',
+          // Texture Template
+          `&t=${ this.baseHref + 'assets/3d-box-textures/' + this.gameDetails.box3D }`
+        ].join('')) : undefined;
         this.activeTab = this.gameDetails.video ? this.tabs[0] : this.tabs[1];
         this.videoIntervalId = setInterval(() => {
           if (this.gameVideo?.nativeElement) {
