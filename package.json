@@ -13,7 +13,8 @@
     "build": "tsc",
     "start": "node dist/parse-playlist.js",
     "start:dev": "ts-node src/parse-playlist.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize": "ts-node --esm ./src/optimize-images.ts"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +28,9 @@
     "fs-extra": "^11.1.1",
     "get-image-colors": "^4.0.1",
     "handlebars": "^4.7.8",
+    "imagemin": "^8.0.1",
+    "imagemin-gm": "^2.0.3",
+    "imagemin-webp": "^8.0.0",
     "inquirer": "^8.2.6",
     "lodash": "^4.17.21",
     "probe-image-size": "^7.2.3"
@@ -38,6 +42,8 @@
     "@types/cli-progress": "^3.11.3",
     "@types/fs-extra": "^11.0.2",
     "@types/get-image-colors": "^4.0.4",
+    "@types/imagemin": "^8.0.3",
+    "@types/imagemin-webp": "^7.0.2",
     "@types/inquirer": "^8.2.7",
     "@types/lodash": "^4.14.199",
     "@types/probe-image-size": "^7.2.2",
@@ -57,6 +63,7 @@
     "stylelint-semantic-groups": "^1.2.0",
     "stylelint-use-logical": "^2.1.0",
     "ts-node": "^10.9.1",
+    "tsx": "^3.14.0",
     "typescript": "^5.2.2"
   }
 }
