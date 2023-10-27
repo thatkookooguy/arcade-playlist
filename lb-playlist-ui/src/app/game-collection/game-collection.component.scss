@@ -104,6 +104,15 @@
             -webkit-box-reflect: below 2px linear-gradient(to bottom, transparent calc(100% - 25px), rgb(0 0 0 / 40%));
         }
 
+        img {
+          transition: opacity .25s;
+          opacity: 1; /* Initial lower opacity for the placeholder */
+        }
+
+        img[data-src] {
+          opacity: 0.3; /* Full opacity once the real image loads */
+        }
+
         .kb-subtitle {
             color: var(--kb-color-text-secondary);
         }

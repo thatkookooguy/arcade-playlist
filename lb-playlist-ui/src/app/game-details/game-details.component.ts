@@ -58,9 +58,9 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
           // Background Color
           '?b=212121',
           // Height, Width, Depth
-          `&h=${ normalizedFrontHeight || 220}`,
+          `&h=${ normalizedFrontHeight || 220 }`,
           `&w=${ normalizedFrontWidth || 180 }`,
-          `&d=${ normalizedSplineWidth || 40}`,
+          `&d=${ normalizedSplineWidth || 40 }`,
           // Size: relative size that your big box should be rendered (100% is default)
           '&s=80',
           // Zoom: defines if your big box is zoomable (1 = zoomable; 0 = not zoomable)

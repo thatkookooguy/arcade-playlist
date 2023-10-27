@@ -19,7 +19,7 @@
     <div *ngFor="let game of playlistData.games" class="kb-card">
       <a queryParamsHandling="merge" [routerLink]="[{ outlets: { 'game-details': [game.id] } }]">
         <div class="kb-cover-container">
-          <img *ngIf="game.cover" kbLazyLoad [attr.data-src]="game.collectionImage" alt="{{ game.title }}">
+          <img *ngIf="game.cover" kbLazyLoad src="https://fakeimg.pl/180x230/303030/616161?text=cover&font=bebas" [attr.data-src]="game.collectionImage" alt="{{ game.title }}">
         </div>
         <p>{{game.title}}</p>
         <p class="kb-subtitle">{{game.developer}}</p>

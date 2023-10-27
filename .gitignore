@@ -134,3 +134,9 @@ result/
 **/src/assets/
 .angular/
 src/**/*.js
+
+node_modules/
+test-results/
+playwright-report/
+playwright/.cache/
+lighthouse/

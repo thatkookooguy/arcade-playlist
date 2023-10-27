@@ -1,7 +1,9 @@
+import { ScrollingModule } from '@angular/cdk/scrolling';
 import { APP_BASE_HREF, CommonModule, PlatformLocation } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { isDevMode, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 import { GameCollectionComponent } from './game-collection/game-collection.component';
 import { GameDetailsComponent } from './game-details/game-details.component';
@@ -10,9 +12,8 @@ import { StarsComponent } from './stars/stars.component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { getBaseHref } from './base-href';
-import { SafePipe } from './safe.pipe';
-import { ScrollingModule } from '@angular/cdk/scrolling';
 import { LazyLoadDirective } from './lazy-load.directive';
+import { SafePipe } from './safe.pipe';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,13 @@ import { LazyLoadDirective } from './lazy-load.directive';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    ScrollingModule
+    ScrollingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [
     {

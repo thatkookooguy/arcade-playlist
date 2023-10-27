@@ -20,7 +20,7 @@ module.exports = {
         ],
         parserOptions: {
           project: [
-            'tsconfig.json'
+            './tsconfig.eslint.json'
           ],
           createDefaultProgram: true
         },
