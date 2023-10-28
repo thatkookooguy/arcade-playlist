@@ -29,6 +29,7 @@ interface IKbGame {
 
 const loadedPlatformsData: any = {};
 const coverImagesToCopy: any[] = [];
+const videosToCopy: any[] = [];
 const threeDBoxesToCopy: any[] = [];
 const spineImagesToCopy: any[] = [];
 const backImagesToCopy: any[] = [];
@@ -183,7 +184,7 @@ async function getPlaylistData(playlistName: string) {
 
     coverImagesToCopy.push(matchedFrontBox || matchedFrontReconstructedBox || matchedFanartFrontBox);
     threeDBoxesToCopy.push(matched3dBox);
-    coverImagesToCopy.push(matchedVideo);
+    videosToCopy.push(matchedVideo);
     spineImagesToCopy.push(matchedSpine);
     backImagesToCopy.push(matchedBack || matchedBackFanart);
 
@@ -267,6 +268,9 @@ async function getPlaylistData(playlistName: string) {
     copyFileSync(join(image.dir, image.file), join(assetFolder, image.file));
   });
 
+  copyImageCollection(coverImagesToCopy, join(assetFolder, 'cover'));
+  copyImageCollection(videosToCopy, join(assetFolder, 'video'));
+  copyImageCollection(threeDBoxesToCopy, join(assetFolder, '3d-box'));
   copyImageCollection(spineImagesToCopy, join(assetFolder, 'spine'));
   copyImageCollection(backImagesToCopy, join(assetFolder, 'back'));
 
@@ -299,7 +303,7 @@ async function getGameImageFromLaunchBox(
   return matchedImage;
 }
 
-async function copyImageCollection(imagesToCopy: any[], assetFolder: string) {
+function copyImageCollection(imagesToCopy: any[], assetFolder: string) {
   ensureDirSync(assetFolder);
   imagesToCopy.forEach((image: any, index: number) => {
     // createResultFolderProgressBar.update(index);
