@@ -29,6 +29,7 @@ interface IKbGame {
 
 const loadedPlatformsData: any = {};
 const coverImagesToCopy: any[] = [];
+const threeDBoxesToCopy: any[] = [];
 const spineImagesToCopy: any[] = [];
 const backImagesToCopy: any[] = [];
 const launchBoxRoot = join('E:/', 'LaunchBox');
@@ -180,7 +181,8 @@ async function getPlaylistData(playlistName: string) {
       coverImagesToCopy.push(matchedPlatformImage);
     }
 
-    coverImagesToCopy.push(matchedFrontBox || matchedFrontReconstructedBox || matchedFanartFrontBox || matched3dBox);
+    coverImagesToCopy.push(matchedFrontBox || matchedFrontReconstructedBox || matchedFanartFrontBox);
+    threeDBoxesToCopy.push(matched3dBox);
     coverImagesToCopy.push(matchedVideo);
     spineImagesToCopy.push(matchedSpine);
     backImagesToCopy.push(matchedBack || matchedBackFanart);
