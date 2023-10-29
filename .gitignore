@@ -134,6 +134,7 @@ result/
 **/src/assets/*
 !**/src/assets/icons/
 !**/src/assets/i18n/
+!**/src/assets/3DBB/
 .angular/
 src/**/*.js
 
