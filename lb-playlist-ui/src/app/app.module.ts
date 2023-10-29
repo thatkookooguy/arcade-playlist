@@ -1,9 +1,11 @@
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { APP_BASE_HREF, CommonModule, PlatformLocation } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { isDevMode, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { GameCollectionComponent } from './game-collection/game-collection.component';
 import { GameDetailsComponent } from './game-details/game-details.component';
@@ -14,6 +16,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { getBaseHref } from './base-href';
 import { LazyLoadDirective } from './lazy-load.directive';
 import { SafePipe } from './safe.pipe';
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -31,6 +38,13 @@ import { SafePipe } from './safe.pipe';
     HttpClientModule,
     AppRoutingModule,
     ScrollingModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [ HttpClient ]
+      }
+    }),
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable

@@ -9,7 +9,7 @@
         <div class="rating">
           <kb-stars [rating]="gameDetails.communityStarRating"></kb-stars>
           {{ gameDetails.communityStarRating | number: '1.1-2' }}
-          ({{ gameDetails.communityStarRatingTotalVotes }} votes)
+          ({{ gameDetails.communityStarRatingTotalVotes }} {{ 'votes' | translate }})
         </div>
         <div class="game-description">
           <div><strong>Developer:</strong> {{ gameDetails.developer }}</div>

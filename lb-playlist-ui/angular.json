@@ -26,6 +26,11 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              {
+                "input": "lighthouse",
+                "output": "lighthouse",
+                "glob": "**/*"
+              },
               "src/favicon.ico",
               "src/assets",
               "src/result/assets",

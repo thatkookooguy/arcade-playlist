@@ -1,5 +1,6 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'kb-root',
@@ -12,8 +13,13 @@ export class AppComponent implements OnInit {
   constructor(
     private renderer: Renderer2,
     private route: ActivatedRoute,
-    private router: Router
-  ) { }
+    private router: Router,
+    translate: TranslateService
+  ) {
+    translate.addLangs([ 'en', 'heb' ]);
+    translate.setDefaultLang('en');
+    translate.use('en');
+  }
 
   ngOnInit(): void {
     this.router.events.subscribe((event) => {

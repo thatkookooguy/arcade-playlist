@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { AfterContentInit, Component, ElementRef, HostBinding, Inject, OnInit, Renderer2, ViewChild } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'kb-game-details',
@@ -35,7 +36,8 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
     private renderer: Renderer2,
     private route: ActivatedRoute,
     private router: Router,
-    private sanitizer: DomSanitizer
+    private sanitizer: DomSanitizer,
+    private translate: TranslateService
   ) { }
   ngOnInit(): void {
     combineLatest([
@@ -67,6 +69,7 @@ export class GameDetailsComponent implements OnInit, AfterContentInit {
           '&z=1',
           // Fullscreen: Allows fullscreen view in new tab (1 = allowed; 0 = not allowed)
           '&f=1',
+          '&a=1',
           // Texture Template
           `&t=${ this.baseHref + 'assets/3d-box-textures/' + this.gameDetails.box3D }`
         ].join('')) : undefined;
