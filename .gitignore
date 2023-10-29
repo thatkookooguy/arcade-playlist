@@ -131,7 +131,9 @@ dist
 
 .DS_Store
 result/
-**/src/assets/
+**/src/assets/*
+!**/src/assets/icons/
+!**/src/assets/i18n/
 .angular/
 src/**/*.js
 
