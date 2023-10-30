@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698486939980,
+  "timestamp": 1698630075354,
   "index": "/arcade-playlist/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/arcade-playlist/favicon.ico",
         "/arcade-playlist/index.html",
-        "/arcade-playlist/main.b7f3d99af033b43e.js",
+        "/arcade-playlist/main.0cbd9970f8324763.js",
         "/arcade-playlist/manifest.webmanifest",
         "/arcade-playlist/polyfills.f7561b2733bb97ee.js",
         "/arcade-playlist/runtime.c7f09e7987417895.js",
@@ -654,6 +654,8 @@
         "/arcade-playlist/assets/back/גובלינים 3-01.jpg",
         "/arcade-playlist/assets/back/האורגים-01.jpg",
         "/arcade-playlist/assets/childhood-games.png",
+        "/arcade-playlist/assets/i18n/en.json",
+        "/arcade-playlist/assets/i18n/heb.json",
         "/arcade-playlist/assets/icons/icon-192x192.png",
         "/arcade-playlist/assets/icons/icon-256x256.png",
         "/arcade-playlist/assets/icons/icon-384x384.png",
@@ -885,7 +887,7 @@
   "dataGroups": [],
   "hashTable": {
     "/arcade-playlist/assets/3DBB/_three.js LICENSE": "5dcdea56d59072fa6f8b9ffeac925791b289423d",
-    "/arcade-playlist/assets/3DBB/bigbox.js": "18452bb8eec6c9def0c06ae6c2f884b63ef39d78",
+    "/arcade-playlist/assets/3DBB/bigbox.js": "acaccb9e14932c59c2f4199a89b537b32f3ac446",
     "/arcade-playlist/assets/3DBB/box.html": "b0d014ea1821e0b9b3b4e631e7cb4d3223001962",
     "/arcade-playlist/assets/3DBB/fullscreen.png": "f08511d79e0f2e042e2497b821bc19c61fabfc82",
     "/arcade-playlist/assets/3DBB/idle.gif": "b7dc4f5af0e695585975f38c90107a99f34cd8b2",
@@ -1509,6 +1511,8 @@
     "/arcade-playlist/assets/back/גובלינים 3-01.jpg": "a4c9b4d81728b2cbfe27bf569b1a26a4e01a86ea",
     "/arcade-playlist/assets/back/האורגים-01.jpg": "a24b3a2c0338e94f7b170fce080c1e33551fb1a9",
     "/arcade-playlist/assets/childhood-games.png": "b66d57c5699c3a88dbbf90e622ebf31b85634375",
+    "/arcade-playlist/assets/i18n/en.json": "53541cf3f0e060e290e29826d671eca5fc2254fb",
+    "/arcade-playlist/assets/i18n/heb.json": "5bf37e7967801dbc6127e3367186ade97e9e81ae",
     "/arcade-playlist/assets/icons/icon-192x192.png": "869d44b8c328141c73fc81be29aa89b16b7ed2d9",
     "/arcade-playlist/assets/icons/icon-256x256.png": "d88a783f69f4f4820d115333e3920bbc9027ed0f",
     "/arcade-playlist/assets/icons/icon-384x384.png": "d20596ed1d3ec96de82819ad6f36f293dbc7bf4f",
@@ -1734,8 +1738,8 @@
     "/arcade-playlist/assets/מסיבמבה של במבה-01.png": "c0a6fcfa0d782c791bba88fd2b6d337d85bec1b0",
     "/arcade-playlist/assets/פאט פאט על הירח-01.jpg": "af6e9c6455adc607e610d31ecd6923bf0c4af2f3",
     "/arcade-playlist/favicon.ico": "7253512cad39416e6f98acca778f72fbf38d2ff6",
-    "/arcade-playlist/index.html": "f82a3c5725ba9ff136b0ce87f8280c5795adf494",
-    "/arcade-playlist/main.b7f3d99af033b43e.js": "aa608bd63744771c77641817b951d23213c88b3b",
+    "/arcade-playlist/index.html": "36bc3e4f9e5d23595195eff06daa4f7951710927",
+    "/arcade-playlist/main.0cbd9970f8324763.js": "9d53b289f7539f1d1c3e2b9b77315be61c244db7",
     "/arcade-playlist/manifest.webmanifest": "e24abd42fe68a686d539bb8958fdc77a87d1969c",
     "/arcade-playlist/polyfills.f7561b2733bb97ee.js": "74add8b8f854360514106a71762f49c63ec89c63",
     "/arcade-playlist/runtime.c7f09e7987417895.js": "b84a0545ca1ee2597ce18c1bb57955aba555ac55",

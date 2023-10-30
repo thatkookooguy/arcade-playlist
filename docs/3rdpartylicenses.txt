@@ -38,6 +38,12 @@ MIT
 @angular/service-worker
 MIT
 
+@ngx-translate/core
+SEE LICENSE IN LICENSE
+
+@ngx-translate/http-loader
+SEE LICENSE IN LICENSE
+
 lodash-es
 MIT
 Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
