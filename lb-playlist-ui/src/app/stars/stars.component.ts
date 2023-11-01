@@ -24,6 +24,11 @@ export class StarsComponent implements OnInit, OnChanges {
     if (changes['size']) {
       this.updateModalSize();
     }
+
+    // eslint-disable-next-line dot-notation
+    if (changes['rating']) {
+      this.ratingPercentage = +((this.rating / this.MAX_RATING) * 100).toFixed(2);
+    }
   }
 
   private updateModalSize() {
