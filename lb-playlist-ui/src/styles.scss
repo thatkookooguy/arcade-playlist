@@ -2,6 +2,7 @@
 
 @import './theme-dark';
 @import './theme-light';
+@import './theme-wireframe.scss';
 
 @media (prefers-color-scheme: dark) {
     body {
@@ -111,4 +112,18 @@ html::-webkit-scrollbar {
 @keyframes shimmer-img {
   80% {mask-position:-25%}
   100% {mask-position:-25%}
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
 }

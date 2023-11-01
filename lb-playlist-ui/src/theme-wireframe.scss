@@ -1,0 +1,53 @@
+@mixin theme-wireframe {
+  --kb-color-bg: white;
+  --kb-color-scrollbar-thumb-hover: #a8bbbf;
+  --kb-color-scrollbar-thumb: rgb(255 255 255 / 20%);
+  --kb-color-scrollbar-track: transparent;
+  --kb-color-text-primary: black;
+  --kb-color-text-secondary: #62626C;
+  --kb-color-tertiary: #e6eef9;
+  --kb-color-text-tertiary: var(--kb-color-text-secondary);
+
+  img {  
+    position: relative;
+  }
+  
+  /* style this to fit your needs */
+  /* and remove [alt] to apply to all images*/
+  img[alt]:after {  
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    // transform: translateX(-100%);
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    line-height: 2;  
+    text-align: center;
+    // content: attr(alt);
+    content: '';
+  }
+
+  img.kb-playlist-image {
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
+  .kb-playlist-collection .kb-card {
+    border: 2px solid black;
+    .kb-cover-container {
+      border: 3px solid black;
+      img, video {
+        -webkit-box-reflect:unset !important;
+        border: 2px solid black;
+      }
+    }
+  }
+}
+
+body.theme-wireframe {
+  @include theme-wireframe;
+}
