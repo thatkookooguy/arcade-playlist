@@ -13,22 +13,27 @@
   }
   
   /* style this to fit your needs */
-  /* and remove [alt] to apply to all images*/
-  img[alt]:after {  
-    display: block;
+
+  /* and remove [alt] to apply to all images */
+  img[alt]::after {
     position: absolute;
-    top: 0;
-    left: 0;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+
+    // content: attr(alt);
+    content: '';  
+
+    display: block;
+
     // transform: translateX(-100%);
     width: 100%;
     height: 100%;
-    background-color: #fff;
-    font-family: 'Helvetica';
+
     font-weight: 300;
     line-height: 2;  
     text-align: center;
-    // content: attr(alt);
-    content: '';
+
+    background-color: #ffffff;
   }
 
   img.kb-playlist-image {
@@ -38,10 +43,13 @@
 
   .kb-playlist-collection .kb-card {
     border: 2px solid black;
+
     .kb-cover-container {
       border: 3px solid black;
+
       img, video {
         -webkit-box-reflect:unset !important;
+
         border: 2px solid black;
       }
     }

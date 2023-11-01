@@ -1,4 +1,4 @@
-import { Chance } from 'chance';
+// import { Chance } from 'chance';
 import { uniqBy } from 'lodash-es';
 import { combineLatest } from 'rxjs';
 import { APP_BASE_HREF } from '@angular/common';
@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, Inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
-const chance = new Chance();
+// const chance = new Chance();
 @Component({
   selector: 'kb-game-collection',
   templateUrl: './game-collection.component.html',

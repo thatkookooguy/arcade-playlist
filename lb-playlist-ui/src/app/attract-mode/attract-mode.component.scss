@@ -1,24 +1,29 @@
 :host {
+  --main-color: hsl(204deg 86% 53%);
   display: flex;
+
   width: 100%;
   height: 100%;
-  overflow: hidden;
 
-  --main-color: hsl(204, 86%, 53%);
+  overflow: hidden;
 }
 
 .bg-1 {
-  padding-inline-start: 2em;
   display: flex;
+
   height: 100%;
+  padding-inline-start: 2em;
+
   background-color: var(--main-color);
 
   .game-list {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
     width: 300px;
+    height: 100%;
+
     font-weight: 900;
+
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 }
 
@@ -27,23 +32,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   width: 450px;
 
   img {
+    width: calc(100% - 2em);
+
+    // height: calc(100% - 2em);
+    box-shadow: 2px 10px 11px -4px rgb(0 0 0 / 52%);
+
     object-fit: cover;
     object-position: center;
-    width: calc(100% - 2em);
-    // height: calc(100% - 2em);
-    box-shadow: 2px 10px 11px -4px rgba(0,0,0,0.52);
   }
 }
 
 .game-details {
   // box-shadow: 1px 6px 26px 18px rgba(0,0,0,0.75) inset;
   flex-grow: 1;
+
   height: 100%;
-  background: linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 10px);
   padding: 1em;
+
+  background: linear-gradient(90deg, rgb(0 0 0 / 10%) 1px, transparent 10px);
 }
 
 .year {
@@ -58,46 +68,53 @@
 .two-columns {
   display: flex;
   flex-direction: row;
+  gap: 1em;
+
   // justify-content: space-between;
   // align-items: center;
   height: 100%;
-  gap: 1em;
 
   .first-column {
-    width: 80%;
-    height: 100%;
     display: flex;
     flex-direction: column;
 
+    width: 80%;
+    height: 100%;
+
     p {
       height: 300px;
+
       overflow-y: auto;
     }
 
     video {
       flex-grow: 1;
-      object-fit: scale-down;
-      object-position: center;
+
       width: calc(100% - 2em);
       height: 10px;
       margin: 1em;
+
+      object-fit: scale-down;
+      object-position: center;
     }
   }
 }
 
 .scroller {
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
   // flex-grow: 1;
   // display: flex;
   overflow-x: hidden;
+  overflow-y: scroll;
   overflow-y: auto;
+  scroll-snap-type: y mandatory;
+
   // gap: 1em;
 }
 
 .scroller .scroll-item {
-  scroll-snap-align: start;
-  width: 100%;
-  flex-shrink: 0;
   flex-grow: 0;
+  flex-shrink: 0;
+
+  width: 100%;
+  scroll-snap-align: start;
 }
