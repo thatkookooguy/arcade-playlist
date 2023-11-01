@@ -1,3 +1,4 @@
+import { Chance } from 'chance';
 import { uniqBy } from 'lodash-es';
 import { combineLatest } from 'rxjs';
 import { APP_BASE_HREF } from '@angular/common';
@@ -5,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, Inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
+const chance = new Chance();
 @Component({
   selector: 'kb-game-collection',
   templateUrl: './game-collection.component.html',
@@ -41,6 +43,16 @@ export class GameCollectionComponent implements OnInit {
           ...game,
           collectionImage: `${ this.baseHref }assets/optimized/${ game.cover.replace('.png', '.webp').replace('.jpg', '.webp').replace('.jpeg', '.webp') }`
         }));
+
+        // this.playlistData.name = chance.sentence({ words: 3, punctuation: false });
+        // this.playlistData.cover = 'https://fakeimg.pl/180x230/303030/616161?text=cover&font=bebas';
+
+        // this.playlistData.games = this.playlistData.games.map((game: any) => ({
+        //   ...game,
+        //   title: chance.sentence({ words: 3, punctuation: false }),
+        //   developer: chance.sentence({ words: 3, punctuation: false }),
+        //   cover: null
+        // }));
 
         this.handleTabSelection(queryParams.params.sortBy || 'A - Z');
       });
