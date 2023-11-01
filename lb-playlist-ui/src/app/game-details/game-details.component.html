@@ -2,7 +2,11 @@
   <div class="kb-game-details">
     <div class="header">
       <h2>{{ gameDetails.title }}</h2>
-      <button type="button" class="kb-close-button" (click)="closeDetails()">X</button>
+      <button type="button" class="kb-close-button" (click)="closeDetails()">
+        <span class="material-symbols-outlined">
+          close
+        </span>
+      </button>
     </div>
     <div class="content">
       <div class="info">
@@ -24,12 +28,26 @@
       </div>
       <div class="video-container">
         <kb-soft-tabs [tabs]="tabs" [activeTab]="activeTab" (activeTabChange)="handleActiveTabChange($event)"></kb-soft-tabs>
-        <video *ngIf="gameDetails.video && activeTab === 'Video'" #gameVideo loop onloadstart="this.volume=0.1"
-          oncanplay="this.play()" onloadedmetadata="this.muted = true" (click)="toggleMute(gameVideo)">
-          <source type="video/mp4" src="{{ baseHref }}assets/{{ gameDetails.video }}">
-          Your browser does not support HTML5 video.
-        </video>
-        <object *ngIf="threeDBoxUrl && activeTab === '3D Box'" style="height:100%;width:100%;border:none;" [data]="threeDBoxUrl"></object>
+        <div class="scroller">
+          <video
+            *ngIf="gameDetails.video"
+            #gameVideo
+            class="scroll-item"
+            loop
+            onloadstart="this.volume=0.1"
+            oncanplay="this.play()"
+            onloadedmetadata="this.muted = true"
+            (click)="toggleMute(gameVideo)">
+            <source type="video/mp4" src="{{ baseHref }}assets/{{ gameDetails.video }}">
+            Your browser does not support HTML5 video.
+          </video>
+          <object
+            *ngIf="threeDBoxUrl"
+            class="scroll-item"
+            style="height:100%;width:100%;border:none;"
+            [data]="threeDBoxUrl"
+          ></object>
+        </div>
       </div>
     </div>
   </div>
