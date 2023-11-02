@@ -1,5 +1,5 @@
 :host {
-  --main-color: hsl(204deg 86% 53%);
+  --main-color: #8f47c3;
   display: flex;
 
   width: 100%;
@@ -13,13 +13,14 @@
 
   height: 100%;
   width: 100%;
-  padding-inline-start: 2em;
 
   background-color: var(--main-color);
 
-  .game-list {
-    width: 300px;
-    height: 100%;
+  kb-roulette {
+    flex-shrink: 0;
+    width: 250px;
+    height: calc(100% - 6em);
+    margin: 3em 1em 3em 0;
 
     font-weight: 900;
 
@@ -28,6 +29,7 @@
 }
 
 .game-cover {
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +55,15 @@
   height: 100%;
   padding: 1em;
 
-  background: linear-gradient(90deg, rgb(0 0 0 / 10%) 1px, transparent 10px);
+  transform: translateX(100%);
+
+  background: linear-gradient(90deg, #151515 1px, #212121 15px);
+
+  transition: transform 0.5s ease-in-out;
+
+  &.show {
+    transform: translateX(0);
+  }
 }
 
 .year {

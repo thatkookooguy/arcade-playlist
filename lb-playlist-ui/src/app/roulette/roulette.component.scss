@@ -1,0 +1,14 @@
+.roulette-item {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-inline-start: 2em;
+  padding-inline-end: 1em;
+  border-start-end-radius: 3em;
+  border-end-end-radius: 3em;
+
+  &.selected {
+    background: white;
+    color: black;
+  }
+}

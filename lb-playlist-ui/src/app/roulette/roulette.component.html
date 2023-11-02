@@ -1,1 +1,9 @@
-<p>papa!</p>
+<div
+  *ngFor="let item of itemsOnScreen; let i = index"
+  class="roulette-item"
+  [style.height.px]="itemHeight"
+  [style.line-height.px]="itemHeight"
+  [class.selected]="i === currentSelectedItemIndex"
+>
+  {{ item }}
+</div>

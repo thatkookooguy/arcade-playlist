@@ -5,27 +5,22 @@
 </ng-container>
 <ng-template #attractMode>
   <div class="bg-1">
-    <kb-roulette></kb-roulette>
-    <div class="game-list scroller">
-      <a
-        *ngFor="let game of playlistData.games"
-        class="game-list-item scroll-item"
-        (click)="currentGame = game"
-        (keyup.enter)="currentGame = game"
-      >
-        <p class="game-list-item-title">
-          {{game.title}}
-        </p>
-      </a>
-    </div>
+    <kb-roulette
+      [spin]="spin"
+      (currentItemIndex)="currentGame = playlistData.games[$event]"
+      (rouletteStopped)="handleSelectedGame()"
+    ></kb-roulette>
     <div class="game-cover">
       <img
         *ngIf="currentGame"
         [src]="currentGame.collectionImage"
       />
     </div>
-  </div>
-  <div *ngIf="false && currentGame" class="game-details">
+    <div
+    *ngIf="currentGame"
+    class="game-details"
+    [class.show]="showDetails"
+  >
     <h2 class="paint">{{ currentGame.platform }}</h2>
     <h1>{{ currentGame.title }}</h1>
     <div class="two-columns">
@@ -42,6 +37,7 @@
       </div>
     </div>
   </div>
+</div>
 </ng-template>
 <div class="hidden-imges">
   <img *ngFor="let imgSrc of images" [src]="imgSrc" />

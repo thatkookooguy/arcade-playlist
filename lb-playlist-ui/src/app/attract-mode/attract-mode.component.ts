@@ -5,6 +5,7 @@ import { HttpClient } from '@angular/common/http';
 import { AfterViewInit, Component, Inject, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
+
 @Component({
   selector: 'kb-attract-mode',
   templateUrl: './attract-mode.component.html',
@@ -18,7 +19,11 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
   public progress = 0;
   public images: string[] = [];
   private loadedImages = 0;
+  showDetails = false;
   private intervalId?: ReturnType<typeof setInterval>;
+  spin = false;
+  private showDetailsTimeout = 10000;
+  private baseSpinTime = 8000;
 
   constructor(
     private readonly httpClient: HttpClient,
@@ -30,12 +35,7 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-    this.intervalId = setInterval(() => {
-      if (!this.playlistData?.games?.length) return;
-
-      this.currentGameIndex++;
-      this.currentGame = this.playlistData.games[this.currentGameIndex % this.playlistData.games.length];
-    }, 100);
+    console.log('attract-mode started');
   }
 
   ngOnInit(): void {
@@ -78,6 +78,29 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
     if (this.images.length === this.loadedImages) {
       console.log('all images loaded');
       this.loading = false;
+      this.spinRoulette();
     }
+  }
+
+  spinRoulette() {
+    this.showDetails = false;
+    this.spin = true;
+
+    setTimeout(() => {
+      this.spin = false;
+    }, this.calcSpinTime());
+  }
+
+  handleSelectedGame() {
+    this.showDetails = true;
+
+    setTimeout(() => {
+      this.spinRoulette();
+    }, this.showDetailsTimeout);
+  }
+
+  calcSpinTime() {
+    const lessOrMore = Math.random() > 0.5 ? 1 : -1;
+    return this.baseSpinTime + (Math.floor(Math.random() * 1500) * lessOrMore);
   }
 }
