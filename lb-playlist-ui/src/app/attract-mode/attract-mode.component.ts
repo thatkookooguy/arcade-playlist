@@ -14,6 +14,10 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
   public playlistData: any = {};
   public currentGame: any;
   public currentGameIndex = 0;
+  public loading = true;
+  public progress = 0;
+  public images: string[] = [];
+  private loadedImages = 0;
   private intervalId?: ReturnType<typeof setInterval>;
 
   constructor(
@@ -27,6 +31,8 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
 
   ngAfterViewInit(): void {
     this.intervalId = setInterval(() => {
+      if (!this.playlistData?.games?.length) return;
+
       this.currentGameIndex++;
       this.currentGame = this.playlistData.games[this.currentGameIndex % this.playlistData.games.length];
     }, 100);
@@ -48,7 +54,30 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
           collectionImage: `${ this.baseHref }assets/optimized/${ game.cover.replace('.png', '.webp').replace('.jpg', '.webp').replace('.jpeg', '.webp') }`
         }));
 
+        this.images = this.playlistData.games.map((game: any) => game.collectionImage);
+
+        this.loadImages();
+
         this.currentGame = this.playlistData.games[0];
       });
+  }
+
+  loadImages() {
+    this.images.forEach((image) => {
+      const img = new Image();
+      img.onload = () => {
+        this.loaded();
+      };
+      img.src = image;
+    });
+  }
+
+  loaded() {
+    this.loadedImages++;
+    this.progress = Math.round((this.loadedImages / this.images.length) * 100);
+    if (this.images.length === this.loadedImages) {
+      console.log('all images loaded');
+      this.loading = false;
+    }
   }
 }

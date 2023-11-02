@@ -1,0 +1,48 @@
+
+#svg {
+  circle {
+  stroke: #666666;
+
+  transition: stroke-dashoffset 1s linear;
+  stroke-dashoffset: 0;
+  stroke-width: 1em;
+}
+
+#bar {
+  stroke: #FF9F1E;
+}
+}
+
+#cont {
+  position: relative;
+
+  display: block;
+
+  width: 200px;
+  height: 200px;
+  margin: 2em auto;
+
+  border-radius: 100%;
+
+  box-shadow: 0 0 1em black;
+
+  &::after {
+    position: absolute;
+    content: attr(data-pct)"%";
+
+    font-size: 2em;
+    text-shadow: 0 0 0.5em black;
+
+    border-radius: 100%;
+
+    box-shadow: inset 0 0 1em black;
+
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

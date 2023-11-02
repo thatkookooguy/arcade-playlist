@@ -1,4 +1,4 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
+import { Component, HostListener, OnInit, Renderer2 } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -9,6 +9,19 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent implements OnInit {
   title = 'lb-playlist-ui';
+
+  @HostListener('document:visibilitychange', [ '$event' ])
+  visibilitychange() {
+    this.checkHiddenDocument();
+  }
+
+  checkHiddenDocument() {
+    if (document.hidden) {
+      console.log('not looking!!!', document.hidden, new Date());
+    } else {
+      console.log('looking!!!', document.hidden, new Date());
+    }
+  }
 
   constructor(
     private renderer: Renderer2,

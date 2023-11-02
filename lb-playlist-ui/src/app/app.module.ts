@@ -17,6 +17,8 @@ import { getBaseHref } from './base-href';
 import { LazyLoadDirective } from './lazy-load.directive';
 import { SafePipe } from './safe.pipe';
 import { AttractModeComponent } from './attract-mode/attract-mode.component';
+import { RouletteComponent } from './roulette/roulette.component';
+import { ProgressComponent } from './progress/progress.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -35,7 +37,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     SoftTabsComponent,
     SafePipe,
     LazyLoadDirective,
-    AttractModeComponent
+    AttractModeComponent,
+    RouletteComponent,
+    ProgressComponent
   ],
   imports: [
     CommonModule,

@@ -163,8 +163,7 @@
 
   width: 100%;
 
-  overflow-x: auto;
-  overflow-y: scroll;
+  overflow: auto scroll;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
 }

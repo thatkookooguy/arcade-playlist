@@ -12,6 +12,7 @@
   display: flex;
 
   height: 100%;
+  width: 100%;
   padding-inline-start: 2em;
 
   background-color: var(--main-color);
@@ -22,8 +23,7 @@
 
     font-weight: 900;
 
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden auto;
   }
 }
 
@@ -103,8 +103,7 @@
 .scroller {
   // flex-grow: 1;
   // display: flex;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: hidden scroll;
   overflow-y: auto;
   scroll-snap-type: y mandatory;
 
@@ -117,4 +116,27 @@
 
   width: 100%;
   scroll-snap-align: start;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hidden-imges {
+  position: fixed;
+  top: -100%;
+  left: -100%;
+
+  width: 1px;
+  height: 1px;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }

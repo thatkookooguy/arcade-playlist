@@ -1,37 +1,48 @@
-<div class="bg-1">
-  <div class="game-list scroller">
-    <a
-      *ngFor="let game of playlistData.games"
-      class="game-list-item scroll-item"
-      (click)="currentGame = game"
-      (keyup.enter)="currentGame = game"
-    >
-      <p class="game-list-item-title">
-        {{game.title}}
-      </p>
-    </a>
+<ng-container *ngIf="loading; else attractMode">
+  <div class="centered">
+    <kb-progress [progress]="progress"></kb-progress>
   </div>
-  <div class="game-cover">
-    <img
-      *ngIf="currentGame"
-      [src]="currentGame.collectionImage"
-    />
-  </div>
-</div>
-<div *ngIf="currentGame" class="game-details">
-  <h2 class="paint">{{ currentGame.platform }}</h2>
-  <h1>{{ currentGame.title }}</h1>
-  <div class="two-columns">
-    <div class="first-column">
-      <kb-stars [rating]="currentGame.communityStarRating"></kb-stars>
-      <p>{{ currentGame.description }}</p>
-      <!-- <video *ngIf="currentGame.video" controls>
-        <source type="video/mp4" src="{{ baseHref }}assets/{{ currentGame.video }}">
-        Your browser does not support HTML5 video.
-      </video> -->
+</ng-container>
+<ng-template #attractMode>
+  <div class="bg-1">
+    <kb-roulette></kb-roulette>
+    <div class="game-list scroller">
+      <a
+        *ngFor="let game of playlistData.games"
+        class="game-list-item scroll-item"
+        (click)="currentGame = game"
+        (keyup.enter)="currentGame = game"
+      >
+        <p class="game-list-item-title">
+          {{game.title}}
+        </p>
+      </a>
     </div>
-    <div class="second-column">
-      <div class="year">{{ currentGame.releaseDate | date: 'YYYY' }}</div>
+    <div class="game-cover">
+      <img
+        *ngIf="currentGame"
+        [src]="currentGame.collectionImage"
+      />
     </div>
   </div>
+  <div *ngIf="false && currentGame" class="game-details">
+    <h2 class="paint">{{ currentGame.platform }}</h2>
+    <h1>{{ currentGame.title }}</h1>
+    <div class="two-columns">
+      <div class="first-column">
+        <kb-stars [rating]="currentGame.communityStarRating"></kb-stars>
+        <p>{{ currentGame.description }}</p>
+        <!-- <video *ngIf="currentGame.video" controls>
+          <source type="video/mp4" src="{{ baseHref }}assets/{{ currentGame.video }}">
+          Your browser does not support HTML5 video.
+        </video> -->
+      </div>
+      <div class="second-column">
+        <div class="year">{{ currentGame.releaseDate | date: 'YYYY' }}</div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+<div class="hidden-imges">
+  <img *ngFor="let imgSrc of images" [src]="imgSrc" />
 </div>
