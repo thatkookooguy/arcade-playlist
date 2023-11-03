@@ -1,7 +1,7 @@
-import { uniqBy } from 'lodash-es';
+import { debounce, uniqBy } from 'lodash-es';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { AfterViewInit, Component, ElementRef, EventEmitter, Inject, Input, OnChanges, OnDestroy, OnInit, Output, SimpleChanges } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, EventEmitter, HostListener, Inject, Input, OnChanges, OnDestroy, OnInit, Output, SimpleChanges } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 /**
@@ -53,12 +53,20 @@ export class RouletteComponent implements OnInit, AfterViewInit, OnDestroy, OnCh
   @Output() public currentItemIndex = new EventEmitter<number>();
   @Output() public rouletteStopped = new EventEmitter<number>();
 
+  private debouncedCalculateItemsPerScreen = debounce(this.calculateItemsPerScreen.bind(this), 50);
+
+  @HostListener('window:resize', [ '$event' ])
+  onResize() {
+    this.debouncedCalculateItemsPerScreen();
+  }
+
   constructor(
     @Inject(APP_BASE_HREF) public baseHref: string,
     private readonly httpClient: HttpClient,
     private readonly route: ActivatedRoute,
     private el: ElementRef
   ) { }
+
   ngOnChanges(changes: SimpleChanges): void {
     // eslint-disable-next-line dot-notation
     const spinChange = changes['spin'];
