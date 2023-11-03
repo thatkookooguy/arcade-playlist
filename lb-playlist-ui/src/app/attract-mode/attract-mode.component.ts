@@ -22,8 +22,8 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
   showDetails = false;
   private intervalId?: ReturnType<typeof setInterval>;
   spin = false;
-  private showDetailsTimeout = 10000;
-  private baseSpinTime = 8000;
+  private showDetailsTimeout = 30000;
+  private baseSpinTime = 12000;
 
   constructor(
     private readonly httpClient: HttpClient,
