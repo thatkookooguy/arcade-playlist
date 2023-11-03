@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698976421948,
+  "timestamp": 1698979932131,
   "index": "/arcade-playlist/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/arcade-playlist/favicon.ico",
         "/arcade-playlist/index.html",
-        "/arcade-playlist/main.d62c4afadfd94c8e.js",
+        "/arcade-playlist/main.83ca012c428301dd.js",
         "/arcade-playlist/manifest.webmanifest",
         "/arcade-playlist/polyfills.be2dd6e19e9b3047.js",
         "/arcade-playlist/runtime.d8e0965342b1f760.js",
@@ -888,7 +888,7 @@
   "hashTable": {
     "/arcade-playlist/assets/3DBB/_three.js LICENSE": "5dcdea56d59072fa6f8b9ffeac925791b289423d",
     "/arcade-playlist/assets/3DBB/bigbox.js": "acaccb9e14932c59c2f4199a89b537b32f3ac446",
-    "/arcade-playlist/assets/3DBB/box.html": "b0d014ea1821e0b9b3b4e631e7cb4d3223001962",
+    "/arcade-playlist/assets/3DBB/box.html": "2406a31b65b810aa1bc63bf32e14ef87751ae06d",
     "/arcade-playlist/assets/3DBB/fullscreen.png": "f08511d79e0f2e042e2497b821bc19c61fabfc82",
     "/arcade-playlist/assets/3DBB/idle.gif": "b7dc4f5af0e695585975f38c90107a99f34cd8b2",
     "/arcade-playlist/assets/3DBB/load.gif": "d15a10824f6f1413fdf4598749e49c0dbab19d6e",
@@ -1738,8 +1738,8 @@
     "/arcade-playlist/assets/מסיבמבה של במבה-01.png": "c0a6fcfa0d782c791bba88fd2b6d337d85bec1b0",
     "/arcade-playlist/assets/פאט פאט על הירח-01.jpg": "af6e9c6455adc607e610d31ecd6923bf0c4af2f3",
     "/arcade-playlist/favicon.ico": "7253512cad39416e6f98acca778f72fbf38d2ff6",
-    "/arcade-playlist/index.html": "61ef42201137be923f6254eec070517eff9039b8",
-    "/arcade-playlist/main.d62c4afadfd94c8e.js": "01ba6db83b8aba4069ac4a74b21102aca5cc5ead",
+    "/arcade-playlist/index.html": "592119877886128dea91e90513c1a285ecb7c717",
+    "/arcade-playlist/main.83ca012c428301dd.js": "260d853a8c7fa89e54c85e6be6d7f704eaf5c4a8",
     "/arcade-playlist/manifest.webmanifest": "e24abd42fe68a686d539bb8958fdc77a87d1969c",
     "/arcade-playlist/polyfills.be2dd6e19e9b3047.js": "7edb9e7ac2e34ed6d59f0f9ccb72dc29ccf1f265",
     "/arcade-playlist/runtime.d8e0965342b1f760.js": "1b1c11eaf48950171516cd673ed0968c9f67beb2",
