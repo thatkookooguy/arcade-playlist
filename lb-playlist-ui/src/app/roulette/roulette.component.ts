@@ -96,7 +96,7 @@ export class RouletteComponent implements OnInit, AfterViewInit, OnDestroy, OnCh
   }
 
   ngOnDestroy(): void {
-    throw new Error('Method not implemented.');
+    if (this.speedInterval) clearInterval(this.speedInterval);
   }
 
   getData() {

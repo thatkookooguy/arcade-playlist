@@ -1,3 +1,12 @@
+:host {
+  --main-color: #8f47c3;
+}
+
+[routerLink] {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
 .sorting {
   display: flex;
   flex-direction: column;
