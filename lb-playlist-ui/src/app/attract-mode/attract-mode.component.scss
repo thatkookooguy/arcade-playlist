@@ -45,6 +45,8 @@
 
   width: 450px;
 
+  transition: width 0.5s ease-in-out;
+
   img {
     width: calc(100% - 2em);
 
@@ -159,5 +161,89 @@
     position: absolute;
     top: 0;
     left: 0;
+  }
+}
+
+.for-mobile {
+  display: flex;
+}
+
+@media (
+  width <= 1200px
+) {
+  .game-cover {
+    width: 300px;
+  }
+}
+
+@media (
+  width <= 950px
+) {
+  [routerLink] {
+    top: initial;
+    bottom: 0;
+  }
+
+  .for-mobile {
+    // flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+    kb-roulette {
+      height: calc(50%);
+      margin: 1em 1em 1em 0;
+    }
+  }
+  .game-cover {
+    height: calc(50% - 3em);
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+@media (
+  width <= 650px
+) {
+  .for-mobile {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+
+    kb-roulette {
+      height: 100%;
+      margin: 0;
+    }
+
+    .game-cover {
+      height: auto;
+      flex-grow: 1;
+    }
+  }
+
+  .game-details {
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media (
+  width <= 450px
+) {
+  .for-mobile {
+    // flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+    kb-roulette {
+      height: calc(50%);
+      margin: 1em 1em 1em 0;
+    }
+  }
+  .game-cover {
+    height: calc(50% - 3em);
+
+    img {
+      height: 100%;
+    }
   }
 }

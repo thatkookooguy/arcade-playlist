@@ -1,8 +1,10 @@
+/* eslint-disable no-undefined */
 import { uniqBy } from 'lodash-es';
 import { combineLatest } from 'rxjs';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { AfterViewInit, Component, Inject, OnDestroy, OnInit } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 
 
@@ -24,12 +26,16 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
   spin = false;
   private showDetailsTimeout = 30000;
   private baseSpinTime = 12000;
+  public threeDBoxUrlBase: string = `${ this.baseHref }assets/3DBB/box.html`;
+  public threeDBoxUrl?: SafeResourceUrl;
 
   constructor(
     private readonly httpClient: HttpClient,
     @Inject(APP_BASE_HREF) public baseHref: string,
-    private readonly route: ActivatedRoute
+    private readonly route: ActivatedRoute,
+    private sanitizer: DomSanitizer
   ) { }
+
   ngOnDestroy(): void {
     if (this.intervalId) clearInterval(this.intervalId);
   }
@@ -93,6 +99,32 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
 
   handleSelectedGame() {
     this.showDetails = true;
+
+    const normalizedFrontHeight = 220;
+    const normalizationFactor = normalizedFrontHeight / this.currentGame.frontHeight;
+    const normalizedFrontWidth = this.currentGame.frontWidth * normalizationFactor;
+    const normalizedSplineWidth = this.currentGame.splineWidth ?
+      (this.currentGame.splineWidth * (normalizedFrontHeight / this.currentGame.splineHeight)) :
+      undefined;
+    this.threeDBoxUrl = this.currentGame.box3D ?
+    this.sanitizer.bypassSecurityTrustResourceUrl([
+      this.threeDBoxUrlBase,
+      // Background Color
+      '?b=212121',
+      // Height, Width, Depth
+      `&h=${ normalizedFrontHeight || 220 }`,
+      `&w=${ normalizedFrontWidth || 180 }`,
+      `&d=${ normalizedSplineWidth || 40 }`,
+      // Size: relative size that your big box should be rendered (100% is default)
+      '&s=100',
+      // Zoom: defines if your big box is zoomable (1 = zoomable; 0 = not zoomable)
+      '&z=1',
+      // Fullscreen: Allows fullscreen view in new tab (1 = allowed; 0 = not allowed)
+      '&f=1',
+      '&a=1',
+      // Texture Template
+      `&t=${ this.baseHref + 'assets/3d-box-textures/' + this.currentGame.box3D }`
+    ].join('')) : undefined;
 
     setTimeout(() => {
       this.spinRoulette();
