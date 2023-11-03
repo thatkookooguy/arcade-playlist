@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698979932131,
+  "timestamp": 1699003697332,
   "index": "/arcade-playlist/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/arcade-playlist/favicon.ico",
         "/arcade-playlist/index.html",
-        "/arcade-playlist/main.83ca012c428301dd.js",
+        "/arcade-playlist/main.d9356e3db8f71185.js",
         "/arcade-playlist/manifest.webmanifest",
         "/arcade-playlist/polyfills.be2dd6e19e9b3047.js",
         "/arcade-playlist/runtime.d8e0965342b1f760.js",
-        "/arcade-playlist/styles.8cd49b68055fc12e.css"
+        "/arcade-playlist/styles.3afdbff8e369f964.css"
       ],
       "patterns": []
     },
@@ -1738,12 +1738,12 @@
     "/arcade-playlist/assets/מסיבמבה של במבה-01.png": "c0a6fcfa0d782c791bba88fd2b6d337d85bec1b0",
     "/arcade-playlist/assets/פאט פאט על הירח-01.jpg": "af6e9c6455adc607e610d31ecd6923bf0c4af2f3",
     "/arcade-playlist/favicon.ico": "7253512cad39416e6f98acca778f72fbf38d2ff6",
-    "/arcade-playlist/index.html": "592119877886128dea91e90513c1a285ecb7c717",
-    "/arcade-playlist/main.83ca012c428301dd.js": "260d853a8c7fa89e54c85e6be6d7f704eaf5c4a8",
+    "/arcade-playlist/index.html": "3f02829e4c96d1fe8dd19b4c35c56b33c101cea7",
+    "/arcade-playlist/main.d9356e3db8f71185.js": "9efd876c9d180251c51cc9448835d82d7686b82c",
     "/arcade-playlist/manifest.webmanifest": "e24abd42fe68a686d539bb8958fdc77a87d1969c",
     "/arcade-playlist/polyfills.be2dd6e19e9b3047.js": "7edb9e7ac2e34ed6d59f0f9ccb72dc29ccf1f265",
     "/arcade-playlist/runtime.d8e0965342b1f760.js": "1b1c11eaf48950171516cd673ed0968c9f67beb2",
-    "/arcade-playlist/styles.8cd49b68055fc12e.css": "e71d91e336ed16dd7cc292fb56fedec7daeddbed"
+    "/arcade-playlist/styles.3afdbff8e369f964.css": "a0c546d71872f9c818d9a331c33c51a98be063f1"
   },
   "navigationUrls": [
     {
