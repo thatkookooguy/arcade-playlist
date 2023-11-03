@@ -1,3 +1,9 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .roulette-item {
   text-overflow: ellipsis;
   overflow: hidden;
