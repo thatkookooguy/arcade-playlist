@@ -3,7 +3,7 @@ import { uniqBy } from 'lodash-es';
 import { combineLatest } from 'rxjs';
 import { APP_BASE_HREF } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { AfterViewInit, Component, Inject, OnDestroy, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, Inject, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 
@@ -29,6 +29,9 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
   public threeDBoxUrlBase: string = `${ this.baseHref }assets/3DBB/box.html`;
   public threeDBoxUrl?: SafeResourceUrl;
 
+  @ViewChild('gameVideo')
+    gameVideo!: ElementRef<HTMLVideoElement>;
+
   constructor(
     private readonly httpClient: HttpClient,
     @Inject(APP_BASE_HREF) public baseHref: string,
@@ -36,8 +39,12 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
     private sanitizer: DomSanitizer
   ) { }
 
-  ngOnDestroy(): void {
+  async ngOnDestroy() {
     if (this.intervalId) clearInterval(this.intervalId);
+
+    const videoElement = this.gameVideo?.nativeElement;
+    await this.fadeOutVideoVolume();
+    videoElement.pause();
   }
 
   ngAfterViewInit(): void {
@@ -126,7 +133,15 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
       `&t=${ this.baseHref + 'assets/3d-box-textures/' + this.currentGame.box3D }`
     ].join('')) : undefined;
 
-    setTimeout(() => {
+    setTimeout(async () => {
+      if (this.gameVideo) {
+        const videoElement = this.gameVideo.nativeElement;
+
+        await this.fadeOutVideoVolume();
+
+        videoElement.pause();
+        videoElement.currentTime = 0;
+      }
       this.spinRoulette();
     }, this.showDetailsTimeout);
   }
@@ -134,5 +149,29 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
   calcSpinTime() {
     const lessOrMore = Math.random() > 0.5 ? 1 : -1;
     return this.baseSpinTime + (Math.floor(Math.random() * 1500) * lessOrMore);
+  }
+
+  fadeOutVideoVolume(): Promise<boolean> {
+    const videoElement = this.gameVideo?.nativeElement;
+
+    if (!videoElement) {
+      return Promise.reject(
+        new Error('Video element does not exists yet.')
+      );
+    }
+
+    return new Promise((resolve) => {
+      const interval = 100;
+      const decreaseAmount = 0.05;
+      const fadeOutInterval = setInterval(() => {
+        if (videoElement!.volume > decreaseAmount) {
+          videoElement!.volume -= decreaseAmount;
+        } else {
+          videoElement!.volume = 0;
+          clearInterval(fadeOutInterval);
+          resolve(true);
+        }
+      }, interval);
+    });
   }
 }
