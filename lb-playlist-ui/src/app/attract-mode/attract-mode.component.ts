@@ -18,6 +18,7 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
   public currentGame: any;
   public currentGameIndex = 0;
   public loading = true;
+  hideLoader = false;
   public progress = 0;
   public images: string[] = [];
   private loadedImages = 0;
@@ -91,7 +92,7 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
     if (this.images.length === this.loadedImages) {
       console.log('all images loaded');
       this.loading = false;
-      this.spinRoulette();
+      setTimeout(() => this.spinRoulette(), 1500);
     }
   }
 

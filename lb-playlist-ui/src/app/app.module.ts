@@ -19,6 +19,7 @@ import { SafePipe } from './safe.pipe';
 import { AttractModeComponent } from './attract-mode/attract-mode.component';
 import { RouletteComponent } from './roulette/roulette.component';
 import { ProgressComponent } from './progress/progress.component';
+import { LoadingPageComponent } from './loading-page/loading-page.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -39,7 +40,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     LazyLoadDirective,
     AttractModeComponent,
     RouletteComponent,
-    ProgressComponent
+    ProgressComponent,
+    LoadingPageComponent
   ],
   imports: [
     CommonModule,

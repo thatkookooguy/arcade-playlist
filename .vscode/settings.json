@@ -19,7 +19,9 @@
     "afade",
     "analyse",
     "chardet",
+    "ffprobe",
     "languagedetect",
+    "libvpx",
     "zoomable"
   ],
 }

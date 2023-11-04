@@ -4,12 +4,14 @@
   </span>
 </a>
 <iframe src="https://olafwempe.com/mp3/silence/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-<ng-container *ngIf="loading; else attractMode">
-  <div class="centered">
-    <kb-progress [progress]="progress"></kb-progress>
+<ng-container>
+  <div class="centered loadeing-page-container" [class.hide]="!loading">
+    <!-- <kb-progress [progress]="progress"></kb-progress> -->
+    <div class="progress">{{ progress }}%</div>
+    <kb-loading-page></kb-loading-page>
   </div>
 </ng-container>
-<ng-template #attractMode>
+<ng-container *ngIf="!loading" #attractMode>
   <div class="bg-1">
     <div class="for-mobile">
       <kb-roulette
@@ -60,7 +62,7 @@
     </div>
   </div>
 </div>
-</ng-template>
+</ng-container>
 <div class="hidden-imges">
   <img *ngFor="let imgSrc of images" [src]="imgSrc" />
 </div>
