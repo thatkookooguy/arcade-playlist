@@ -1,4 +1,5 @@
-import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
+import { debounce } from 'lodash-es';
+import { AfterViewInit, Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 
 import { Horizontal } from './wireframe/horizontal.class';
 import { Vertical } from './wireframe/vertical.class';
@@ -19,15 +20,20 @@ export class LoadingPageComponent implements AfterViewInit {
   @ViewChild('backgroundCanvas') canvasRef!: ElementRef<HTMLCanvasElement>;
   private canvas!: HTMLCanvasElement;
 
+  @HostListener('window:resize', [ '$event' ])
+  onResize() {
+    this.updateCanvas();
+  }
+
+  updateCanvas = debounce(() => {
+    this.canvas.width = this.elRef.nativeElement.clientWidth;
+    this.canvas.height = this.elRef.nativeElement.clientHeight;
+  }, 500);
+
   ngAfterViewInit(): void {
     this.canvas = this.canvasRef.nativeElement;
     this.canvas.width = this.elRef.nativeElement.clientWidth;
     this.canvas.height = this.elRef.nativeElement.clientHeight;
-
-    this.elRef.nativeElement.addEventListener('resize', () => {
-      this.canvas.width = this.elRef.nativeElement.clientWidth;
-      this.canvas.height = this.elRef.nativeElement.clientHeight;
-    });
 
     const c = this.canvas.getContext('2d') as CanvasRenderingContext2D;
     const grad = c.createLinearGradient(0, this.canvas.height, 0, 0);
