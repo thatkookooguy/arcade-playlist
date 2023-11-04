@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1699022376421,
+  "timestamp": 1699099044567,
   "index": "/arcade-playlist/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/arcade-playlist/favicon.ico",
         "/arcade-playlist/index.html",
-        "/arcade-playlist/main.901e37e3dd25f19a.js",
+        "/arcade-playlist/main.bafcb6121dc2ed20.js",
         "/arcade-playlist/manifest.webmanifest",
         "/arcade-playlist/polyfills.be2dd6e19e9b3047.js",
         "/arcade-playlist/runtime.d8e0965342b1f760.js",
@@ -660,6 +660,9 @@
         "/arcade-playlist/assets/icons/icon-256x256.png",
         "/arcade-playlist/assets/icons/icon-384x384.png",
         "/arcade-playlist/assets/icons/icon-512x512.png",
+        "/arcade-playlist/assets/optimized-videos/Adventures of Lomax-01.webm",
+        "/arcade-playlist/assets/optimized-videos/Alone in the Dark 2-01.webm",
+        "/arcade-playlist/assets/optimized-videos/Alone in the Dark-01.webm",
         "/arcade-playlist/assets/optimized/3DO Interactive Multiplayer.webp",
         "/arcade-playlist/assets/optimized/Adventures of Beetlejuice_ Skeletons in the Closet-01.webp",
         "/arcade-playlist/assets/optimized/Adventures of Lomax-01.webp",
@@ -1517,6 +1520,9 @@
     "/arcade-playlist/assets/icons/icon-256x256.png": "d88a783f69f4f4820d115333e3920bbc9027ed0f",
     "/arcade-playlist/assets/icons/icon-384x384.png": "d20596ed1d3ec96de82819ad6f36f293dbc7bf4f",
     "/arcade-playlist/assets/icons/icon-512x512.png": "5d062776ba6ecb4ae725edf08c7697b2f1b6e85d",
+    "/arcade-playlist/assets/optimized-videos/Adventures of Lomax-01.webm": "03ab02516dc122b832cd472621805a1bb2b01481",
+    "/arcade-playlist/assets/optimized-videos/Alone in the Dark 2-01.webm": "15781f982abb7277e5fb0f670991f837c9a51bde",
+    "/arcade-playlist/assets/optimized-videos/Alone in the Dark-01.webm": "e216fd6f3400abd1ec9a0921d5690a34c6ba46e1",
     "/arcade-playlist/assets/optimized/3DO Interactive Multiplayer.webp": "37084ea3721eb5a53223d52233f7316b4b5bd1cb",
     "/arcade-playlist/assets/optimized/Adventures of Beetlejuice_ Skeletons in the Closet-01.webp": "9cae37cdc20dfc3d5fe85091770344e12f1cd583",
     "/arcade-playlist/assets/optimized/Adventures of Lomax-01.webp": "69d93f3e68b56f03f08a073d1c499a85b8a9b8d2",
@@ -1738,8 +1744,8 @@
     "/arcade-playlist/assets/מסיבמבה של במבה-01.png": "c0a6fcfa0d782c791bba88fd2b6d337d85bec1b0",
     "/arcade-playlist/assets/פאט פאט על הירח-01.jpg": "af6e9c6455adc607e610d31ecd6923bf0c4af2f3",
     "/arcade-playlist/favicon.ico": "7253512cad39416e6f98acca778f72fbf38d2ff6",
-    "/arcade-playlist/index.html": "17c576c42511884cd4f327d9a4db37f7e222321c",
-    "/arcade-playlist/main.901e37e3dd25f19a.js": "acda9da5a0908c150f851b8e6716fb7dc26bee74",
+    "/arcade-playlist/index.html": "9ed78433eb244ee4c7e37b4af18394644e41ec41",
+    "/arcade-playlist/main.bafcb6121dc2ed20.js": "9f57952b8430986b9ae1853814312708df5ae318",
     "/arcade-playlist/manifest.webmanifest": "e24abd42fe68a686d539bb8958fdc77a87d1969c",
     "/arcade-playlist/polyfills.be2dd6e19e9b3047.js": "7edb9e7ac2e34ed6d59f0f9ccb72dc29ccf1f265",
     "/arcade-playlist/runtime.d8e0965342b1f760.js": "1b1c11eaf48950171516cd673ed0968c9f67beb2",
