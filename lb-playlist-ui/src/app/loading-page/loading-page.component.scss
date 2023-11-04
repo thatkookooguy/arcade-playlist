@@ -1,0 +1,312 @@
+$sqSize: 16px;
+$contW: 100%;
+$contH: 100%;
+$xSpaces: 15;
+$ySpaces: 16;
+$zSpaces: 3;
+$xAngle: 45deg;
+$zAngle: 0deg;
+$prsp: 800px;
+
+$fireDist: 50;
+
+// * Animation durations *
+$shipDur: 4s;
+$fireDur: 1s;
+$blinkDur: 0.25s;
+
+// * Colors *
+$g: #979797;
+$r: #f01;
+$w: #dedede;
+
+// * Block placement *
+// parameters: x-pos,y-pos,z-pos, width,depth,height, color
+$blocks:
+	// body
+	(8,14,2, 1,3,1, $w)
+	(7,11,2, 3,3,1, $w)
+	(4,6,2, 1,2,1, $w)
+	(5,6,2, 1,3,1, $w)
+	(6,6,1, 5,5,2, $w)
+	(11,6,2, 1,3,1, $w)
+	(12,6,2, 1,2,1, $w)
+	(8,7,3, 1,1,1, $w)
+	(1,6,3, 15,1,1, $w)
+	(7,5,3, 3,1,1, $w)
+	(8,3,3, 1,2,1, $w)
+	(6,4,1, 5,2,2, $g)
+	(6,3,1, 5,1,2, $w)
+	
+	// cockpit
+	(7,7,3, 1,3,1, $r)
+	(8,8,3, 1,4,1, $r)
+	(9,7,3, 1,3,1, $r)
+	
+	// left end
+	(1,7,1, 1,2,3, $w)
+	(1,5,1, 2,2,2, $w)
+	(1,4,1, 2,1,2, $r)
+	
+	// left gun
+	(3,10,2, 1,1,1, $r)
+	(3,8,2, 1,2,1, $w)
+	(3,5,2, 1,3,1, $g)
+	(3,3,2, 1,2,1, $w)
+	
+	// right gun
+	(15,7,1, 1,2,3, $w)
+	(14,5,1, 2,2,2, $w)
+	(14,4,1, 2,1,2, $r)
+	
+	// right end
+	(13,10,2, 1,1,1, $r)
+	(13,8,2, 1,2,1, $w)
+	(13,5,2, 1,3,1, $g)
+	(13,3,2, 1,2,1, $w)
+	
+	// back
+	(7,2,1, 3,1,3, $w)
+	(7,1,1, 3,1,3, $r)
+	
+	// bullets
+	(8,8,0, 2,4,1, $g)
+	(8,4,0, 2,4,1, $g)
+	;
+
+@mixin placeBlock($args) {
+	$defaultArgs: 1 1 1 1 1 1 #333;
+	$givenArgs: ();
+	
+	@for $a from 1 through length($defaultArgs) {
+		@if $a <= length($args) {
+			$givenArgs: append($givenArgs, nth($args,$a), space);
+		} @else {
+			$givenArgs: append($givenArgs, nth($defaultArgs, $a), space);
+		}
+	}
+
+	$x: nth($givenArgs,1);
+	$y: nth($givenArgs,2);
+	$z: nth($givenArgs,3);
+	$w: nth($givenArgs,4);
+	$d: nth($givenArgs,5);
+	$h: nth($givenArgs,6);
+	$c: nth($givenArgs,7);
+	
+	display: inherit;
+	transform: translate3d(
+		1em*($x - 1),
+		1em*(-$y - ($d - 1)),
+		(1em*$z) + (1em*($h - 1))
+	);
+	.block-inner div {
+		background-color: $c;
+		&.top, &.bottom {
+			@if $w > 1 {
+					width: 1em * $w;
+			}
+			@if $d > 1 {
+					height: 1em * $d;
+			}
+		}
+		&.top	{
+			transform: rotateX(-90deg) translateY(-1em*($d - 1));
+		}
+		&.bottom {
+			transform: rotateX(-90deg) translateY(-1em*($d - 1)) translateZ(1em*$h);
+		}
+		&.front, &.back {
+			@if $w > 1 {
+				width: 1em * $w;
+			}
+			@if $h > 1 {
+					height: 1em * $h;
+			}
+		}
+		&.front {
+			transform: translateZ(1em * ($d - 1));
+		}
+		&.left, &.right {
+			@if $d > 1 {
+					width: 1em * $d;
+			}
+			@if $h > 1 {
+					height: 1em * $h;
+			}
+		}
+		&.right {
+			transform: rotateY(-270deg) translate3d(1em, 0, 1em*($w - $d));
+		}
+	}
+}
+@mixin moveBlock($x, $y, $z) {
+	transform: translate3d(1em * $x,1em * -$y,1em * $z);
+}
+
+:host {
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  font-size: $sqSize;
+	width: 100%;
+  height: 100%;
+}
+
+canvas {
+  background: #000;
+}
+
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	// background: #000;
+	display: flex;
+	margin: auto;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: $contW;
+	height: $contH;
+	perspective: $prsp;
+	transform-style: preserve-3d;
+}
+.surface {
+	animation: steer $shipDur linear infinite;
+	display: block;
+	width: 1em * $xSpaces;
+	height: 1em * $ySpaces;
+	margin: auto;
+	transform-style: preserve-3d;
+	transform: translateY((1em * $zSpaces)/4) rotateX($xAngle) rotateZ($zAngle);
+	will-change: transform;
+}
+.block {
+	display: none;
+	transform-style: preserve-3d;
+	position: absolute;
+	bottom: 0;
+}
+.block-inner > div {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	&.front, &.back, &.left, &.right {
+		&:before {
+			background-color: #000;
+			content: "";
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&.front, &.back {
+		&:before {
+			opacity: 0.2;
+		}
+	}
+	&.left, &.right {
+		&:before {
+			opacity: 0.4;
+		}
+	}
+}
+.block-outer, .block-inner {
+	position: relative;
+	width: 1em;
+	transform-style: preserve-3d;
+}
+.block-inner {
+	transform: rotateX(-90deg) translateZ(1em);
+}
+.back {
+	transform: translateZ(-1em) rotateY(180deg);
+}
+.left {
+	transform-origin: center left;
+	transform: rotateY(270deg) translateX(-1em);
+}
+.right {
+	transform-origin: top right;
+}
+.top, .bottom {
+	transform-origin: top center;
+}
+
+// * Render blocks *
+// one block only
+@if length(nth($blocks,1)) == 1 {
+	.b1 {
+		@include placeBlock($blocks);
+	}
+}
+// more than one block
+@else {
+	@for $b from 1 through length($blocks) {
+		.b#{$b} {
+			@include placeBlock(nth($blocks, $b));
+		}
+	}
+}
+
+
+// * Blocks to animate *
+.b19, .b26 {
+	.block-outer {
+		animation: blink $blinkDur steps(1) infinite;
+	}
+}
+.b33 .block-outer {
+	animation: fireFront $fireDur linear infinite;
+}
+.b34 .block-outer {
+	animation: fireBack $fireDur linear infinite;
+}
+
+// * Animations *
+$transPt1: translateY((1em * $zSpaces)/4) rotateX($xAngle);
+@keyframes steer {
+	from, 12.5%, 50%, 62.5%, to {
+		transform: $transPt1 rotateZ($zAngle);
+	}
+	25%, 37.5% {
+		transform: $transPt1 rotateZ($zAngle - 45);
+	}
+	75%, 87.5% {
+		transform: $transPt1 rotateZ($zAngle + 45);
+	}
+}
+@keyframes blink {
+	from { visibility: visible; }
+	50%, to { visibility: hidden; }
+}
+@keyframes fireFront {
+	from {
+		@include moveBlock(0,0,0);
+		visibility: visible;
+	}
+	50%, to {
+		@include moveBlock(0,$fireDist,0);
+		visibility: hidden;
+	}
+}
+@keyframes fireBack {
+	from {
+		@include moveBlock(0,0,0);
+		visibility: visible;
+	}
+	50%, to {
+		@include moveBlock(0,-$fireDist,0);
+		visibility: hidden;
+	}
+}
