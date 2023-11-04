@@ -43,6 +43,7 @@
     border: none;
     color: white;
     transition: all 250ms ease-in-out;
+    font-family: Comfortaa, sans-serif;
     cursor: pointer;
 
     &:hover {
@@ -67,6 +68,7 @@
   width: 100%;
 
   background-color: var(--main-color);
+  color: white;
 
   kb-roulette {
     flex-shrink: 0;
@@ -111,7 +113,8 @@
 
   transform: translateX(100%);
 
-  background: linear-gradient(90deg, #151515 1px, #212121 15px);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--kb-color-bg) 70%, black) 1px, var(--kb-color-bg) 10px);
+  color: var(--kb-color-text-primary);
 
   transition: transform 0.5s ease-in-out;
   display: flex;
