@@ -22,7 +22,7 @@
   }
 }
 
-.progress {
+.progress-container {
   position: absolute;
   bottom: 2em;
   left: 0;
@@ -31,6 +31,24 @@
   justify-content: center;
   align-items: center;
   font-size: 2em;
+
+  button {
+    z-index: 2;
+    // opacity: 0.6;
+    // backdrop-filter: blur(50px);
+    background-color: purple;
+    font-size: inherit;
+    border-radius: 50px;
+    padding: 0 1em;
+    border: none;
+    color: white;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--main-color);
+    }
+  }
 }
 
 [routerLink] {
@@ -39,6 +57,7 @@
   left: 0;
   text-decoration: none;
   color: #212121;
+  z-index: 2;
 }
 
 .bg-1 {

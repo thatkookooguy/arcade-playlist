@@ -91,9 +91,13 @@ export class AttractModeComponent implements OnInit, AfterViewInit, OnDestroy {
     this.progress = Math.round((this.loadedImages / this.images.length) * 100);
     if (this.images.length === this.loadedImages) {
       console.log('all images loaded');
-      this.loading = false;
-      setTimeout(() => this.spinRoulette(), 1500);
+      // this.expose();
     }
+  }
+
+  expose() {
+    this.loading = false;
+    setTimeout(() => this.spinRoulette(), 1200);
   }
 
   spinRoulette() {

@@ -7,7 +7,21 @@
 <ng-container>
   <div class="centered loadeing-page-container" [class.hide]="!loading">
     <!-- <kb-progress [progress]="progress"></kb-progress> -->
-    <div class="progress">{{ progress }}%</div>
+    <div class="progress-container">
+      <div
+        *ngIf="progress < 100; else showButton"
+        class="progress"
+      >{{ progress }}%</div>
+    </div>
+    <ng-template #showButton>
+      <button
+        type="button"
+        class="btn btn-primary"
+        (click)="expose()"
+      >
+        Launch Attract Mode
+      </button>
+    </ng-template>
     <kb-loading-page></kb-loading-page>
   </div>
 </ng-container>
