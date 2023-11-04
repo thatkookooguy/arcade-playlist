@@ -186,7 +186,7 @@ canvas {
 	height: 1em * $ySpaces;
 	margin: auto;
 	transform-style: preserve-3d;
-	transform: translateY((1em * $zSpaces)/4) rotateX($xAngle) rotateZ($zAngle);
+	transform: translateY(calc((1em * $zSpaces)/4)) rotateX($xAngle) rotateZ($zAngle);
 	will-change: transform;
 }
 .block {
@@ -274,7 +274,7 @@ canvas {
 }
 
 // * Animations *
-$transPt1: translateY((1em * $zSpaces)/4) rotateX($xAngle);
+$transPt1: translateY(calc((1em * $zSpaces)/4)) rotateX($xAngle);
 @keyframes steer {
 	from, 12.5%, 50%, 62.5%, to {
 		transform: $transPt1 rotateZ($zAngle);
