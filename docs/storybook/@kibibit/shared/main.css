@@ -88,13 +88,13 @@ body.theme-wireframe img.kb-playlist-image {
   border: 2px solid black;
   border-radius: 50%;
 }
-body.theme-wireframe .kb-playlist-collection .kb-card {
+body.theme-wireframe kb-game-card {
   border: 2px solid black;
 }
-body.theme-wireframe .kb-playlist-collection .kb-card .kb-cover-container {
+body.theme-wireframe kb-game-card .kb-cover-container {
   border: 3px solid black;
 }
-body.theme-wireframe .kb-playlist-collection .kb-card .kb-cover-container img, body.theme-wireframe .kb-playlist-collection .kb-card .kb-cover-container video {
+body.theme-wireframe kb-game-card .kb-cover-container img, body.theme-wireframe kb-game-card .kb-cover-container video {
   -webkit-box-reflect: unset !important;
   border: 2px solid black;
 }
@@ -219,7 +219,71 @@ html::-webkit-scrollbar {
   text-transform: none;
   word-wrap: normal;
 }
-#storybook-root {
-  height: 100vh;
-  width: 100vw;
+body.theme-dark {
+  --kb-color-bg: #212121;
+  --kb-color-scrollbar-thumb-hover: #a8bbbf;
+  --kb-color-scrollbar-thumb: rgb(255 255 255 / 20%);
+  --kb-color-scrollbar-track: transparent;
+  --kb-color-text-primary: #ffffff;
+  --kb-color-text-secondary: #62626C;
+  --kb-color-tertiary: #e6eef9;
+  --kb-color-text-tertiary: var(--kb-color-text-secondary);
+}
+
+body.theme-light {
+  --kb-color-bg: white;
+  --kb-color-scrollbar-thumb-hover: #a8bbbf;
+  --kb-color-scrollbar-thumb: rgb(255 255 255 / 20%);
+  --kb-color-scrollbar-track: transparent;
+  --kb-color-text-primary: #212121;
+  --kb-color-text-secondary: #62626C;
+  --kb-color-tertiary: #6D2D8E;
+  --kb-color-text-tertiary: var(--kb-color-text-secondary);
+}
+
+body.theme-wireframe {
+  --kb-color-bg: white;
+  --kb-color-scrollbar-thumb-hover: #a8bbbf;
+  --kb-color-scrollbar-thumb: rgb(255 255 255 / 20%);
+  --kb-color-scrollbar-track: transparent;
+  --kb-color-text-primary: black;
+  --kb-color-text-secondary: #62626C;
+  --kb-color-tertiary: #e6eef9;
+  --kb-color-text-tertiary: var(--kb-color-text-secondary);
+  /* style this to fit your needs */
+  /* and remove [alt] to apply to all images */
+}
+body.theme-wireframe img {
+  position: relative;
+}
+body.theme-wireframe img[alt]::after {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  line-height: 2;
+  text-align: center;
+  background-color: #ffffff;
+}
+body.theme-wireframe img.kb-playlist-image {
+  border: 2px solid black;
+  border-radius: 50%;
+}
+body.theme-wireframe kb-game-card {
+  border: 2px solid black;
+}
+body.theme-wireframe kb-game-card .kb-cover-container {
+  border: 3px solid black;
+}
+body.theme-wireframe kb-game-card .kb-cover-container img, body.theme-wireframe kb-game-card .kb-cover-container video {
+  -webkit-box-reflect: unset !important;
+  border: 2px solid black;
+}
+
+.sbdocs.sbdocs-preview {
+  background: var(--kb-color-bg);
 }
