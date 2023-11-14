@@ -40,7 +40,7 @@ body.theme-dark {
   --kb-color-scrollbar-thumb: rgb(255 255 255 / 20%);
   --kb-color-scrollbar-track: transparent;
   --kb-color-text-primary: #ffffff;
-  --kb-color-text-secondary: #62626C;
+  --kb-color-text-secondary: #888895;
   --kb-color-tertiary: #e6eef9;
   --kb-color-text-tertiary: var(--kb-color-text-secondary);
 }
@@ -106,7 +106,7 @@ body.theme-wireframe kb-game-card .kb-cover-container img, body.theme-wireframe 
     --kb-color-scrollbar-thumb: rgb(255 255 255 / 20%);
     --kb-color-scrollbar-track: transparent;
     --kb-color-text-primary: #ffffff;
-    --kb-color-text-secondary: #62626C;
+    --kb-color-text-secondary: #888895;
     --kb-color-tertiary: #e6eef9;
     --kb-color-text-tertiary: var(--kb-color-text-secondary);
   }
@@ -225,7 +225,7 @@ body.theme-dark {
   --kb-color-scrollbar-thumb: rgb(255 255 255 / 20%);
   --kb-color-scrollbar-track: transparent;
   --kb-color-text-primary: #ffffff;
-  --kb-color-text-secondary: #62626C;
+  --kb-color-text-secondary: #888895;
   --kb-color-tertiary: #e6eef9;
   --kb-color-text-tertiary: var(--kb-color-text-secondary);
 }
